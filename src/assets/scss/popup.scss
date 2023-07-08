@@ -1,0 +1,1023 @@
+/*========================================================
+POPUP COMMON STYLE
+=========================================================*/
+// .modal{overflow: hidden; }
+
+.single_page{
+    bottom: 0;
+    right: 0;
+    z-index: 99998;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    .modal-dialog{
+        height: 100%;
+        &.modal-xl{
+            width: 1640px;
+            max-width: none;
+            height: auto;
+            margin: 1.75rem auto; 
+            .modal-content{
+                height: 100%;
+                filter: none;
+                .modal-header{
+                }
+                .modal-body{
+                    .pop_container{ // modal-full
+                        height: 100%;
+                        max-height: none;
+                        padding: 0;
+                        margin: 0;
+                        overflow: visible;
+                        background-color: #fff;
+                        z-index: 1;
+                        .tab_contents{
+                            height: 100%;
+                            min-height: auto;
+                            .tab_area{
+                                .left_content{
+                                    overflow: auto;
+                                    min-height: 100%;
+                                    max-height: 600px;
+                                }
+                                .right_content{
+                                    .inner{
+                                        padding-left: 30px;
+                                    }
+                                }
+                            }
+                            .inner{
+                                padding: 20px;
+                            }
+                        }
+                        .lookup_box{
+                            margin-top: 0;
+                        }
+                        .ibsheet_table{
+                            max-height: 500px;
+                        }
+                        .fixed_height{
+                            max-height: 500px;
+                            overflow-x: hidden;
+                            overflow-y: auto;
+                        }
+                    }
+                }
+                .modal-footer{
+                    .right_area{
+                        position: absolute;
+                        right: 24px;
+                        top: 0;
+                    }
+                    .left_area{
+                        position: absolute;
+                        left: 24px;
+                        top: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.modal-dialog{
+    &.modal-xxl{
+        width: 1600px; max-width: none;
+    }
+    &.modal-xl{
+        width: 1200px; max-width: none;
+    }
+    &.modal-xlg{
+        width: 872px; max-width: none;
+    }
+    &.modal-lg{
+        width: 800px; max-width: none;
+        .modal-content{
+            .modal-body{
+                .pop_container { // modal-lg
+                    &.overflow_hide{
+                        max-height: none;
+                        .tab_contents{
+                            min-height: auto;
+                            .tab_area{
+                                &.submenu_on{
+                                    &::before{
+                                        width: 252px;
+                                    }
+                                }
+                                .left_content{
+                                    width: 252px;
+                                    min-height: auto;
+                                    max-height: 442px;
+                                    overflow-y: auto;
+                                    padding: 10px 20px;
+                                }
+                                .right_content{
+                                    width: calc(100% - 252px);
+                                    max-height: 442px;
+                                    overflow-y: auto;
+                                    .inner{
+                                        padding: 0 0 0 20px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .lookup_box{
+                        border: 1px solid #c8c8c8;
+                    }
+                    .inner{
+                        padding: 20px 0 0;
+                        .ib_wrap, .table_normal_list{
+                            &:first-child{
+                            margin-top: 0;
+                            }
+                        }
+                    }
+                    .table_normal_list > table > tbody > tr > td .form_sm{
+                        width: 200px;
+                    }
+                    .table_normal_list > table > thead > tr > th{
+                        padding: 5px 10px;
+                    }
+                }
+            }
+        }
+    }
+    &.modal-sm{ 
+        width: 525px; max-width: none;
+        .modal-content{
+            .modal-body{
+                .pop_container { // modal-sm
+                    font-size: 20px;
+                    .lst_help{
+                        li{
+                            font-size: 18px;
+                        }
+                    }
+                    .inner{
+                        margin: 20px 0;
+                    }
+                    .ib_wrap, .table_normal_list{
+                        &:first-child{
+                            margin-top: 0;
+                        }
+                    }
+                }
+
+            }
+            .modal-header{
+                background: #444;
+                height: 70px;
+                h5{
+                    line-height: 68px;
+                    font-size: 24px;
+                }
+            }
+            .modal-footer{
+                height: auto;
+                width: calc(100% - 60px);
+                padding: 20px 0;
+                margin: 0 30px;
+                border-top: 1px solid #c8c8c8;
+                .btn_lg{
+                    min-width: 120px;
+                    height: 50px;
+                    line-height: 48px;
+                    font-size: 18px;
+                    &:hover,
+                    &:active,
+                    &:focus{
+                        background-color: #28A1E0;
+                        border-color: #28A1E0;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+    &.modal-alert{/* alert 창 */
+        width: 560px; max-width: none;
+        .modal-content{
+            border-radius: 20px;
+            .modal-header{
+                display: none;
+            }
+            .modal-footer{
+                height: auto;
+                padding: 20px 30px;
+                margin: 0;
+                .btn_lg{
+                    min-width: 120px;
+                }
+            }
+        }
+        
+    }  
+    .modal-content {
+        -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        border: 0;
+        border-radius: 0;
+        .modal-header {
+            height: 48px;
+            background-color: #2ba1e0; 
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border: 0 none;
+            border-radius: 0;
+            padding: 0 20px;
+
+            h5 {
+            line-height: 48px;
+            font-size: 18px;
+            color: #fff;
+            font-weight: 700;
+            }
+
+            .close{
+            display: inline-block;
+            width: 28px;
+            height: 28px;
+            border: 0;
+            outline: 0;
+            background: transparent url(../img/layout/pop_alert_close.png) no-repeat 50%;
+            font-size: 0;
+            }
+        }
+        
+        .modal-body{
+            margin: 0;
+            padding: 0;
+            .pop_container { // 공통
+                position: relative;
+                // max-height: 500px;
+                margin: 20px 0;
+                padding: 0 30px;
+                font-size: 14px;
+                // overflow-y: auto;
+                /* 팝업검색영역 */
+                .lookup_box {
+                    table{
+                        tr{
+                            th{
+
+                            }
+                            td{
+                                .search_area{
+                                    max-width: 290px;
+                                    .form_control{
+                                        width: 100%;
+                                        max-width: none !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    &.multi_line{
+                        padding: 20px;
+                        table{
+                            width: 100%;
+                        }
+                    }
+                    &.align_center{
+                        table{
+                            width: auto;
+                            margin: 0 auto;
+                            tr{
+                                td{
+                                    .form_control{
+                                        max-width: none;
+                                        width: 200px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                /* 타이틀 */
+                .sub_title{
+                    padding: 0;
+                    &:first-child{
+                        margin-top: 0;
+                    }
+                }
+                .subject{
+                    font-size: 14px;
+                    color: #000;
+                }
+                /* 테이블 */
+                .table_normal_list{
+                    table{
+                        tr{
+                            td{
+                            }
+                        }
+                    }
+                }
+                /* 메세지영역 */
+                .message_table{
+                    display: table;
+                    width: 100%;
+                    min-height: 100px;
+                    .msg{
+                        display: table-cell;
+                        font-size: 20px;
+                        color: #555;
+                        text-align: center;
+                        vertical-align: middle;
+                        span.success{
+                            font-weight: 700;
+                            color: #28A1E0;
+                        }
+                        span.warning{
+                            font-weight: 700;
+                            color: #FF5C5D;
+                        }
+                    }
+                }
+            }
+        }
+
+        .modal-footer {
+            position: relative;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-top: 0;
+            background: transparent;
+            padding: 0;
+            margin-bottom: 20px;
+            &.modal-msg-box-footer {
+                gap : 10px;
+            }
+            &.modal-msg-box-footer-reverse {
+                flex-direction: row-reverse;
+            }
+            height: auto;
+            .right_area{
+                position: absolute;
+                right: 30px;
+                top: 0;
+            }
+            .left_area{
+                position: absolute;
+                left: 30px;
+                top: 0;
+            }
+        }
+
+    }
+
+}
+
+/* SMS/Email 추가 인증 안내 팝업 */
+#pop_citation{
+    .modal-dialog{
+        width: 750px;
+        .pop_container{ // 개별 팝업
+            .input_number{
+            position: relative;
+            width: 449px;
+            padding-left: 114px;
+            margin: 60px auto;
+            .label_text{
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 18px;
+                font-weight: 700;
+                color: #555;
+            }
+            .time{
+                position: absolute;
+                right: 16px;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #FF0000;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            .form_control{
+                max-width: 334px;
+                height: 50px;
+                line-height: 48px;
+                border: 1px solid #28a1e0;
+                border-radius: 5px;
+            }
+            }
+        }
+
+        .modal-footer{
+            padding: 40px 0 50px;
+        }
+    }
+}
+
+
+#pop_signature{
+    .lst_tabs{
+        margin: 0;
+        padding: 0;
+        border: 0 none;
+    }
+    .bgline_box{
+        position: relative;
+        width: 100%;
+        height: 270px;
+        background-color: #F9F9F9;
+        border: 1px solid #C8C8C8;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 14px;
+        color: #777;
+        .right_area{
+            position: absolute;
+            right: 20px;
+            top: 0;
+            margin: 20px 0 0;
+        }
+        .info_txt{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            cursor: default;
+        }
+    }
+    .signature_item{
+        position: relative;
+        ul{
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 1;
+            background-color: #f9f9f9;
+            .img_wrap{
+				display: table; 
+				width: 223px;
+				height: 191px;
+                margin: 40px auto 38px;
+				overflow: hidden;
+				.img_area{
+					display: table-cell; 
+					height: 191px;
+					text-align: center; 
+					vertical-align: middle;
+					img{
+						max-width: 100%;
+						max-height: 100%;
+					}
+				}
+			}
+        }
+    }
+    .file_upload_container  {
+        margin: 0;
+        .file_upload{
+            height: 268px;
+            .upload_name{
+                padding: 74px 0 138px;
+                border: 0 none;
+            }
+            .btn{
+                top:  131px;
+            }
+        }
+    }
+}
+
+/* AppStore 팝업 */
+#pop_app_store{
+    .modal-dialog{
+        width: 960px;
+    }
+    .pop_container{
+        padding: 0;
+        margin: 0;
+        display: flex;
+        height: 750px;
+        .lst_appstore{
+            position: relative;
+            width: 40%;
+            padding: 22px 16px 0px 23px;
+            h3{
+                line-height: 18px;
+                font-size: 14px;
+                font-weight: 700;
+            }
+            select.form_control{
+                margin: 7px 0 30px;
+            }
+            .appstore{
+                position: absolute;
+                top: 95px;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                margin: 0 16px 0 23px;
+                padding: 15px;
+                border-radius: 10px;
+                background-color: #F9F9F9;
+                ul{
+                    margin-top: 30px;
+                    max-height: calc(100% - 58px);
+                    overflow-y: auto;
+                    &::-webkit-scrollbar {
+                        height: 6px;
+                        width: 12px;
+                    }
+                    &::-webkit-scrollbar-thumb {
+                        background-color: rgba(80, 85, 97, 0.5);
+                        border-radius: 10px;
+                        background-clip: padding-box;
+                        border: 3px solid transparent;
+                    }
+                    li{
+                        min-height: 62px;
+                        padding: 15px 0;
+                        border-bottom: 1px solid #DCDCDC;
+                        .app_icon{
+                            padding: 0 80px 0 74px;
+                            min-height: 62px;
+                            &::before{
+                                position: absolute;
+                                left: 0;
+                                top: 50%;
+                                transform: translateY(-50%);
+                                width: 60px;
+                                height: 60px;
+                                background-color: #fff;
+                                border: 2px solid #333;
+                                border-radius: 10px;
+                            }
+                            .ico_add{
+                                position: absolute;
+                                right: 0;
+                                top: 50%;
+                                transform: translateY(-50%);
+                            }
+                            >span{
+                                display: block;
+                                margin-top: 0;
+                                padding: 11px 0 12px;
+                                line-height: 14px;
+                                font-size: 14px;
+                                font-weight: 700;
+                                color: #333;
+                                text-align: left;
+                            }
+                            .sub_tit{
+                                display: block;
+                                margin-top: 10px;
+                                color: #333;
+                                font-size: 12px;
+                                .system{
+                                    display: inline-block;
+                                    margin-left: 7px;
+                                    padding-left: 15px;
+                                    background: url(../img/layout/icon_sm_system.png) no-repeat 0 50%;
+                                    font-size: 12px;
+                                    color: #999;
+                                }
+                            }
+                            &.icon_me{&::before{background-image: url(../img/layout/icon_sm_me.png);}}
+                            &.icon_chart_histogram_two{&::before{background-image: url(../img/layout/icon_sm_chart_histogram_two.png);}}
+                            &.icon_folder_open{&::before{background-image: url(../img/layout/icon_sm_folder_open.png);}}
+                            &.icon_passport{&::before{background-image: url(../img/layout/icon_sm_passport.png);}}
+                            &.icon_factory_building{&::before{background-image: url(../img/layout/icon_sm_factory_building.png);}}
+                            &.icon_triangular_pyramid{&::before{background-image: url(../img/layout/icon_sm_triangular_pyramid.png);}}
+                            &.icon_calendar_thirty{&::before{background-image: url(../img/layout/icon_sm_calendar_thirty.png);}}
+                            &.icon_table_report{&::before{background-image: url(../img/layout/icon_sm_table_report.png);}}
+                            &.icon_browser{&::before{background-image: url(../img/layout/icon_sm_browser.png);}}
+                            &.icon_ruler_one{&::before{background-image: url(../img/layout/icon_sm_ruler_one.png);}}
+                            &.icon_passport{&::before{background-image: url(../img/layout/icon_sm_passport.png);}}
+                            &.icon_application_one{&::before{background-image: url(../img/layout/icon_sm_application_one.png);}}
+                            &.icon_road_cone{&::before{background-image: url(../img/layout/icon_sm_road_cone.png);}}
+                            &.icon_parabola{&::before{background-image: url(../img/layout/icon_sm_parabola.png);}}
+                            &.icon_carousel_video{&::before{background-image: url(../img/layout/icon_sm_carousel_video.png);}}
+                            &.icon_anti_corrosion{&::before{background-image: url(../img/layout/icon_sm_anti_corrosion.png);}}
+                            &.icon_order{&::before{background-image: url(../img/layout/icon_sm_order.png);}}
+                            &.icon_workbench{&::before{background-image: url(../img/layout/icon_sm_workbench.png);}}
+                            &.icon_creative{&::before{background-image: url(../img/layout/icon_sm_creative.png);}}
+                            &.disabled{
+                                &::before{
+                                    border-color: #DCDCDC;
+                                    background-color: #F2F2F2;
+                                }
+                                &.icon_me{&::before{background-image: url(../img/layout/icon_sm_me_disabled.png);}}
+                                &.icon_chart_histogram_two{&::before{background-image: url(../img/layout/icon_sm_chart_histogram_two_disabled.png);}}
+                                &.icon_folder_open{&::before{background-image: url(../img/layout/icon_sm_folder_open_disabled.png);}}
+                                &.icon_passport{&::before{background-image: url(../img/layout/icon_sm_passport_disabled.png);}}
+                                &.icon_factory_building{&::before{background-image: url(../img/layout/icon_sm_factory_building_disabled.png);}}
+                                &.icon_triangular_pyramid{&::before{background-image: url(../img/layout/icon_sm_triangular_pyramid_disabled.png);}}
+                                &.icon_calendar_thirty{&::before{background-image: url(../img/layout/icon_sm_calendar_thirty_disabled.png);}}
+                                &.icon_table_report{&::before{background-image: url(../img/layout/icon_sm_table_report_disabled.png);}}
+                                &.icon_browser{&::before{background-image: url(../img/layout/icon_sm_browser_disabled.png);}}
+                                &.icon_ruler_one{&::before{background-image: url(../img/layout/icon_sm_ruler_one_disabled.png);}}
+                                &.icon_passport{&::before{background-image: url(../img/layout/icon_sm_passport_disabled.png);}}
+                                &.icon_application_one{&::before{background-image: url(../img/layout/icon_sm_application_one_disabled.png);}}
+                                &.icon_road_cone{&::before{background-image: url(../img/layout/icon_sm_road_cone_disabled.png);}}
+                                &.icon_parabola{&::before{background-image: url(../img/layout/icon_sm_parabola_disabled.png);}}
+                                &.icon_carousel_video{&::before{background-image: url(../img/layout/icon_sm_carousel_video_disabled.png);}}
+                                &.icon_anti_corrosion{&::before{background-image: url(../img/layout/icon_sm_anti_corrosion_disabled.png);}}
+                                &.icon_order{&::before{background-image: url(../img/layout/icon_sm_order_disabled.png);}}
+                                &.icon_workbench{&::before{background-image: url(../img/layout/icon_sm_workbench_disabled.png);}}
+                                &.icon_creative{&::before{background-image: url(../img/layout/icon_sm_creative_disabled.png);}}
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .board_appstore{
+            position: relative;
+            width: 60%;
+            padding: 23px 10px 14px;
+            background-color: #F9F9F9;
+            .message{
+                padding: 0 10px 10px;
+                font-size: 14px;
+                font-weight: 700;
+            }
+            .appstore{
+                overflow-y: auto;
+                overflow-x: hidden;
+                height: 680px !important;
+                &::-webkit-scrollbar {
+                    height: 6px;
+                    width: 12px;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: rgba(80, 85, 97, 0.5);
+                    border-radius: 10px;
+                    background-clip: padding-box;
+                    border: 3px solid transparent;
+                }
+                .item{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                }
+                .app_icon{
+                    background-color: #fff;
+                    border-radius: 10px;
+                    border: 1px solid #DCDCDC;
+                    font-weight: 700;
+                    font-size: 12px;
+                    text-align: center;
+                    transition: 0.3s ease;
+                    &:hover{
+                        background-color: #28A1E0;
+                        color: #fff;
+                        .ico_remove{
+                            opacity: 1;
+                            visibility: visible;
+                        }
+                    }
+                    .ico_remove{
+                        opacity: 0;
+                        visibility: hidden;
+                        position: absolute;
+                        right: 15px;
+                        top: 10px;
+                        padding: 0;
+                        margin: 0;
+                        background-color: transparent;
+                        display: block;
+                        width: 12px;
+                        height: 12px;
+                        line-height: 12px;
+                        border: 0 none;
+                        transition: 0.3s;
+                        text-align: center;
+                        &::before{
+                            content: '';
+                            display: inline-block;
+                            width: 12px;
+                            height: 2px;
+                            background-color: #fff;
+                            vertical-align: middle;
+                        }
+                    }
+                    &:hover{
+                        &.icon_me{&::before{background-image: url(../img/layout/icon_me_on.png);}}
+                        &.icon_chart_histogram_two{&::before{background-image: url(../img/layout/icon_chart_histogram_two_on.png);}}
+                        &.icon_folder_open{&::before{background-image: url(../img/layout/icon_folder_open_on.png);}}
+                        &.icon_passport{&::before{background-image: url(../img/layout/icon_passport_on.png);}}
+                        &.icon_factory_building{&::before{background-image: url(../img/layout/icon_factory_building_on.png);}}
+                        &.icon_triangular_pyramid{&::before{background-image: url(../img/layout/icon_triangular_pyramid_on.png);}}
+                        &.icon_calendar_thirty{&::before{background-image: url(../img/layout/icon_calendar_thirty_on.png);}}
+                        &.icon_table_report{&::before{background-image: url(../img/layout/icon_table_report_on.png);}}
+                        &.icon_browser{&::before{background-image: url(../img/layout/icon_browser_on.png);}}
+                        &.icon_ruler_one{&::before{background-image: url(../img/layout/icon_ruler_one_on.png);}}
+                        &.icon_passport{&::before{background-image: url(../img/layout/icon_passport_on.png);}}
+                        &.icon_application_one{&::before{background-image: url(../img/layout/icon_application_one_on.png);}}
+                        &.icon_road_cone{&::before{background-image: url(../img/layout/icon_road_cone_on.png);}}
+                        &.icon_parabola{&::before{background-image: url(../img/layout/icon_parabola_on.png);}}
+                        &.icon_carousel_video{&::before{background-image: url(../img/layout/icon_carousel_video_on.png);}}
+                        &.icon_anti_corrosion{&::before{background-image: url(../img/layout/icon_anti_corrosion_on.png);}}
+                        &.icon_order{&::before{background-image: url(../img/layout/icon_order_on.png);}}
+                        &.icon_workbench{&::before{background-image: url(../img/layout/icon_workbench_on.png);}}
+                        &.icon_creative{&::before{background-image: url(../img/layout/icon_creative_on.png);}}
+                    }
+                }
+            }
+        }
+        .appstore{
+            .app_icon{
+                position: relative;
+                width: 100%;
+                height: 100%;
+                padding-top: 26px;
+                padding-bottom: 16px;
+                >span{
+                    display: block;
+                    line-height: 12px;
+                    margin-top: 12px;
+                    text-align: center;
+                }
+                &::before{
+                    content: '';
+                    display: block;
+                    width: 100%;
+                    height: 50px;
+                    background-position: 50%;
+                    background-repeat: no-repeat;
+                    transition: 0.3s;
+                }
+                &.icon_me{&::before{background-image: url(../img/layout/icon_me.png);}}
+                &.icon_chart_histogram_two{&::before{background-image: url(../img/layout/icon_chart_histogram_two.png);}}
+                &.icon_folder_open{&::before{background-image: url(../img/layout/icon_folder_open.png);}}
+                &.icon_passport{&::before{background-image: url(../img/layout/icon_passport.png);}}
+                &.icon_factory_building{&::before{background-image: url(../img/layout/icon_factory_building.png);}}
+                &.icon_triangular_pyramid{&::before{background-image: url(../img/layout/icon_triangular_pyramid.png);}}
+                &.icon_calendar_thirty{&::before{background-image: url(../img/layout/icon_calendar_thirty.png);}}
+                &.icon_table_report{&::before{background-image: url(../img/layout/icon_table_report.png);}}
+                &.icon_browser{&::before{background-image: url(../img/layout/icon_browser.png);}}
+                &.icon_ruler_one{&::before{background-image: url(../img/layout/icon_ruler_one.png);}}
+                &.icon_passport{&::before{background-image: url(../img/layout/icon_passport.png);}}
+                &.icon_application_one{&::before{background-image: url(../img/layout/icon_application_one.png);}}
+                &.icon_road_cone{&::before{background-image: url(../img/layout/icon_road_cone.png);}}
+                &.icon_parabola{&::before{background-image: url(../img/layout/icon_parabola.png);}}
+                &.icon_carousel_video{&::before{background-image: url(../img/layout/icon_carousel_video.png);}}
+                &.icon_anti_corrosion{&::before{background-image: url(../img/layout/icon_anti_corrosion.png);}}
+                &.icon_order{&::before{background-image: url(../img/layout/icon_order.png);}}
+                &.icon_workbench{&::before{background-image: url(../img/layout/icon_workbench.png);}}
+                &.icon_creative{&::before{background-image: url(../img/layout/icon_creative.png);}}
+                
+            }
+        }
+    }
+    .modal-footer{
+        padding: 10px 0 10px;
+    }
+}
+
+/* 로그인 페이지 >약관동의 (팝업) */
+#SinglePolicy {
+    .top_area {
+        display: flex;
+        align-items: center;
+        margin: 0 0 0 auto;
+        width: 30%;
+        p {
+            font-weight: 700;
+            white-space: nowrap;
+            margin-right: 10px;
+        }
+    }
+    .pop_container {
+        .flc {
+            display: flex;
+            align-items: center;
+        }
+        .terms_area {
+            height: 500px !important;
+        }
+    }
+}
+#pop_policy, #SinglePolicy{
+    .modal-dialog{
+        width: 750px;
+        .pop_container{ // 개별 팝업
+            .title{
+                padding-top: 30px;
+                font-size: 15px;
+                font-weight: 700;
+                color: #333;
+            }
+            .terms_area{
+                overflow-y: auto;
+                margin-top: 10px;
+                padding: 15px;
+                height: 192px;
+                font-size: 12px;
+                color: #333;
+                border: 1px solid #c8c8c8;
+                background-color: #fafafa;
+                h3, h4, h5 {
+                    padding-top: 20px;
+                    font-size: 12px;
+                    font-weight: 700;
+                    color: #333;
+                }
+                p{
+                    padding-top: 10px;
+                }
+
+                ul, ol {
+                    padding-top: 10px;
+                    li{ 
+                        padding-top: 10px;
+                        padding-left: 10px;
+                        &:first-child{
+                            padding-top: 0;
+                        }
+                        p{
+                            padding-top: 0;
+                            padding-left: 20px;
+                        }
+                    }
+                }
+
+                table{
+                    th, td{
+                        height: 30px;
+                    }
+                }
+            }
+            .check_area{
+                padding-top: 12px;
+                span{
+                    em{
+                        color: #888;
+                    }
+                }
+            }
+            .all_area{
+                margin-top: 30px;
+                padding: 15px;
+                text-align: center;
+                background-color: #f5f5f5;
+
+            }
+        }
+
+        .modal-footer{
+            padding: 10px 0 10px;
+        }
+    }
+}
+
+/* 메인페이지 > 공지사항(팝업) */
+
+#pop_notice{
+    .modal-body {
+        width: 1600px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-35%,0%);
+        display: flex;
+        flex-wrap: wrap;
+        margin: -1%;
+    }
+    .pop_container{
+        width:520px;
+        width: 31.3%;
+        padding:0;
+        margin:1%;
+    
+        .pop_header{
+            height: 42px;
+            background-color: #2ba1e0; 
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            border: 0 none;
+            border-radius: 0;
+            padding: 12px 25px;
+            h5{
+                font-size: 18px;
+                font-weight: 400;
+                color: #fff;
+            }
+            .btn_close{
+                display: inline-block;
+                width: 28px;
+                height: 28px;
+                border: 0;
+                outline: 0;
+                background: transparent url(../img/layout/pop_alert_close.png) no-repeat 50%;
+                font-size: 0;
+                }
+        }
+        .pop_body{
+            background-color: #fff;
+            padding:25px;
+            .writer{
+                display:inline-block;
+                font-size:12px;
+            }
+            .notice_detail{
+                height:237px;
+                overflow-x: hidden;
+                overflow-y: auto;
+                padding:20px;
+                background-color:#f5f5f5;
+                border:1px solid #c8c8c8;
+                pre{
+                    font-size:14px;
+                    color:#666;
+                }
+            }
+        }
+        .pop_footer{
+            background-color: #fff;
+            padding:5px 25px  30px 25px;
+            display:flex;
+            align-items: center;
+            justify-content: space-between;
+            .label_text{
+                font-size:12px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+/* 엑셀 업로드 */
+.upload_excel{
+    .subject{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .lookup_box{
+        margin-top: 10px;
+    }
+    .lst_help{
+        li{
+            .warning{
+                color: #28A1E0;
+                text-decoration: underline;
+            }
+        }
+    }
+    .file_box{
+        display: block;
+        padding: 0;
+        width: 100%;
+        min-height: unset;
+        background: none;
+        .files{
+            position: relative;
+            padding: 0px;
+            padding-right: 100px;
+            input[type="file"] {
+                position: absolute;
+                width: 1px;
+                height: 1px;
+                padding: 0;
+                margin: -1px;
+                overflow: hidden;
+                clip:rect(0,0,0,0);
+                border: 0;
+            }
+            .upload_name{
+                width: 100%;
+                background-color: #fff;
+            }
+            .btn_addfile{
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+        }
+    }
+}

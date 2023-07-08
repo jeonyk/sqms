@@ -1,0 +1,1005 @@
+@charset "UTF-8";
+/*========================================================
+POPUP COMMON STYLE
+=========================================================*/
+.single_page {
+  bottom: 0;
+  right: 0;
+  z-index: 99999;
+  overflow: auto;
+  width: 100%;
+  height: auto;
+}
+
+.single_page .modal-dialog {
+  height: 100%;
+}
+
+.single_page .modal-dialog.modal-xl {
+  width: 1640px;
+  max-width: none;
+  height: auto;
+  margin: 1.75rem auto;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content {
+  height: 100%;
+  -webkit-filter: none;
+          filter: none;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-body .pop_container {
+  height: 100%;
+  max-height: none;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  background-color: #fff;
+  z-index: 1;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-body .pop_container .tab_contents {
+  height: 100%;
+  min-height: auto;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-body .pop_container .tab_contents .tab_area .left_content {
+  min-height: 100%;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-body .pop_container .tab_contents .tab_area .right_content .inner {
+  padding-left: 30px;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-body .pop_container .tab_contents .inner {
+  padding: 20px;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-body .pop_container .lookup_box {
+  margin-top: 0;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-body .pop_container .ibsheet_table {
+  max-height: 500px;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-body .pop_container .fixed_height {
+  max-height: 500px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-footer .right_area {
+  position: absolute;
+  right: 24px;
+  top: 0;
+}
+
+.single_page .modal-dialog.modal-xl .modal-content .modal-footer .left_area {
+  position: absolute;
+  left: 24px;
+  top: 0;
+}
+
+.modal-dialog.modal-lg {
+  width: 800px;
+  max-width: none;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container.overflow_hide {
+  max-height: none;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container.overflow_hide .tab_contents {
+  min-height: auto;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container.overflow_hide .tab_contents .tab_area.submenu_on::before {
+  width: 252px;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container.overflow_hide .tab_contents .tab_area .left_content {
+  width: 252px;
+  min-height: auto;
+  max-height: 442px;
+  overflow-y: auto;
+  padding: 10px 20px;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container.overflow_hide .tab_contents .tab_area .right_content {
+  width: calc(100% - 252px);
+  max-height: 442px;
+  overflow-y: auto;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container.overflow_hide .tab_contents .tab_area .right_content .inner {
+  padding: 0 0 0 20px;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container .lookup_box {
+  border: 1px solid #c8c8c8;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container .inner {
+  padding: 20px 0 0;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container .inner .ib_wrap:first-child, .modal-dialog.modal-lg .modal-content .modal-body .pop_container .inner .table_normal_list:first-child {
+  margin-top: 0;
+}
+
+.modal-dialog.modal-lg .modal-content .modal-body .pop_container .table_normal_list > table > tbody > tr > td .form_sm {
+  width: 200px;
+}
+
+.modal-dialog.modal-sm {
+  width: 525px;
+  max-width: none;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-body .pop_container {
+  font-size: 20px;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-body .pop_container .lst_help li {
+  font-size: 18px;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-body .pop_container .inner {
+  margin: 20px 0;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-body .pop_container .ib_wrap:first-child, .modal-dialog.modal-sm .modal-content .modal-body .pop_container .table_normal_list:first-child {
+  margin-top: 0;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-header {
+  background: #444;
+  height: 70px;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-header h5 {
+  line-height: 68px;
+  font-size: 24px;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-footer {
+  height: auto;
+  width: calc(100% - 60px);
+  padding: 20px 0;
+  margin: 0 30px;
+  border-top: 1px solid #c8c8c8;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-footer .btn_lg {
+  min-width: 120px;
+  height: 50px;
+  line-height: 48px;
+  font-size: 18px;
+}
+
+.modal-dialog.modal-sm .modal-content .modal-footer .btn_lg:hover, .modal-dialog.modal-sm .modal-content .modal-footer .btn_lg:active, .modal-dialog.modal-sm .modal-content .modal-footer .btn_lg:focus {
+  background-color: #28A1E0;
+  border-color: #28A1E0;
+  color: #fff;
+}
+
+.modal-dialog.modal-alert {
+  /* alert 창 */
+  width: 560px;
+  max-width: none;
+}
+
+.modal-dialog.modal-alert .modal-content {
+  border-radius: 20px;
+}
+
+.modal-dialog.modal-alert .modal-content .modal-header {
+  display: none;
+}
+
+.modal-dialog.modal-alert .modal-content .modal-footer {
+  height: auto;
+  padding: 20px 30px;
+  margin: 0;
+}
+
+.modal-dialog.modal-alert .modal-content .modal-footer .btn_lg {
+  min-width: 120px;
+}
+
+.modal-dialog .modal-content {
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border: 0;
+  border-radius: 0;
+}
+
+.modal-dialog .modal-content .modal-header {
+  height: 48px;
+  background-color: #2ba1e0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 0 none;
+  border-radius: 0;
+  padding: 0 20px;
+}
+
+.modal-dialog .modal-content .modal-header h5 {
+  line-height: 48px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.modal-dialog .modal-content .modal-header .close {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  border: 0;
+  outline: 0;
+  background: transparent url(../img/layout/pop_alert_close.png) no-repeat 50%;
+  font-size: 0;
+}
+
+.modal-dialog .modal-content .modal-body {
+  margin: 0;
+  padding: 0;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container {
+  position: relative;
+  margin: 20px 0;
+  padding: 0 30px;
+  font-size: 14px;
+  /* 팝업검색영역 */
+  /* 타이틀 */
+  /* 테이블 */
+  /* 메세지영역 */
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .lookup_box table tr td .search_area {
+  max-width: 290px;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .lookup_box table tr td .search_area .form_control {
+  width: 100%;
+  max-width: none !important;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .lookup_box.multi_line {
+  padding: 20px;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .lookup_box.multi_line table {
+  width: 100%;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .lookup_box.align_center table {
+  width: auto;
+  margin: 0 auto;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .lookup_box.align_center table tr td .form_control {
+  max-width: none;
+  width: 200px;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .sub_title {
+  padding: 0;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .sub_title:first-child {
+  margin-top: 0;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .subject {
+  font-size: 14px;
+  color: #000;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .message_table {
+  display: table;
+  width: 100%;
+  min-height: 100px;
+}
+
+.modal-dialog .modal-content .modal-body .pop_container .message_table .msg {
+  display: table-cell;
+  font-size: 20px;
+  color: #555;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.modal-dialog .modal-content .modal-footer {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top: 0;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.modal-dialog .modal-content .modal-footer .right_area {
+  position: absolute;
+  right: 30px;
+  top: 0;
+}
+
+.modal-dialog .modal-content .modal-footer .left_area {
+  position: absolute;
+  left: 30px;
+  top: 0;
+}
+
+/* SMS/Email 추가 인증 안내 팝업 */
+#pop_citation .modal-dialog {
+  width: 750px;
+}
+
+#pop_citation .modal-dialog .pop_container .input_number {
+  position: relative;
+  width: 449px;
+  padding-left: 114px;
+  margin: 60px auto;
+}
+
+#pop_citation .modal-dialog .pop_container .input_number .label_text {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 18px;
+  font-weight: 700;
+  color: #555;
+}
+
+#pop_citation .modal-dialog .pop_container .input_number .time {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  color: #FF0000;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+#pop_citation .modal-dialog .pop_container .input_number .form_control {
+  max-width: 334px;
+  height: 50px;
+  line-height: 48px;
+  border: 1px solid #28a1e0;
+  border-radius: 5px;
+}
+
+#pop_citation .modal-dialog .modal-footer {
+  padding: 40px 0 50px;
+}
+
+#pop_signature .lst_tabs {
+  margin: 0;
+  padding: 0;
+  border: 0 none;
+}
+
+#pop_signature .bgline_box {
+  position: relative;
+  width: 100%;
+  height: 270px;
+  background-color: #F9F9F9;
+  border: 1px solid #C8C8C8;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 14px;
+  color: #777;
+}
+
+#pop_signature .bgline_box .right_area {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  margin: 20px 0 0;
+}
+
+#pop_signature .bgline_box .info_txt {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: default;
+}
+
+#pop_signature .signature_item {
+  position: relative;
+}
+
+#pop_signature .signature_item ul {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #f9f9f9;
+}
+
+#pop_signature .signature_item ul .img_wrap {
+  display: table;
+  width: 223px;
+  height: 191px;
+  margin: 40px auto 38px;
+  overflow: hidden;
+}
+
+#pop_signature .signature_item ul .img_wrap .img_area {
+  display: table-cell;
+  height: 191px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#pop_signature .signature_item ul .img_wrap .img_area img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#pop_signature .file_upload_container {
+  margin: 0;
+}
+
+#pop_signature .file_upload_container .file_upload {
+  height: 268px;
+}
+
+#pop_signature .file_upload_container .file_upload .upload_name {
+  padding: 74px 0 138px;
+  border: 0 none;
+}
+
+#pop_signature .file_upload_container .file_upload .btn {
+  top: 131px;
+}
+
+/* AppStore 팝업 */
+#pop_app_store .modal-dialog {
+  width: 960px;
+}
+
+#pop_app_store .pop_container {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#pop_app_store .pop_container .lst_appstore {
+  position: relative;
+  width: 40%;
+  padding: 22px 16px 23px 23px;
+}
+
+#pop_app_store .pop_container .lst_appstore h3 {
+  line-height: 18px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#pop_app_store .pop_container .lst_appstore select.form_control {
+  margin: 7px 0 30px;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore {
+  position: absolute;
+  top: 95px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 16px 23px 23px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #F9F9F9;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul {
+  margin-top: 30px;
+  max-height: calc(100% - 58px);
+  overflow-y: auto;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul::-webkit-scrollbar {
+  height: 6px;
+  width: 12px;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul::-webkit-scrollbar-thumb {
+  background-color: rgba(80, 85, 97, 0.5);
+  border-radius: 10px;
+  background-clip: padding-box;
+  border: 3px solid transparent;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li {
+  min-height: 62px;
+  padding: 15px 0;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon {
+  padding: 0 80px 0 74px;
+  min-height: 62px;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon::before {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 60px;
+  height: 60px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 10px;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon .ico_add {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon > span {
+  display: block;
+  margin-top: 0;
+  padding: 11px 0 12px;
+  line-height: 14px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #333;
+  text-align: left;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon .sub_tit {
+  display: block;
+  margin-top: 10px;
+  color: #333;
+  font-size: 12px;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon .sub_tit .system {
+  display: inline-block;
+  margin-left: 7px;
+  padding-left: 15px;
+  background: url(../img/layout/icon_sm_system.png) no-repeat 0 50%;
+  font-size: 12px;
+  color: #999;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_me::before {
+  background-image: url(../img/layout/icon_sm_me.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_chart_histogram_two::before {
+  background-image: url(../img/layout/icon_sm_chart_histogram_two.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_folder_open::before {
+  background-image: url(../img/layout/icon_sm_folder_open.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_passport::before {
+  background-image: url(../img/layout/icon_sm_passport.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_factory_building::before {
+  background-image: url(../img/layout/icon_sm_factory_building.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_triangular_pyramid::before {
+  background-image: url(../img/layout/icon_sm_triangular_pyramid.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_calendar_thirty::before {
+  background-image: url(../img/layout/icon_sm_calendar_thirty.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_table_report::before {
+  background-image: url(../img/layout/icon_sm_table_report.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_browser::before {
+  background-image: url(../img/layout/icon_sm_browser.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_ruler_one::before {
+  background-image: url(../img/layout/icon_sm_ruler_one.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_passport::before {
+  background-image: url(../img/layout/icon_sm_passport.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_application_one::before {
+  background-image: url(../img/layout/icon_sm_application_one.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_road_cone::before {
+  background-image: url(../img/layout/icon_sm_road_cone.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_parabola::before {
+  background-image: url(../img/layout/icon_sm_parabola.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_carousel_video::before {
+  background-image: url(../img/layout/icon_sm_carousel_video.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_anti_corrosion::before {
+  background-image: url(../img/layout/icon_sm_anti_corrosion.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_order::before {
+  background-image: url(../img/layout/icon_sm_order.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_workbench::before {
+  background-image: url(../img/layout/icon_sm_workbench.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.icon_creative::before {
+  background-image: url(../img/layout/icon_sm_creative.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled::before {
+  border-color: #DCDCDC;
+  background-color: #F2F2F2;
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_me::before {
+  background-image: url(../img/layout/icon_sm_me_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_chart_histogram_two::before {
+  background-image: url(../img/layout/icon_sm_chart_histogram_two_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_folder_open::before {
+  background-image: url(../img/layout/icon_sm_folder_open_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_passport::before {
+  background-image: url(../img/layout/icon_sm_passport_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_factory_building::before {
+  background-image: url(../img/layout/icon_sm_factory_building_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_triangular_pyramid::before {
+  background-image: url(../img/layout/icon_sm_triangular_pyramid_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_calendar_thirty::before {
+  background-image: url(../img/layout/icon_sm_calendar_thirty_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_table_report::before {
+  background-image: url(../img/layout/icon_sm_table_report_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_browser::before {
+  background-image: url(../img/layout/icon_sm_browser_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_ruler_one::before {
+  background-image: url(../img/layout/icon_sm_ruler_one_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_passport::before {
+  background-image: url(../img/layout/icon_sm_passport_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_application_one::before {
+  background-image: url(../img/layout/icon_sm_application_one_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_road_cone::before {
+  background-image: url(../img/layout/icon_sm_road_cone_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_parabola::before {
+  background-image: url(../img/layout/icon_sm_parabola_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_carousel_video::before {
+  background-image: url(../img/layout/icon_sm_carousel_video_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_anti_corrosion::before {
+  background-image: url(../img/layout/icon_sm_anti_corrosion_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_order::before {
+  background-image: url(../img/layout/icon_sm_order_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_workbench::before {
+  background-image: url(../img/layout/icon_sm_workbench_disabled.png);
+}
+
+#pop_app_store .pop_container .lst_appstore .appstore ul li .app_icon.disabled.icon_creative::before {
+  background-image: url(../img/layout/icon_sm_creative_disabled.png);
+}
+
+#pop_app_store .pop_container .board_appstore {
+  position: relative;
+  width: 60%;
+  padding: 23px 10px 14px;
+  background-color: #F9F9F9;
+}
+
+#pop_app_store .pop_container .board_appstore .message {
+  padding: 0 10px 10px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .item {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon {
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #DCDCDC;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover {
+  background-color: #28A1E0;
+  color: #fff;
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover .ico_remove {
+  opacity: 1;
+  visibility: visible;
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon .ico_remove {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  display: block;
+  width: 12px;
+  height: 12px;
+  line-height: 12px;
+  border: 0 none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  text-align: center;
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon .ico_remove::before {
+  content: '';
+  display: inline-block;
+  width: 12px;
+  height: 2px;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_me::before {
+  background-image: url(../img/layout/icon_me_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_chart_histogram_two::before {
+  background-image: url(../img/layout/icon_chart_histogram_two_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_folder_open::before {
+  background-image: url(../img/layout/icon_folder_open_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_passport::before {
+  background-image: url(../img/layout/icon_passport_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_factory_building::before {
+  background-image: url(../img/layout/icon_factory_building_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_triangular_pyramid::before {
+  background-image: url(../img/layout/icon_triangular_pyramid_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_calendar_thirty::before {
+  background-image: url(../img/layout/icon_calendar_thirty_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_table_report::before {
+  background-image: url(../img/layout/icon_table_report_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_browser::before {
+  background-image: url(../img/layout/icon_browser_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_ruler_one::before {
+  background-image: url(../img/layout/icon_ruler_one_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_passport::before {
+  background-image: url(../img/layout/icon_passport_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_application_one::before {
+  background-image: url(../img/layout/icon_application_one_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_road_cone::before {
+  background-image: url(../img/layout/icon_road_cone_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_parabola::before {
+  background-image: url(../img/layout/icon_parabola_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_carousel_video::before {
+  background-image: url(../img/layout/icon_carousel_video_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_anti_corrosion::before {
+  background-image: url(../img/layout/icon_anti_corrosion_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_order::before {
+  background-image: url(../img/layout/icon_order_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_workbench::before {
+  background-image: url(../img/layout/icon_workbench_on.png);
+}
+
+#pop_app_store .pop_container .board_appstore .appstore .app_icon:hover.icon_creative::before {
+  background-image: url(../img/layout/icon_creative_on.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding-top: 26px;
+  padding-bottom: 16px;
+}
+
+#pop_app_store .pop_container .appstore .app_icon > span {
+  display: block;
+  line-height: 12px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+#pop_app_store .pop_container .appstore .app_icon::before {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 50px;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_me::before {
+  background-image: url(../img/layout/icon_me.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_chart_histogram_two::before {
+  background-image: url(../img/layout/icon_chart_histogram_two.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_folder_open::before {
+  background-image: url(../img/layout/icon_folder_open.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_passport::before {
+  background-image: url(../img/layout/icon_passport.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_factory_building::before {
+  background-image: url(../img/layout/icon_factory_building.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_triangular_pyramid::before {
+  background-image: url(../img/layout/icon_triangular_pyramid.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_calendar_thirty::before {
+  background-image: url(../img/layout/icon_calendar_thirty.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_table_report::before {
+  background-image: url(../img/layout/icon_table_report.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_browser::before {
+  background-image: url(../img/layout/icon_browser.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_ruler_one::before {
+  background-image: url(../img/layout/icon_ruler_one.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_passport::before {
+  background-image: url(../img/layout/icon_passport.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_application_one::before {
+  background-image: url(../img/layout/icon_application_one.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_road_cone::before {
+  background-image: url(../img/layout/icon_road_cone.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_parabola::before {
+  background-image: url(../img/layout/icon_parabola.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_carousel_video::before {
+  background-image: url(../img/layout/icon_carousel_video.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_anti_corrosion::before {
+  background-image: url(../img/layout/icon_anti_corrosion.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_order::before {
+  background-image: url(../img/layout/icon_order.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_workbench::before {
+  background-image: url(../img/layout/icon_workbench.png);
+}
+
+#pop_app_store .pop_container .appstore .app_icon.icon_creative::before {
+  background-image: url(../img/layout/icon_creative.png);
+}
+/*# sourceMappingURL=popup.css.map */

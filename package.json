@@ -1,0 +1,85 @@
+{
+  "name": "testfile",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-dev": "vue-cli-service build --mode development",
+    "build-devserver": "vue-cli-service build --mode devserver",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "@fullcalendar/core": "^5.10.1",
+    "@fullcalendar/daygrid": "^5.10.1",
+    "@fullcalendar/interaction": "^5.10.1",
+    "@fullcalendar/timegrid": "^5.10.1",
+    "@fullcalendar/vue": "^5.10.1",
+    "@ibsheet/loader": "^1.1.11",
+    "axios": "^0.25.0",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "buefy": "^0.9.19",
+    "chart.js": "^2.9.4",
+    "chartjs-plugin-datalabels": "^0.6.0",
+    "core-js": "^3.6.5",
+    "cors": "^2.8.5",
+    "lodash": "^4.17.21",
+    "moment-timezone": "^0.5.34",
+    "secure-ls": "^1.2.6",
+    "swiper": "^5.3.7",
+    "url-search-params-polyfill": "^8.1.1",
+    "vue": "^2.6.14",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-axios": "^3.4.1",
+    "vue-chartjs": "^3.4.2",
+    "vue-cookie": "^1.1.4",
+    "vue-cookies": "^1.7.4",
+    "vue-friendly-iframe": "0.16.0",
+    "vue-grid-layout": "^2.3.12",
+    "vue-i18n": "^8.27.2",
+    "vue-moment": "^4.1.0",
+    "vue-plugin-load-script": "^2.1.1",
+    "vue-print-nb": "^1.7.5",
+    "vue-router": "^3.5.3",
+    "vue-session": "^1.0.0",
+    "vue-signature-pad": "2.0.0",
+    "vue2-datepicker": "^3.10.4",
+    "vuex": "^3.6.2",
+    "vuex-persistedstate": "^4.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.4",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "sass": "^1.43.4",
+    "sass-loader": "^7.3.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

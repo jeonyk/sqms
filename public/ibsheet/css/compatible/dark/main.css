@@ -1,0 +1,1597 @@
+/* IBSheet8 CSS definition, https://www.ibsheet.com */
+.IBCDMain *{-webkit-box-sizing:content-box!important;-moz-box-sizing:content-box!important;box-sizing:content-box!important}
+.IBCDMain button,.IBCDMain input{height:auto}
+.IBCDMain table{margin:auto;}
+.IBCDMain .IBCDSolidRow table{width:auto;}
+.IBCDMain .IBCDSolidRow table,.IBCDMain .IBCDRowAbove table,.IBCDMain .IBCDRowBelow table,.IBCDMain table.IBCDMainTable,.IBCDMain table.IBCDSection{margin:0px;}
+.IBCDMain b,.IBCDMain .Bold{color:blue;font-weight:bold}
+.IBCDMain i,.IBCDMain .Blue{color:blue;font-style:normal}
+.IBCDMain em,.IBCDMain .Red{color:red;font-style:normal}
+.IBCDMain s,.IBCDMain .Gray{color:gray;text-decoration:none}
+.IBCDNone{display:none}
+.IBCDSection,.IBCDSectionFF3{table-layout:fixed;width:0px;font-size:0px;line-height:0px;contain:paint;border-collapse:separate}
+.IBCDSectionFF3{border-collapse:collapse}
+.IBCDSection img{vertical-align:top}
+.IBCDMainTable{border:1px solid #48576f;border-collapse:separate;text-align:left;background:white;padding:0px}
+.IBCDRtl .IBCDMainTable{text-align:right}
+.IBCDHeadLeft,.IBCDHeadMid,.IBCDHeadRight{border-bottom:1px solid #cfd1d6}
+.IBCDFootLeft,.IBCDFootMid,.IBCDFootRight{border-top:1px solid black}
+.IBCDHeadLeft,.IBCDBodyLeft,.IBCDFootLeft{border-right:1px solid #e1e1e1}
+.IBCDHeadMid,.IBCDBodyMid,.IBCDFootMid{border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1}
+.IBCDHeadRight,.IBCDBodyRight,.IBCDFootRight{border-left:1px solid #e1e1e1}
+.IBCDSectionScroll::-webkit-scrollbar{display:none}
+.IBCDFootRow{background-color:#dedee3!important ;border-color:#bdbdc4;border-top:solid 1px #a0a0a1}
+.IBCDLeftSplitter,.IBCDRightSplitter{width:5px;overflow:hidden;cursor:e-resize;font-size:0px}
+.IBCDLeftSplitter{border-left:1px solid #cfd1d6}
+.IBCDRightSplitter{border-right:1px solid #cfd1d6}
+.IBCDWide .IBCDLeftSplitter,.IBCDWide .IBCDRightSplitter{width:9px}
+.IBCDTouch .IBCDLeftSplitter,.IBCDTouch .IBCDRightSplitter{width:15px}
+.IBCDSplitterDisabled{cursor:default}
+.IBCDVScroll{border-top:1px solid #e1e1e1;border-bottom:1px solid #e1e1e1;overflow:hidden}
+.IBCDVScrollHeadPadding{border-bottom:0px solid #cfd1d6;border-top:1px solid #1a364e;border-right:1px solid #cfd1d6}
+.IBCDHScrollLeft,.IBCDHScrollMid,.IBCDHScrollRight{overflow:hidden}
+.IBCDHScrollLeft{border-right:1px solid #c0c0ff}
+.IBCDHScrollMid{border-left:1px solid #c0c0ff;border-right:1px solid #c0c0ff}
+.IBCDHScrollRight{border-left:1px solid #c0c0ff}
+.IBCDHScrollLeftResize,.IBCDHScrollRightResize,.IBCDHScrollMidLeftResize,.IBCDHScrollMidRightResize{background:#F4F4F4;overflow:hidden}
+.IBCDHScrollLeftResize{border-right:2px solid black;padding-left:1px;padding-right:5px}
+.IBCDHScrollRightResize{border-left:2px solid black;padding-left:5px;padding-right:1px}
+.IBCDHScrollMidLeftResize{border-left:1px solid black;padding-left:5px}
+.IBCDHScrollMidRightResize{border-right:1px solid black;padding-right:5px}
+.IBCDTouch .IBCDHScrollLeftResize{padding-right:18px}
+.IBCDTouch .IBCDHScrollRightResize{padding-left:18px}
+.IBCDTouch .IBCDHScrollMidLeftResize{padding-left:19px}
+.IBCDTouch .IBCDHScrollMidRightResize{padding-right:19px}
+.IBCDHScrollWide{padding-left:1px;padding-right:1px;overflow:hidden}
+.IBCDHScrollHidden{overflow:visible!important;background:#F4F4F4}
+.IBCDXScroll{background:#F4F4F4;cursor:default}
+.SheetHiddenScroll > div::-webkit-scrollbar{-webkit-appearance:none;width:11px;height:11px}
+.SheetHiddenScroll > div::-webkit-scrollbar-thumb{border-radius:8px;border:2px solid white;background-color:rgba(0,0,0,0.5)}
+.IBCDRowHeight{height:30px}
+.IBCDTouch .IBCDRowHeight{height:30px}
+.IBCDHeaderRow{border-right:1px solid #6e7e98;background-color:#48576f;font-size:14px;color:#fff;height:30px}
+.IBCDSpaceRowHeight{height:32px}
+.IBCDSpaceMargin{margin:0px}
+.IBCDSpaceRow,.IBCDGroupRow,.IBCDSearchRow,.IBCDPagerRow,.IBCDToolbarRow,.IBCDToolbar1Row,.IBCDToolbar2Row,.IBCDToolbar3Row,.IBCDTopbarRow,.IBCDTopbar1Row,.IBCDTopbar2Row,.IBCDTopbar3Row,.IBCDTabberRow{padding:5px 3px 5px 3px;font-size:0px;overflow:hidden;white-space:nowrap;}
+.IBCDSpaceRow{background:#E8F4FF;padding:2px 0px 2px 0px}
+ .IBCDGroupRow{background:#677894;border-bottom:1px solid #48576f}
+ .IBCDSearchRow{background:#677894;border-bottom:1px solid #48576f}
+ .IBCDPagerRow{background-position:0px -1801px}
+ .IBCDToolbarRow{background-position:0px -500px;border-top:1px solid black}
+ .IBCDToolbar1Row{background-position:0px -1801px;border-top:1px solid black}
+ .IBCDToolbar2Row{background-position:0px -500px}
+ .IBCDToolbar3Row{background:#D5E9FE}
+ .IBCDTopbarRow{background-position:0px -1801px;border-bottom:1px solid black}
+ .IBCDTopbar1Row{background-position:0px -1801px}
+ .IBCDTopbar2Row{background-position:0px -500px;border-bottom:1px solid black}
+ .IBCDTopbar3Row{background:#D5E9FE}
+ .IBCDTabberRow{background:#E8F4FF;padding:0px}
+ .IBCDFillRow{background:#E8F4FF}
+.IBCDNoDataRow{border-top:1px solid black;padding:5px 0px 5px 5px;overflow:hidden}
+.IBCDNoDataRow div{color:gray!important;font-style:italic!important}
+.IBCDSolidRow{background:#e5f0f2}
+ .IBCDSearchRow{border-bottom:1px solid #cfd1d6}
+.IBCDFillRow{background:#F7F7F7}
+ .IBCDNoDataRow{border-top:1px solid #53bfca !important}
+ .IBCDRowSpace4 .IBCDSolidRow{background:white;border-bottom:1px solid #cfd1d6;border-left:1px solid #cfd1d6;border-right:1px solid #cfd1d6}
+ .IBCDRowSpace0.IBCDRowSpaceFirst .IBCDSolidRow,.IBCDRowSpace2.IBCDRowSpaceFirst .IBCDSolidRow,.IBCDRowSpace3.IBCDRowSpaceFirst .IBCDSolidRow{border-top:1px solid #cfd1d6}
+ .IBCDRowSpace1.IBCDRowSpaceLast .IBCDSolidRow{border-bottom:1px solid #cfd1d6}
+ .IBCDRowSpace4.IBCDRowSpaceFirst .IBCDSolidRow{border-top:1px solid #1a364e}
+ .IBCDRowSpace0 .IBCDSolidRow,.IBCDRowSpace1 .IBCDSolidRow,.IBCDRowSpace2 .IBCDSolidRow,.IBCDRowSpace3 .IBCDSolidRow{border-left:1px solid #cfd1d6;border-right:1px solid #cfd1d6}
+ .IBCDRowAbove,.IBCDRowBelow{background:#fff;border-right:none;border-left:none;overflow:hidden}
+.IBCDRowAbove{margin-top:3px}
+.IBCDRowBelow{margin-bottom:3px}
+.IBCDSpaceVAlignTop{vertical-align:middle!important;display:table-cell}
+.IBCDSpaceVAlignMiddle{vertical-align:bottom!important;display:table-cell}
+.IBCDSpaceVAlignBottom{vertical-align:top!important;display:table-cell}
+.IBCDCellBase{border-bottom:1px solid #cfd1d6;border-right:1px solid #e0e0ff;border-left:0px none;border-top:0px none;overflow:hidden;overflow:auto!IE;}
+.IBCDCellHeader, .IBCDCellHeaderEmpty{background:#48576f;color:#fff;vertical-align:middle;border-color:#6e7e98;font-size:14px;font-weight:bold}
+.IBCDCellIndex,.IBCDCellIndexAlternate,.IBCDCellIndexEmpty{color:#636572}
+.IBCDCellIndex{background:#fff;color:#636572}
+.IBCDIndexSmall{margin-bottom:-50px}
+.IBCDCellUser{background-color:#E8F4FF}
+.IBCDCellEmpty{background:white;border-bottom-color:white}
+.IBCDCellHidden{background:transparent!important;border:none!important}
+.IBCDCellBorder,.IBCDCellHeaderBorder,.IBCDCellNoBorder{border-left:2px solid transparent;border-top:2px solid transparent}
+.IBCDCellNoBorder{border-color:transparent}
+.IBCDLastCell{border-right:1px solid;border-bottom:0px solid}
+.IBCDCellClassInner{padding-top:0px;padding-bottom:0px}
+.IBCDCellHeaderInnerIcon{padding-top:3px;padding-bottom:2px}
+.IBCDCellBorderFF3{border-left:0px none!important;border-top:0px none!important}
+.IBCDType,.IBCDUser{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;white-space:nowrap;padding:5px 5px 5px 5px}
+.IBCDInt,.IBCDFloat,.IBCDDate{text-align:right}
+.IBCDLines,.IBCDRadio,.IBCDHtml,.IBCDList{white-space:normal}
+.IBCDImg,.IBCDHtml{padding-top:0px;padding-bottom:0px}
+.IBCDPass{font-size:15px;line-height:17px;padding:0px 0px 0px 3px}
+.IBCDRadio{padding:0px}
+.IBCDBool{text-align:center;line-height:0px}
+.IBCDIcon{background-repeat:no-repeat}
+.IBCDAbs{padding:0px}
+.IBCDUser{padding:0px}
+.IBCDSelect{padding-top:2px;padding-bottom:2px}
+.IBCDIndexText{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:#636572;padding:5px 5px 5px 5px;border-right:1px solid #c9cbcd;border-bottom:1px solid #c9cbcd}
+.IBCDHiddenSpace{display:none}
+.IBCDHiddenValue,.IBCDHiddenValue *{color:transparent!important}
+.IBCDMain .IBCDOverflowVisible,.IBCDMain .IBCDOverflowLeftVisible{overflow:visible}
+.IBCDMain .IBCDOverflowLeftVisible>div{float:right}
+.IBCDMain .IBCDOverflowDisable{background-color:white;opacity:0.99}
+.IBCDMain.IBCDIE .IBCDOverflowDisable{opacity:1;position:relative}
+.IBCDMain.IBCDIE .IBCDMulti.IBCDOverflowDisable{opacity:1;position:inherit}
+button.IBCDRightButton{font:10px/11px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;height:17px;width:19px;margin:0px;padding:0px}
+u.IBCDRightButton{background:#fff;border:solid 1px #6c6c6e;padding:1px 5px 0px 5px;margin:0.5rem 0.2rem;font:12px Arial,Helvetica,sans-serif;color:#222222;text-decoration:none;display:inline-block;overflow:hidden;white-space:nowrap;}
+.IBCDRightHtml{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;padding-top:1px;padding-bottom:2px}
+.IBCDLevelButton{background:url(./imgs/Button.gif?v120) 2px -1750px no-repeat;padding:5px 0px 4px 0px;width:21px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:black;text-align:center!important;cursor:pointer;}
+.IBCDLevelButtonSpace{width:5px}
+.IBCDLevels>table{width:100%}
+.IBCDMergedCellH{padding:0px;padding-right:5px}
+.IBCDMergedCellV{padding:0px;padding-bottom:1px}
+.IBCDHeaderText{font:14px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;font-weight:bold;color:#fff;padding:5px 3px 4px 3px}
+.IBCDHeaderIconInner{padding-top:2px;padding-bottom:2px}
+.IBCDHeaderButton{padding:3px 0px 2px 0px}
+.IBCDHeaderButtonButton{padding:3px 0px 2px 0px}
+.IBCDHeaderButtonHtml{padding:5px 1px 4px 1px;color:white}
+.IBCDHeaderToolButton{text-align:center;padding:3px 0px 2px 0px}
+.IBCDHeaderFocus{background:#9FB9E9}
+.IBCDHeaderDrag{background:#9FB9E9;cursor:default;overflow:hidden;border-right:1px solid white}
+.IBCDHeaderResize{border-right:2px solid white}
+.IBCDDropCols{padding:4px 4px 3px 4px!important}
+.IBCDHeaderGroup{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;background:#7FA9E6;color:white;padding-right:3px;padding-left:3px;border-right:1px solid white}
+.IBCDHeaderGroupFocus{background-color:#C0C0A0}
+.IBCDHeaderGroupDelete{background-color:#F0F0E0;color:white}
+.IBCDHeaderGroupCustom{font:italic 13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:#BBB;padding:1px 0px 0px 5px;white-space:nowrap}
+.IBCDHeaderGroupCustom:hover{background-color:#ddd;color:#000}
+.IBCDResizingRow{border-bottom:1px solid black}
+.IBCDCellRotate{text-align:left}
+.IBCDRotate1,.IBCDRotate2{overflow:hidden;white-space:nowrap;display:inline-block;writing-mode:tb-rl}
+.IBCDRotate1{-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+.IBCDIconRotate{padding-left:2px!important;padding-top:20px!important;padding-right:2px!important;background-position-x:left!important}
+.IBCDIconRotateHeader{background-position-x:3px!important}
+.IBCDIconRotate.IBCDAlignCenter{background-position-x:center!important}
+.IBCDIconRotate.IBCDAlignRight{background-position-x:right!important}
+.IBCDWrap0{white-space:nowrap}
+.IBCDWrap1{white-space:normal}
+.IBCDAlignLeft{text-align:left}
+.IBCDAlignCenter{text-align:center}
+.IBCDAlignJustify{text-align:justify}
+.IBCDAlignRight{text-align:right}
+.IBCDVAlignMiddle{vertical-align:middle!important;display:table-cell}
+.IBCDVAlignBottom{vertical-align:bottom!important;display:table-cell}
+.IBCDVAlignTop{vertical-align:top!important;display:table-cell}
+.IBCDTextBold{font-weight:bold}
+.IBCDTextItalic{font-style:italic}
+.IBCDTextUnderline{text-decoration:underline}
+.IBCDTextStrike{text-decoration:line-through}
+.IBCDTextOverline{text-decoration:overline}
+.IBCDTextUnderlineStrike{text-decoration:underline line-through}
+.IBCDTextUnderlineOverline{text-decoration:underline overline}
+.IBCDTextStrikeOverline{text-decoration:line-through overline}
+.IBCDTextUnderlineStrikeOverline{text-decoration:underline line-through overline}
+.IBCDTextSmall{font-variant:small-caps}
+.IBCDTextShadow0{text-shadow:0px 0px 5px}
+.IBCDTextShadow1{text-shadow:-1px -1px}
+.IBCDTextShadow2{text-shadow:-1px -1px, -3px -3px silver}
+.IBCDTextShadow3{text-shadow:-1px -1px, 0px 0px 5px}
+.IBCDTextShadow4{text-shadow:-1px -1px, 0px 0px 10px}
+.IBCDTextShadow5{text-shadow:-2px -2px silver}
+.IBCDTextShadow6{text-shadow:-3px -3px silver, -1px -1px}
+.IBCDTextShadow7{text-shadow:0px 0px 3px black,0px 0px 3px black,0px 0px 3px black}
+.IBCDTextShadow8{text-shadow:0px 0px 5px yellow, -1px -1px}
+.IBCDTextShadow9{text-shadow:0px 0px 10px}
+.IBCDMain .IBCDIndentLeft1{padding-left:10px}
+ .IBCDMain .IBCDIndentRight1{padding-right:10px}
+.IBCDMain .IBCDIndentLeft2{padding-left:20px}
+ .IBCDMain .IBCDIndentRight2{padding-right:20px}
+.IBCDMain .IBCDIndentLeft3{padding-left:30px}
+ .IBCDMain .IBCDIndentRight3{padding-right:30px}
+.IBCDMain .IBCDIndentLeft4{padding-left:40px}
+ .IBCDMain .IBCDIndentRight4{padding-right:40px}
+.IBCDMain .IBCDIndentLeft5{padding-left:50px}
+ .IBCDMain .IBCDIndentRight5{padding-right:50px}
+.IBCDMain .IBCDIndentLeft6{padding-left:60px}
+ .IBCDMain .IBCDIndentRight6{padding-right:60px}
+.IBCDMain .IBCDIndentLeft7{padding-left:70px}
+ .IBCDMain .IBCDIndentRight7{padding-right:70px}
+.IBCDMain .IBCDIndentLeft8{padding-left:80px}
+ .IBCDMain .IBCDIndentRight8{padding-right:80px}
+.IBCDMain .IBCDIndentLeft9{padding-left:90px}
+ .IBCDMain .IBCDIndentRight9{padding-right:90px}
+.IBCDMain .IBCDIndentLeft10{padding-left:100px}
+ .IBCDMain .IBCDIndentRight10{padding-right:100px}
+.IBCDMain .IBCDIndentLeft15{padding-left:150px}
+ .IBCDMain .IBCDIndentRight15{padding-right:150px}
+.IBCDMain .IBCDIndentLeft20{padding-left:200px}
+ .IBCDMain .IBCDIndentRight20{padding-right:200px}
+.IBCDMain .IBCDIndentLeft25{padding-left:250px}
+ .IBCDMain .IBCDIndentRight25{padding-right:250px}
+.IBCDMain .IBCDIndentLeft30{padding-left:300px}
+ .IBCDMain .IBCDIndentRight30{padding-right:300px}
+.IBCDMain .IBCDIndentLeft35{padding-left:350px}
+ .IBCDMain .IBCDIndentRight30{padding-right:350px}
+.IBCDMain .IBCDIndentLeft40{padding-left:400px}
+ .IBCDMain .IBCDIndentRight40{padding-right:400px}
+.IBCDMain .IBCDIndentLeft45{padding-left:450px}
+ .IBCDMain .IBCDIndentRight40{padding-right:450px}
+.IBCDMain .IBCDIndentLeft50{padding-left:500px}
+ .IBCDMain .IBCDIndentRight50{padding-right:500px}
+.IBCDCellSpace,.IBCDCellSpaceIcon,.IBCDCellSpaceButton,.IBCDCellSpaceButtonIcon,.IBCDCellSpaceButtonButton,.IBCDCellSpacePanel,.IBCDCellSpaceBool,.IBCDCellSpaceRadio,.IBCDCellSpaceSelect,.IBCDCellSpaceEdit{vertical-align:top;}
+.IBCDCellSpace{padding-top:5px;padding-bottom:3px}
+.IBCDCellSpaceIcon{padding-top:2px;padding-bottom:3px}
+.IBCDSpaceIconInner{padding-top:3px;padding-bottom:0px}
+.IBCDSpaceIconInner > div{overflow:hidden}
+.IBCDCellSpaceButton{padding-top:5px;padding-bottom:3px;white-space:nowrap}
+.IBCDCellSpaceButtonIcon{padding-top:2px;padding-bottom:3px;white-space:nowrap}
+.IBCDSpaceButtonIconInner{padding-top:3px;padding-bottom:0px}
+.IBCDSpaceButtonIconInner > div{overflow:hidden}
+.IBCDCellSpaceTool{padding:0px}
+.IBCDCellSpaceBool{line-height:0px}
+.IBCDCellSpaceRadio{padding-top:3px;padding-bottom:1px}
+.IBCDCellSpaceSelect{padding:0px}
+.IBCDSpaceSelectInner,.IBCDSpaceSelectInnerIcon{border-left:1px solid #696969;padding:5px 20px 3px 3px;background:url(./imgs/BackgroundsRight.gif?v120) right -250px!important;white-space:nowrap;height:13px;}
+.IBCDSpaceSelectInnerIcon{padding:2px 20px 3px 1px;height:16px}
+.IBCDSpaceSelectIconInner{padding-top:3px;padding-bottom:0px}
+.IBCDSpaceSelectIconInner > div{overflow:hidden}
+.IBCDSpaceSelectInnerIE{overflow:hidden;height:21px}
+.IBCDCellSpaceEdit{padding:0px}
+.IBCDSpaceEditInner,.IBCDSpaceEditInnerIcon{border:1px solid #cfd1d6;padding:6px 6px 6px 6px;background:white}
+.IBCDSpaceEditInnerIcon{padding:1px 2px 0px 1px}
+.IBCDSpaceEditIconInner > div{overflow:hidden}
+.IBCDSpaceEditButtonIconInner{padding-top:0px;padding-bottom:0px}
+.IBCDCellSpaceAbove{border-top:none }
+.IBCDCellSpaceBelow{border-bottom:none }
+.IBCDSpaceClassInner{padding-top:0px;padding-bottom:0px}
+.IBCDSpaceWrap{white-space:normal}
+.IBCDCellSpaceWrap{display:inline-block;margin-top:2px;margin-bottom:2px}
+.IBCDCellSpaceWrap.IBCDEmpty{height:21px;padding-top:0px;padding-bottom:0px}
+.IBCDNoLeft,.IBCDNoSpaceLeft{border-left:0px none!important;border-bottom-left-radius:0px!important;border-top-left-radius:0px!important}
+.IBCDNoRight,.IBCDNoSpaceRight{border-right:0px none!important;border-bottom-right-radius:0px!important;border-top-right-radius:0px!important}
+.IBCDEmpty{text-decoration:none!important;font-size:0px!important;line-height:0px!important}
+.IBCDPages{overflow:visible;padding:0px!important}
+.IBCDPagesLink,.IBCDPagesLinkActive{padding:2px 1px 2px 2px;margin:2px 0px 2px 0px;display:inline-block;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;color:blue;}
+.IBCDPagesLinkActive{color:black;font-weight:bold;border:1px dotted black;margin-top:1px;margin-bottom:1px}
+.IBCDTree{padding-top:0px;white-space:nowrap;line-height:0px;font-size:0px;height:0px;text-overflow:clip}
+.IBCDSpannedTree{line-height:0px;font-size:0px;height:0px}
+.IBCDSpannedTree td{vertical-align:top}
+.IBCDNoTreeLines1{text-align:right}
+.IBCDNoTreeLines2{text-align:right;vertical-align:middle;padding-top:0px}
+.IBCDNoTreeLines3{text-align:left}
+.IBCDTreeTop{background-image:url(./imgs/Tree.gif?v120)}
+.IBCDTreeMiddle{background-image:url(./imgs/TreeMiddle.gif?v120)}
+.IBCDTreeBottom{background-image:url(./imgs/TreeBottom.gif?v120)}
+.IBCDTreeRevTop{background-image:url(./imgs/TreeRev.gif?v120)}
+.IBCDTreeRevMiddle{background-image:url(./imgs/TreeRevMiddle.gif?v120)}
+.IBCDTreeRevBottom{background-image:url(./imgs/TreeRevBottom.gif?v120)}
+.IBCDTreeIcon{background-repeat:no-repeat;background-position:left top}
+.IBCDTreeIconM{background-repeat:no-repeat;background-position:left center}
+.IBCDTreeIconB{background-repeat:no-repeat;background-position:left bottom}
+.IBCDTreeImage,.IBCDTreeImageM,.IBCDTreeImageB{display:inline-block;height:100%;width:0px}
+.IBCDTreeImageIE{padding-bottom:1000px}
+.IBCDTreeImageMIE{padding-top:500px;padding-bottom:500px}
+.IBCDTreeImageBIE{padding-top:1000px}
+.IBCDWidth1T{padding-left:26px}
+ .IBCDWidth1{padding-left:21px}
+.IBCDWidth2T{padding-left:47px;padding-top:9px}
+ .IBCDWidth2{padding-left:42px}
+.IBCDWidth2T.IBCDExTree{padding-top:0px}
+.IBCDWidth3T{padding-left:68px}
+ .IBCDWidth3{padding-left:63px}
+.IBCDWidth4T{padding-left:89px}
+.IBCD000,.IBCD000T{background-position:0px top}
+ .IBCD000M,.IBCD000TM{background-position:0px center}
+ .IBCD000B,.IBCD000TB{background-position:0px bottom}
+.IBCD010,.IBCD010T{background-position:-128px top}
+ .IBCD010M,.IBCD010TM{background-position:-128px center}
+ .IBCD010B,.IBCD010TB{background-position:-128px bottom}
+.IBCD001,.IBCD001T{background-position:-256px top}
+ .IBCD001M,.IBCD001TM{background-position:-256px center}
+ .IBCD001B,.IBCD001TB{background-position:-256px bottom}
+.IBCD011,.IBCD011T{background-position:-384px top}
+ .IBCD011M,.IBCD011TM{background-position:-384px center}
+ .IBCD011B,.IBCD011TB{background-position:-384px bottom}
+.IBCD100,.IBCD100T{background-position:-512px top}
+ .IBCD100M,.IBCD100TM{background-position:-512px center}
+ .IBCD100B,.IBCD100TB{background-position:-512px bottom}
+.IBCD110,.IBCD110T{background-position:-640px top}
+ .IBCD110M,.IBCD110TM{background-position:-640px center}
+ .IBCD110B,.IBCD110TB{background-position:-640px bottom}
+.IBCD101,.IBCD101T{background-position:-768px top}
+ .IBCD101M,.IBCD101TM{background-position:-768px center}
+ .IBCD101B,.IBCD101TB{background-position:-768px bottom}
+.IBCD111,.IBCD111T{background-position:-896px top}
+ .IBCD111M,.IBCD111TM{background-position:-896px center}
+ .IBCD111B,.IBCD111TB{background-position:-896px bottom}
+.IBCD00,.IBCD00T{background-position:-21px top}
+ .IBCD00M,.IBCD00TM{background-position:-21px center}
+ .IBCD00B,.IBCD00TB{background-position:-21px bottom}
+.IBCD10,.IBCD10T{background-position:-149px top}
+ .IBCD10M,.IBCD10TM{background-position:-149px center}
+ .IBCD10B,.IBCD10TB{background-position:-149px bottom}
+.IBCD01,.IBCD01T{background-position:-277px top}
+ .IBCD01M,.IBCD01TM{background-position:-277px center}
+ .IBCD01B,.IBCD01TB{background-position:-277px bottom}
+.IBCD11,.IBCD11T{background-position:-405px top}
+ .IBCD11M,.IBCD11TM{background-position:-405px center}
+ .IBCD11B,.IBCD11TB{background-position:-405px bottom}
+.IBCD0,.IBCD0T{background-position:-42px top}
+ .IBCD0M,.IBCD0TM{background-position:-42px center}
+ .IBCD0B,.IBCD0TB{background-position:-42px bottom}
+.IBCD1,.IBCD1T{background-position:-298px top}
+ .IBCD1M,.IBCD1TM{background-position:-298px center}
+ .IBCD1B,.IBCD1TB{background-position:-298px bottom}
+.IBCDT{background-position:-63px top}
+ .IBCDTM{background-position:-63px center}
+ .IBCDTB{background-position:-63px bottom}
+.IBCD0TL{background-position:-1024px top}
+ .IBCD0TLM{background-position:-1024px center}
+ .IBCD0TLB{background-position:-1024px bottom}
+.IBCD1TL{background-position:-1088px top}
+ .IBCD1TLM{background-position:-1088px center}
+ .IBCD1TLB{background-position:-1088px bottom}
+.IBCD0C{background-position:-1152px top}
+ .IBCD0CM{background-position:-1152px center}
+ .IBCD0CB{background-position:-1152px bottom}
+.IBCD1C{background-position:-1216px top}
+ .IBCD1CM{background-position:-1216px center}
+ .IBCD1CB{background-position:-1216px bottom}
+.IBCD0CL{background-position:top 5px left -1280px}
+ .IBCD0CLM{background-position:-1280px center}
+ .IBCD0CLB{background-position:-1280px bottom}
+.IBCD1CL{background-position:-1344px top}
+ .IBCD1CLM{background-position:-1344px center}
+ .IBCD1CLB{background-position:-1344px bottom}
+.IBCD0E{background-position:top 1px left -1408px}
+ .IBCD0EM{background-position:-1408px center}
+ .IBCD0EB{background-position:-1408px bottom}
+.IBCD1E{background-position:top 1px left -1472px;}
+ .IBCD1EM{background-position:-1472px center}
+ .IBCD1EB{background-position:-1472px bottom}
+.IBCD0EL{background-position:top 6px left -1536px}
+ .IBCD0ELM{background-position:-1536px center}
+ .IBCD0ELB{background-position:-1536px bottom}
+.IBCD1EL{background-position:top 1px left -1600px}
+ .IBCD1ELM{background-position:-1600px center}
+ .IBCD1ELB{background-position:-1600px bottom}
+.IBCDTL{background-position:-1045px top}
+ .IBCDTLM{background-position:-1045px center}
+ .IBCDTLB{background-position:-1045px bottom}
+.IBCDC{background-position:-1173px top}
+ .IBCDCM{background-position:-1173px center}
+ .IBCDCB{background-position:-1173px bottom}
+.IBCDCL{background-position:top 5px left -1301px }
+ .IBCDCLM{background-position:-1301px center}
+ .IBCDCLB{background-position:-1301px bottom}
+.IBCDE{background-position:-1429px top}
+ .IBCDEM{background-position:-1429px center}
+ .IBCDEB{background-position:-1429px bottom}
+.IBCDEL{background-position:top 6px left -1557px }
+ .IBCDELM{background-position:-1557px center}
+ .IBCDELB{background-position:-1557px bottom}
+.IBCDD0{background-position:-1664px top}
+ .IBCDD0M{background-position:-1664px center}
+ .IBCDD0B{background-position:-1664px bottom}
+.IBCDD1{background-position:-1696px top}
+ .IBCDD1M{background-position:-1696px center}
+ .IBCDD1B{background-position:-1696px bottom}
+.IBCDD2{background-position:-1728px top}
+ .IBCDD2M{background-position:-1728px center}
+ .IBCDD2B{background-position:-1728px bottom}
+.IBCDD3{background-position:-1760px top}
+ .IBCDD3M{background-position:-1760px center}
+ .IBCDD3B{background-position:-1760px bottom}
+.IBCDD0L{background-position:-1792px top}
+ .IBCDD0LM{background-position:-1792px center}
+ .IBCDD0LB{background-position:-1792px bottom}
+.IBCDD1L{background-position:-1824px top}
+ .IBCDD1LM{background-position:-1824px center}
+ .IBCDD1LB{background-position:-1824px bottom}
+.IBCDD2L{background-position:-1856px top}
+ .IBCDD2LM{background-position:-1856px center}
+ .IBCDD2LB{background-position:-1856px bottom}
+.IBCDD3L{background-position:-1888px top}
+ .IBCDD3LM{background-position:-1888px center}
+ .IBCDD3LB{background-position:-1888px bottom}
+.IBCDD4{background-position:-1920px top}
+ .IBCDD4M{background-position:-1920px center}
+ .IBCDD4B{background-position:-1920px bottom}
+.IBCDD4L{background-position:-1952px top}
+ .IBCDD4LM{background-position:-1952px center}
+ .IBCDD4LB{background-position:-1952px bottom}
+.IBCDNC,.IBCDNE,.IBCDND0,.IBCDND1,.IBCDND2,.IBCDND3,.IBCDND4,.IBCDNIcon{background-repeat:no-repeat;vertical-align:top;background-position:right 6px top 6px}
+.IBCDNCR,.IBCDNER,.IBCDND0R,.IBCDND1R,.IBCDND2R,.IBCDND3R,.IBCDND4R{background-repeat:no-repeat;vertical-align:top;background-position:left top}
+.IBCDNTreeImage{display:inline-block;height:17px;width:17px}
+.IBCDNWidth{width:21px}
+.IBCDND0,.IBCDND0R{background-image:url(./imgs/TreeNDrag0.gif?v120)}
+.IBCDND1,.IBCDND1R{background-image:url(./imgs/TreeNDrag1.gif?v120)}
+.IBCDND2,.IBCDND2R{background-image:url(./imgs/TreeNDrag2.gif?v120)}
+.IBCDND3,.IBCDND3R{background-image:url(./imgs/TreeNDrag3.gif?v120)}
+.IBCDND4,.IBCDND4R{background-image:url(./imgs/TreeNWait.gif?v120)}
+.IBCDNC,.IBCDNCR{background-image:url(./imgs/TreeNCollapse.gif?v120)}
+.IBCDNE,.IBCDNER{background-image:url(./imgs/TreeNExpand.gif?v120)}
+.IBCDFilter0,.IBCDFilter1,.IBCDGroup0,.IBCDGroup1,.IBCDSearch0,.IBCDSearch1{background-image:url(./imgs/BoolSpace.gif?v120);background-repeat:no-repeat;display:inline-block;width:17px;height:21px}
+.IBCDFilter0,.IBCDFilter1{height:18px}
+.IBCDFilter0{background-position:right -2px}
+.IBCDFilter1{background-position:right -252px}
+.IBCDGroup0{background-position:center 0px}
+.IBCDGroup1{background-position:center -250px}
+.IBCDSearch0{background-position:center 0px}
+.IBCDSearch1{background-position:center -250px}
+.IBCDPSpace1{width:17px;text-align:center}
+.IBCDPSpace2{width:33px;text-align:center}
+.IBCDPSpace3{width:49px;text-align:center}
+.IBCDPSpace4{width:65px;text-align:center}
+.IBCDTabHtml,.IBCDTabHtml1,.IBCDTabHtmlIcon,.IBCDTabHtmlIcon1{font-weight:bold;text-align:center;padding-left:5px;padding-right:5px;background:#FFF}
+.IBCDTabHtml1,.IBCDTabHtmlIcon1{background-position:left -1500px;color:white}
+.IBCDTabSep,.IBCDTabSepLeft,.IBCDTabSepRight{padding-left:3px;padding-right:0px;background:white!important;border:0px none;border-left:1px solid #9cb6c8;border-right:1px solid #9cb6c8;cursor:default!important;}
+.IBCDTabSepRight,.IBCDTabSepLeft{padding-left:5px}
+.IBCDTabSepLast{padding-left:1px;background:white!important;border:none;border-left:1px solid #9cb6c8;cursor:default!important}
+.IBCDTabSepFirst{padding-left:1px;background:white!important;border:none;border-right:1px solid #9cb6c8;cursor:default!important}
+.IBCDTabSepNoBack{background:none!important}
+.IBCDToolButton{text-align:center;padding:0px 1px 0px 1px}
+button.IBCDToolButtonButton,button.IBCDToolButtonButton1{font:10px/11px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;height:17px;padding:0px;cursor:pointer;white-space:nowrap}
+button.IBCDToolSpaceButton,button.IBCDToolSpaceButton1{font:11px/12px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;height:21px;padding:0px;cursor:pointer;white-space:nowrap}
+button.IBCDToolButtonButton1,button.IBCDToolSpaceButton1{color:blue;font-weight:bold}
+u.IBCDToolButtonButton,u.IBCDToolButtonButton1,u.IBCDToolSpaceButton,u.IBCDToolSpaceButton1{background:#fff;border:solid 1px #6c6c6e;color:#222222;cursor:pointer;text-decoration:none;display:block;overflow:hidden;white-space:nowrap;}
+u.IBCDToolButtonButton,u.IBCDToolButtonButton1{font:13px Arial,Helvetica,sans-serif;padding:3px 3px 2px 3px;margin:0.5rem 0.2rem}
+u.IBCDToolSpaceButton,u.IBCDToolSpaceButton1{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;padding:4px 3px 4px 3px;margin:2px 0px 2px 0px}
+.IBCDAlignCenter>u.IBCDToolButtonButton,.IBCDAlignCenter>u.IBCDToolButtonButton1{margin:4px auto 4px auto}
+.IBCDAlignRight>u.IBCDToolButtonButton,.IBCDAlignRight>u.IBCDToolButtonButton1{margin:4px 3px 4px auto}
+u.IBCDToolButtonButton1,u.IBCDToolSpaceButton1{color:#222222;background:#FFF}
+u.IBCDToolButtonIcon{padding-top:0px;padding-bottom:0px}
+ .IBCDToolButtonIconInner{padding-top:1px;padding-bottom:0px;display:inline-block;font-style:normal}
+u.IBCDToolSpaceIcon{padding-top:0px;padding-bottom:0px}
+ .IBCDToolSpaceIconInner{padding-top:1px;padding-bottom:1px;display:inline-block;font-style:normal}
+.IBCDToolButtonEmpty{height:13px;width:0px;overflow:hidden;display:inline-block}
+.IBCDToolSpaceEmpty{height:13px;width:0px;overflow:hidden;display:inline-block}
+.IBCDToolButtonButtonAuto,.IBCDToolSpaceButtonAuto{padding-left:3px;padding-right:3px}
+.IBCDToolHtml,.IBCDToolHtml1{padding-left:3px;padding-right:3px;text-align:center}
+.IBCDToolHtml1{font-weight:bold;color:blue}
+.IBCDToolHtmlIcon,.IBCDToolHtmlIcon1{text-align:center}
+.IBCDToolHtmlIconLeft{text-align:left}
+.IBCDToolHtmlIconRight{text-align:right}
+.IBCDToolHtmlEmpty{height:13px;width:0px;overflow:hidden;display:inline-block}
+.IBCDToolHtmlEmptyIE{overflow:hidden;display:inline-block}
+.IBCDDisabledButton{opacity:0.3;filter:alpha(opacity=30)}
+.IBCDPopupLeft,.IBCDPopupRight{background-image:url(./imgs/Menu.gif?v120);background-repeat:no-repeat}
+.IBCDPopupLeft{background-position:-6px -248px;padding-left:14px}
+.IBCDPopupRight{background-position:right -248px;padding-right:14px}
+.IBCDPopupNone{padding-right:14px}
+.IBCDToolAlignSingle{padding-left:24px;padding-right:0px}
+.IBCDToolAlignSingle.IBCDHasLine{padding-left:0px}
+.IBCDToolAlignLeft{padding-left:22px;padding-right:8px}
+.IBCDToolAlignRight{padding-left:8px;padding-right:22px}
+.IBCDToolAlignTop{padding:22px 5px 3px 5px}
+.IBCDToolAlignBottom{padding:5px 5px 24px 5px}
+.IBCDToolLineAlignSingle{margin:14px 19px -18px 0px;height:0px;width:21px}
+.IBCDToolLineAlignLeft{margin:14px 3px -18px -20px;height:0px}
+.IBCDToolLineAlignRight{margin:14px -23px -18px -2px;height:0px}
+.IBCDToolLineAlignTop{margin:-3px auto -1px auto;height:0px}
+.IBCDToolLineAlignBottom{margin:34px auto -38px auto;height:0px}
+.IBCDToolLine{border-bottom:4px solid;padding-top:0px}
+.IBCDToolLineEmpty{border-bottom:1px solid #D4D4D4!important;padding-top:2px}
+.IBCDToolLine0{border-bottom:0px none;padding-top:3px}
+.IBCDToolLine1{border-bottom:1px solid;padding-top:2px}
+.IBCDToolLine2{border-bottom:2px solid;padding-top:2px}
+.IBCDToolLine3{border-bottom:3px solid;padding-top:1px}
+.IBCDToolLine4{border-bottom:1px dotted;padding-top:2px}
+.IBCDToolLine5{border-bottom:2px dotted;padding-top:2px}
+.IBCDToolLine6{border-bottom:1px dashed;padding-top:2px}
+.IBCDToolLine7{border-bottom:2px dashed;padding-top:2px}
+.IBCDToolSave,.IBCDToolReload,.IBCDToolRepaint,.IBCDToolRepaint1,.IBCDToolPrint,.IBCDToolExportPDF,.IBCDToolExport,.IBCDToolImport,.IBCDToolUndo,.IBCDToolUndo1,.IBCDToolRedo,.IBCDToolRedo1,.IBCDToolAdd,.IBCDToolAddChild,.IBCDToolAddCol,.IBCDToolJoin,.IBCDToolSplit,.IBCDToolOutdent,.IBCDToolIndent,.IBCDToolSort,.IBCDToolSort1,.IBCDToolCalc,.IBCDToolCalc1,.IBCDToolExpandAll,.IBCDToolCollapseAll,.IBCDToolColumns,.IBCDToolCfg,.IBCDToolHelp,.IBCDToolDebug,.IBCDResizeSheet,.IBCDResizeSheetRtl{background-image:url(./imgs/Toolbar.png?v120);-background-image:url(./imgs/Toolbar.gif?v120);background-repeat:no-repeat;}
+.IBCDToolSave{background-position:center 0px}
+ .IBCDToolSaveLeft{background-position:left 0px}
+ .IBCDToolSaveRight{background-position:right 0px}
+ .IBCDToolSaveBottom{background-position:center 20px}
+.IBCDToolReload{background-position:center -100px}
+ .IBCDToolReloadLeft{background-position:left -100px}
+ .IBCDToolReloadRight{background-position:right -100px}
+ .IBCDToolReloadBottom{background-position:center -80px}
+.IBCDToolRepaint{background-position:center -200px}
+ .IBCDToolRepaintLeft{background-position:left -200px}
+ .IBCDToolRepaintRight{background-position:right -200px}
+ .IBCDToolRepaintBottom{background-position:center -180px}
+.IBCDToolRepaint1{background-position:center -300px}
+ .IBCDToolRepaintLeft1{background-position:left -300px}
+ .IBCDToolRepaintRight1{background-position:right -300px}
+ .IBCDToolRepaintBottom1{background-position:center -280px}
+.IBCDToolPrint{background-position:center -400px}
+ .IBCDToolPrintLeft{background-position:left -400px}
+ .IBCDToolPrintRight{background-position:right -400px}
+ .IBCDToolPrintBottom{background-position:center -380px}
+.IBCDToolExportPDF{background-position:center -500px}
+ .IBCDToolExportPDFLeft{background-position:left -500px}
+ .IBCDToolExportPDFRight{background-position:right -500px}
+ .IBCDToolExportPDFBottom{background-position:center -480px}
+.IBCDToolExport{background-position:center -600px}
+ .IBCDToolExportLeft{background-position:left -600px}
+ .IBCDToolExportRight{background-position:right -600px}
+ .IBCDToolExportBottom{background-position:center -580px}
+.IBCDToolImport{background-position:center -3000px}
+ .IBCDToolImportLeft{background-position:left -3000px}
+ .IBCDToolImportRight{background-position:right -3000px}
+ .IBCDToolImportBottom{background-position:center -2980px}
+.IBCDToolUndo{background-position:center -700px}
+ .IBCDToolUndoLeft{background-position:left -700px}
+ .IBCDToolUndoRight{background-position:right -700px}
+ .IBCDToolUndoBottom{background-position:center -680px}
+.IBCDToolUndo1{background-position:center -800px}
+ .IBCDToolUndoLeft1{background-position:left -800px}
+ .IBCDToolUndoRight1{background-position:right -800px}
+ .IBCDToolUndoBottom1{background-position:center -780px}
+.IBCDToolRedo{background-position:center -900px}
+ .IBCDToolRedoLeft{background-position:left -900px}
+ .IBCDToolRedoRight{background-position:right -900px}
+ .IBCDToolRedoBottom{background-position:center -880px}
+.IBCDToolRedo1{background-position:center -1000px}
+ .IBCDToolRedoLeft1{background-position:left -1000px}
+ .IBCDToolRedoRight1{background-position:right -1000px}
+ .IBCDToolRedoBottom1{background-position:center -980px}
+.IBCDToolAdd{background-position:center -1100px}
+ .IBCDToolAddLeft{background-position:left -1100px}
+ .IBCDToolAddRight{background-position:right -1100px}
+ .IBCDToolAddBottom{background-position:center -1080px}
+.IBCDToolAddChild{background-position:center -1200px}
+ .IBCDToolAddChildLeft{background-position:left -1200px}
+ .IBCDToolAddChildRight{background-position:right -1200px}
+ .IBCDToolAddChildBottom{background-position:center -1180px}
+.IBCDToolAddCol{background-position:center -2900px}
+ .IBCDToolAddColLeft{background-position:left -2900px}
+ .IBCDToolAddColRight{background-position:right -2900px}
+ .IBCDToolAddColBottom{background-position:center -2880px}
+.IBCDToolJoin{background-position:center -1300px}
+ .IBCDToolJoinLeft{background-position:left -1300px}
+ .IBCDToolJoinRight{background-position:right -1300px}
+ .IBCDToolJoinBottom{background-position:center -1280px}
+.IBCDToolSplit{background-position:center -1400px}
+ .IBCDToolSplitLeft{background-position:left -1400px}
+ .IBCDToolSplitRight{background-position:right -1400px}
+ .IBCDToolSplitBottom{background-position:center -1380px}
+.IBCDToolOutdent{background-position:center -1500px}
+ .IBCDToolOutdentLeft{background-position:left -1500px}
+ .IBCDToolOutdentRight{background-position:right -1500px}
+ .IBCDToolOutdentBottom{background-position:center -1480px}
+.IBCDToolIndent{background-position:center -1600px}
+ .IBCDToolIndentLeft{background-position:left -1600px}
+ .IBCDToolIndentRight{background-position:right -1600px}
+ .IBCDToolIndentBottom{background-position:center -1580px}
+.IBCDToolSort{background-position:center -1700px}
+ .IBCDToolSortLeft{background-position:left -1700px}
+ .IBCDToolSortRight{background-position:right -1700px}
+ .IBCDToolSortBottom{background-position:center -1680px}
+.IBCDToolSort1{background-position:center -1800px}
+ .IBCDToolSortLeft1{background-position:left -1800px}
+ .IBCDToolSortRight1{background-position:right -1800px}
+ .IBCDToolSortBottom1{background-position:center -1780px}
+.IBCDToolCalc{background-position:center -1900px}
+ .IBCDToolCalcLeft{background-position:left -1900px}
+ .IBCDToolCalcRight{background-position:right -1900px}
+ .IBCDToolCalcBottom{background-position:center -1880px}
+.IBCDToolCalc1{background-position:center -2000px}
+ .IBCDToolCalcLeft1{background-position:left -2000px}
+ .IBCDToolCalcRight1{background-position:right -2000px}
+ .IBCDToolCalcBottom1{background-position:center -1980px}
+.IBCDToolExpandAll{background-position:center -2100px}
+ .IBCDToolExpandAllLeft{background-position:left -2100px}
+ .IBCDToolExpandAllRight{background-position:right -2100px}
+ .IBCDToolExpandAllBottom{background-position:center -2080px}
+.IBCDToolCollapseAll{background-position:center -2200px}
+ .IBCDToolCollapseAllLeft{background-position:left -2200px}
+ .IBCDToolCollapseAllRight{background-position:right -2200px}
+ .IBCDToolCollapseAllBottom{background-position:center -2180px}
+.IBCDToolColumns{background-position:center -2300px}
+ .IBCDToolColumnsLeft{background-position:left -2300px}
+ .IBCDToolColumnsRight{background-position:right -2300px}
+ .IBCDToolColumnsBottom{background-position:center -2280px}
+.IBCDToolCfg{background-position:center -2400px}
+ .IBCDToolCfgLeft{background-position:left -2400px}
+ .IBCDToolCfgRight{background-position:right -2400px}
+ .IBCDToolCfgBottom{background-position:center -2380px}
+.IBCDToolHelp{background-position:center -2500px}
+ .IBCDToolHelpLeft{background-position:left -2500px}
+ .IBCDToolHelpRight{background-position:right -2500px}
+ .IBCDToolHelpBottom{background-position:center -2480px}
+.IBCDToolDebug{background-position:center -2600px}
+ .IBCDToolDebugLeft{background-position:left -2600px}
+ .IBCDToolDebugRight{background-position:right -2600px}
+ .IBCDToolDebugBottom{background-position:center -2580px}
+.IBCDResizeSheet{background-position:center -2700px}
+ .IBCDResizeSheetLeft{background-position:left -2700px}
+ .IBCDResizeSheetRight{background-position:right -2700px}
+ .IBCDResizeSheetBottom{background-position:center -2680px}
+.IBCDResizeSheetRtl{background-position:center -2800px}
+ .IBCDResizeSheetRtlLeft{background-position:left -2800px}
+ .IBCDResizeSheetRtlRight{background-position:right -2800px}
+ .IBCDResizeSheetRtlBottom{background-position:center -2780px}
+.IBCDToolPagerFirst,.IBCDToolPagerFirst1,.IBCDToolPagerPrev,.IBCDToolPagerPrev1,.IBCDToolPagerNext,.IBCDToolPagerNext1,.IBCDToolPagerLast,.IBCDToolPagerLast1{background-image:url(./imgs/Pager.png?v120);-background-image:url(./imgs/Pager.gif?v120);background-repeat:no-repeat;}
+.IBCDToolPagerFirst{background-position:center 6px}
+ .IBCDToolPagerFirstLeft{background-position:left 0px}
+ .IBCDToolPagerFirstRight{background-position:right 0px}
+ .IBCDToolPagerFirstBottom{background-position:center 20px}
+.IBCDToolPagerFirst1{background-position:center -94px}
+ .IBCDToolPagerFirstLeft1{background-position:left -100px}
+ .IBCDToolPagerFirstRight1{background-position:right -100px}
+ .IBCDToolPagerFirstBottom1{background-position:center -80px}
+.IBCDToolPagerPrev{background-position:center -194px}
+ .IBCDToolPagerPrevLeft{background-position:left -200px}
+ .IBCDToolPagerPrevRight{background-position:right -200px}
+ .IBCDToolPagerPrevBottom{background-position:center -180px}
+.IBCDToolPagerPrev1{background-position:center -294px}
+ .IBCDToolPagerPrevLeft1{background-position:left -300px}
+ .IBCDToolPagerPrevRight1{background-position:right -300px}
+ .IBCDToolPagerPrevBottom1{background-position:center -280px}
+.IBCDToolPagerNext{background-position:center -394px}
+ .IBCDToolPagerNextLeft{background-position:left -400px}
+ .IBCDToolPagerNextRight{background-position:right -400px}
+ .IBCDToolPagerNextBottom{background-position:center -380px}
+.IBCDToolPagerNext1{background-position:center -494px}
+ .IBCDToolPagerNextLeft1{background-position:left -500px}
+ .IBCDToolPagerNextRight1{background-position:right -500px}
+ .IBCDToolPagerNextBottom1{background-position:center -480px}
+.IBCDToolPagerLast{background-position:center -594px}
+ .IBCDToolPagerLastLeft{background-position:left -600px}
+ .IBCDToolPagerLastRight{background-position:right -600px}
+ .IBCDToolPagerLastBottom{background-position:center -580px}
+.IBCDToolPagerLast1{background-position:center -694px}
+ .IBCDToolPagerLastLeft1{background-position:left -700px}
+ .IBCDToolPagerLastRight1{background-position:right -700px}
+ .IBCDToolPagerLastBottom1{background-position:center -680px}
+.IBCDToolCorrect{background-position:center 0px}
+ .IBCDToolCorrectLeft{background-position:left 0px}
+ .IBCDToolCorrectRight{background-position:right 0px}
+ .IBCDToolCorrectBottom{background-position:center 20px}
+.IBCDToolCorrect1{background-position:center -100px}
+ .IBCDToolCorrectLeft1{background-position:left -100px}
+ .IBCDToolCorrectRight1{background-position:right -100px}
+ .IBCDToolCorrectBottom1{background-position:center -80px}
+.IBCDToolZoomIn{background-position:center -200px}
+ .IBCDToolZoomInLeft{background-position:left -200px}
+ .IBCDToolZoomInRight{background-position:right -200px}
+ .IBCDToolZoomInBottom{background-position:center -180px}
+.IBCDToolZoomIn1{background-position:center -300px}
+ .IBCDToolZoomInLeft1{background-position:left -300px}
+ .IBCDToolZoomInRight1{background-position:right -300px}
+ .IBCDToolZoomInBottom1{background-position:center -280px}
+.IBCDToolZoomOut{background-position:center -400px}
+ .IBCDToolZoomOutLeft{background-position:left -400px}
+ .IBCDToolZoomOutRight{background-position:right -400px}
+ .IBCDToolZoomOutBottom{background-position:center -380px}
+.IBCDToolZoomOut1{background-position:center -500px}
+ .IBCDToolZoomOutLeft1{background-position:left -500px}
+ .IBCDToolZoomOutRight1{background-position:right -500px}
+ .IBCDToolZoomOutBottom1{background-position:center -480px}
+.IBCDToolZoomFit{background-position:center -600px}
+ .IBCDToolZoomFitLeft{background-position:left -600px}
+ .IBCDToolZoomFitRight{background-position:right -600px}
+ .IBCDToolZoomFitBottom{background-position:center -580px}
+.IBCDToolLeft,.IBCDToolCenter,.IBCDToolRight,.IBCDToolTop,.IBCDToolMiddle,.IBCDToolBottom,.IBCDToolBold,.IBCDToolItalic,.IBCDToolUnderline,.IBCDToolStrike,.IBCDToolRotateLeft,.IBCDToolRotateRight,.IBCDToolWrapText{background-image:url(./imgs/ToolbarSheet.png?v120);-background-image:url(./imgs/ToolbarSheet.gif?v120);background-repeat:no-repeat;}
+.IBCDToolLeft1,.IBCDToolCenter1,.IBCDToolRight1,.IBCDToolTop1,.IBCDToolMiddle1,.IBCDToolBottom1,.IBCDToolBold1,.IBCDToolItalic1,.IBCDToolUnderline1,.IBCDToolStrike1,.IBCDToolRotateLeft1,.IBCDToolRotateRight1,.IBCDToolWrapText1{background-image:url(./imgs/ToolbarSheet.png?v120);-background-image:url(./imgs/ToolbarSheet.gif?v120);background-repeat:no-repeat;background-color:#8DB4FF;}
+.IBCDToolLeft,.IBCDToolLeft1{background-position:center 0px}
+ .IBCDToolLeftLeft,.IBCDToolLeftLeft1{background-position:left 0px}
+ .IBCDToolLeftRight,.IBCDToolLeftRight1{background-position:right 0px}
+ .IBCDToolLeftBottom,.IBCDToolLeftBottom1{background-position:center 20px}
+.IBCDToolCenter,.IBCDToolCenter1{background-position:center -100px}
+ .IBCDToolCenterLeft,.IBCDToolCenterLeft1{background-position:left -100px}
+ .IBCDToolCenterRight,.IBCDToolCenterRight1{background-position:right -100px}
+ .IBCDToolCenterBottom,.IBCDToolCenterBottom1{background-position:center -80px}
+.IBCDToolRight,.IBCDToolRight1{background-position:center -200px}
+ .IBCDToolRightLeft,.IBCDToolRightLeft1{background-position:left -200px}
+ .IBCDToolRightRight,.IBCDToolRightRight1{background-position:right -200px}
+ .IBCDToolRightBottom,.IBCDToolRightBottom1{background-position:center -180px}
+.IBCDToolTop,.IBCDToolTop1{background-position:center -300px}
+ .IBCDToolTopLeft,.IBCDToolTopLeft1{background-position:left -300px}
+ .IBCDToolTopRight,.IBCDToolTopRight1{background-position:right -300px}
+ .IBCDToolTopBottom,.IBCDToolTopBottom1{background-position:center -280px}
+.IBCDToolMiddle,.IBCDToolMiddle1{background-position:center -400px}
+ .IBCDToolMiddleLeft,.IBCDToolMiddleLeft1{background-position:left -400px}
+ .IBCDToolMiddleRight,.IBCDToolMiddleRight1{background-position:right -400px}
+ .IBCDToolMiddleBottom,.IBCDToolMiddleBottom1{background-position:center -380px}
+.IBCDToolBottom,.IBCDToolBottom1{background-position:center -500px}
+ .IBCDToolBottomLeft,.IBCDToolBottomLeft1{background-position:left -500px}
+ .IBCDToolBottomRight,.IBCDToolBottomRight1{background-position:right -500px}
+ .IBCDToolBottomBottom,.IBCDToolBottomBottom1{background-position:center -480px}
+.IBCDToolBold,.IBCDToolBold1{background-position:center -600px}
+ .IBCDToolBoldLeft,.IBCDToolBoldLeft1{background-position:left -600px}
+ .IBCDToolBoldRight,.IBCDToolBoldRight1{background-position:right -600px}
+ .IBCDToolBoldBottom,.IBCDToolBoldBottom1{background-position:center -580px}
+.IBCDToolItalic,.IBCDToolItalic1{background-position:center -700px}
+ .IBCDToolItalicLeft,.IBCDToolItalicLeft1{background-position:left -700px}
+ .IBCDToolItalicRight,.IBCDToolItalicRight1{background-position:right -700px}
+ .IBCDToolItalicBottom,.IBCDToolItalicBottom1{background-position:center -680px}
+.IBCDToolUnderline,.IBCDToolUnderline1{background-position:center -800px}
+ .IBCDToolUnderlineLeft,.IBCDToolUnderlineLeft1{background-position:left -800px}
+ .IBCDToolUnderlineRight,.IBCDToolUnderlineRight1{background-position:right -800px}
+ .IBCDToolUnderlineBottom,.IBCDToolUnderlineBottom1{background-position:center -780px}
+.IBCDToolStrike,.IBCDToolStrike1{background-position:center -900px}
+ .IBCDToolStrikeLeft,.IBCDToolStrikeLeft1{background-position:left -900px}
+ .IBCDToolStrikeRight,.IBCDToolStrikeRight1{background-position:right -900px}
+ .IBCDToolStrikeBottom,.IBCDToolStrikeBottom1{background-position:center -880px}
+.IBCDToolRotateLeft,.IBCDToolRotateLeft1{background-position:center -1000px}
+ .IBCDToolRotateLeftLeft,.IBCDToolRotateLeftLeft1{background-position:left -1000px}
+ .IBCDToolRotateLeftRight,.IBCDToolRotateLeftRight{background-position:right -1000px}
+ .IBCDToolRotateLeftBottom,.IBCDToolRotateLeftBottom1{background-position:center -980px}
+.IBCDToolRotateRight,.IBCDToolRotateRight1{background-position:center -1100px}
+ .IBCDToolRotateRightLeft,.IBCDToolRotateRightLeft1{background-position:left -1100px}
+ .IBCDToolRotateRightRight,.IBCDToolRotateRightRight1{background-position:right -1100px}
+ .IBCDToolRotateRightBottom,.IBCDToolRotateRightBottom1{background-position:center -1080px}
+.IBCDToolWrapText,.IBCDToolWrapText1{background-position:center -1200px}
+ .IBCDToolWrapTextLeft,.IBCDToolWrapTextLeft1{background-position:left -1200px}
+ .IBCDToolWrapTextRight,.IBCDToolWrapTextRight{background-position:right -1200px}
+ .IBCDToolWrapTextBottom.IBCDToolWrapTextBottom1{background-position:center -1180px}
+.IBCDToolColorText,.IBCDToolColorBackground,.IBCDToolBorder,.IBCDToolBorderAll,.IBCDToolBorderI3,.IBCDToolBorderI2,.IBCDToolBorderI1,.IBCDToolBorderO15,.IBCDToolBorderO1,.IBCDToolBorderO2,.IBCDToolBorderO4,.IBCDToolBorderO8,.IBCDToolBorderO5,.IBCDToolBorderO10,.IBCDToolColorShadow{background-image:url(./imgs/ToolbarSheetWide.png?v120);-background-image:url(./imgs/ToolbarSheetWide.gif?v120);background-repeat:no-repeat;}
+.IBCDToolColorText{background-position:center 0px}
+ .IBCDToolColorTextLeft{background-position:left 0px}
+ .IBCDToolColorTextRight{background-position:right 0px}
+ .IBCDToolColorTextBottom{background-position:center 20px}
+.IBCDToolColorBackground{background-position:center -100px}
+ .IBCDToolColorBackgroundLeft{background-position:left -100px}
+ .IBCDToolColorBackgroundRight{background-position:right -100px}
+ .IBCDToolColorBackgroundBottom{background-position:center -80px}
+.IBCDToolBorder{background-position:center -200px}
+ .IBCDToolBorderLeft{background-position:left -200px}
+ .IBCDToolBorderRight{background-position:right -200px}
+ .IBCDToolBorderBottom{background-position:center -180px}
+.IBCDToolBorderAll{background-position:center -300px}
+ .IBCDToolBorderAllLeft{background-position:left -300px}
+ .IBCDToolBorderAllRight{background-position:right -300px}
+ .IBCDToolBorderAllBottom{background-position:center -280px}
+.IBCDToolBorderO15{background-position:center -400px}
+ .IBCDToolBorderO15Left{background-position:left -400px}
+ .IBCDToolBorderO15Right{background-position:right -400px}
+ .IBCDToolBorderO15Bottom{background-position:center -380px}
+.IBCDToolBorderI3{background-position:center -500px}
+ .IBCDToolBorderI3Left{background-position:left -500px}
+ .IBCDToolBorderI3Right{background-position:right -500px}
+ .IBCDToolBorderI3Bottom{background-position:center -480px}
+.IBCDToolBorderI2{background-position:center -600px}
+ .IBCDToolBorderI2Left{background-position:left -600px}
+ .IBCDToolBorderI2Right{background-position:right -600px}
+ .IBCDToolBorderI2Bottom{background-position:center -580px}
+.IBCDToolBorderI1{background-position:center -700px}
+ .IBCDToolBorderI1Left{background-position:left -700px}
+ .IBCDToolBorderI1Right{background-position:right -700px}
+ .IBCDToolBorderI1Bottom{background-position:center -680px}
+.IBCDToolBorderO1{background-position:center -800px}
+ .IBCDToolBorderO1Left{background-position:left -800px}
+ .IBCDToolBorderO1Right{background-position:right -800px}
+ .IBCDToolBorderO1Bottom{background-position:center -780px}
+.IBCDToolBorderO2{background-position:center -900px}
+ .IBCDToolBorderO2Left{background-position:left -900px}
+ .IBCDToolBorderO2Right{background-position:right -900px}
+ .IBCDToolBorderO2Bottom{background-position:center -880px}
+.IBCDToolBorderO4{background-position:center -1000px}
+ .IBCDToolBorderO4Left{background-position:left -1000px}
+ .IBCDToolBorderO4Right{background-position:right -1000px}
+ .IBCDToolBorderO4Bottom{background-position:center -980px}
+.IBCDToolBorderO8{background-position:center -1100px}
+ .IBCDToolBorderO8Left{background-position:left -1100px}
+ .IBCDToolBorderO8Right{background-position:right -1100px}
+ .IBCDToolBorderO8Bottom{background-position:center -1080px}
+.IBCDToolBorderO5{background-position:center -1200px}
+ .IBCDToolBorderO5Left{background-position:left -1200px}
+ .IBCDToolBorderO5Right{background-position:right -1200px}
+ .IBCDToolBorderO5Bottom{background-position:center -1180px}
+.IBCDToolBorderO10{background-position:center -1300px}
+ .IBCDToolBorderO10Left{background-position:left -1300px}
+ .IBCDToolBorderO10Right{background-position:right -1300px}
+ .IBCDToolBorderO10Bottom{background-position:center -1280px}
+.IBCDToolColorShadow{background-position:center -1400px}
+.IBCDToolColorShadowLeft{background-position:left -1400px}
+ .IBCDToolColorShadowRight{background-position:right -1400px}
+ .IBCDToolColorShadowBottom{background-position:center -1380px}
+.IBCDToolResize{visibility:hidden}
+.IBCDToolImage{display:inline-block;width:24px;height:21px;padding:0px;overflow:hidden}
+.IBCDToolImageLeftText,.IBCDToolImageRightText,.IBCDToolImageTopText,.IBCDToolImageBottomText{display:inline-block;text-decoration:none}
+.IBCDToolImageLeftText{padding-top:5px;padding-bottom:3px}
+.IBCDToolImageRightText{padding-top:5px;padding-bottom:3px}
+.IBCDToolImageTopText{height:13px}
+.IBCDToolImageBottomText{height:13px;padding-top:5px;padding-bottom:24px}
+.IBCDToolIconSingle{background-position:center center}
+.IBCDToolIconLeft{background-position:left center}
+.IBCDToolIconRight{background-position:right center}
+.IBCDToolIconTop{background-position:center top}
+.IBCDToolIconBottom{background-position:center bottom}
+.IBCDPagerEdit > div{text-align:center}
+.IBCDResizeSheet{background-position:-2px -2703px;margin:-19px 0px 0px auto;height:19px;width:19px;overflow:hidden;padding:0px;cursor:nw-resize;position:relative}
+.IBCDResizeSheetRtl{background-position:-2px -2803px;margin:-19px auto 0px 0px;height:19px;width:19px;overflow:hidden;padding:0px;cursor:ne-resize;position:relative}
+.IBCDFilter0Left,.IBCDFilter1Left,.IBCDFilter2Left,.IBCDFilter3Left,.IBCDFilter4Left,.IBCDFilter5Left,.IBCDFilter6Left,.IBCDFilter7Left,.IBCDFilter8Left,.IBCDFilter9Left,.IBCDFilter10Left,.IBCDFilter11Left,.IBCDFilter12Left{background-image:url(./imgs/Filter.gif?v120);background-repeat:no-repeat;padding-left:17px;}
+.IBCDFilter0Right,.IBCDFilter1Right,.IBCDFilter2Right,.IBCDFilter3Right,.IBCDFilter4Right,.IBCDFilter5Right,.IBCDFilter6Right,.IBCDFilter7Right,.IBCDFilter8Right,.IBCDFilter9Right,.IBCDFilter10Right,.IBCDFilter11Right,.IBCDFilter12Right{background-image:url(./imgs/Filter.gif?v120);background-repeat:no-repeat;padding-right:17px;}
+.IBCDFilter0Left,.IBCDFilter0Menu{background-position:left 0px}
+.IBCDFilter1Left,.IBCDFilter1Menu{background-position:left -150px}
+.IBCDFilter2Left,.IBCDFilter2Menu{background-position:left -300px}
+.IBCDFilter3Left,.IBCDFilter3Menu{background-position:left -450px}
+.IBCDFilter4Left,.IBCDFilter4Menu{background-position:left -600px}
+.IBCDFilter5Left,.IBCDFilter5Menu{background-position:left -750px}
+.IBCDFilter6Left,.IBCDFilter6Menu{background-position:left -900px}
+.IBCDFilter7Left,.IBCDFilter7Menu{background-position:left -1050px}
+.IBCDFilter8Left,.IBCDFilter8Menu{background-position:left -1200px}
+.IBCDFilter9Left,.IBCDFilter9Menu{background-position:left -1350px}
+.IBCDFilter10Left,.IBCDFilter10Menu{background-position:left -1500px}
+.IBCDFilter11Left,.IBCDFilter11Menu{background-position:left -1650px}
+.IBCDFilter12Left,.IBCDFilter12Menu{background-position:left -1800px}
+.IBCDFilter0Right{background-position:right 0px}
+.IBCDFilter1Right{background-position:right -150px}
+.IBCDFilter2Right{background-position:right -300px}
+.IBCDFilter3Right{background-position:right -450px}
+.IBCDFilter4Right{background-position:right -600px}
+.IBCDFilter5Right{background-position:right -750px}
+.IBCDFilter6Right{background-position:right -900px}
+.IBCDFilter7Right{background-position:right -1050px}
+.IBCDFilter8Right{background-position:right -1200px}
+.IBCDFilter9Right{background-position:right -1350px}
+.IBCDFilter10Right{background-position:right -1500px}
+.IBCDFilter11Right{background-position:right -1650px}
+.IBCDFilter12Right{background-position:right -1800px}
+.IBCDFilter0Menu,.IBCDFilter1Menu,.IBCDFilter2Menu,.IBCDFilter3Menu,.IBCDFilter4Menu,.IBCDFilter5Menu,.IBCDFilter6Menu,.IBCDFilter7Menu,.IBCDFilter8Menu,.IBCDFilter9Menu,.IBCDFilter10Menu,.IBCDFilter11Menu,.IBCDFilter12Menu{width:17px;height:17px;overflow:hidden;background-image:url(./imgs/Filter.gif?v120);background-repeat:no-repeat;margin-left:-1px;}
+.IBCDFilter0Value{color:silver}
+.IBCDFilter1Value,.IBCDFilter2Value,.IBCDFilter3Value,.IBCDFilter4Value,.IBCDFilter5Value,.IBCDFilter6Value,.IBCDFilter7Value,.IBCDFilter8Value,.IBCDFilter9Value,.IBCDFilter10Value,.IBCDFilter11Value,.IBCDFilter12Value{color:blue}
+.IBCDSort0Left,.IBCDSort1Left,.IBCDSort2Left,.IBCDSort3Left,.IBCDSort4Left,.IBCDSort5Left,.IBCDSort6Left,.IBCDSort0Right,.IBCDSort1Right,.IBCDSort2Right,.IBCDSort3Right,.IBCDSort4Right,.IBCDSort5Right,.IBCDSort6Right{background-image:url(./imgs/Sort.gif?v120);background-repeat:no-repeat;}
+.IBCDSort0Left,.IBCDSort1Left,.IBCDSort2Left,.IBCDSort3Left,.IBCDSort4Left,.IBCDSort5Left,.IBCDSort6Left{padding-left:17px}
+.IBCDSort0Right,.IBCDSort1Right,.IBCDSort2Right,.IBCDSort3Right,.IBCDSort4Right,.IBCDSort5Right,.IBCDSort6Right{padding-right:17px}
+.IBCDSort0Left{background-position:left 0px}
+.IBCDSort1Left{background-position:left -250px}
+.IBCDSort2Left{background-position:left -500px}
+.IBCDSort3Left{background-position:left -750px}
+.IBCDSort4Left{background-position:left -1000px}
+.IBCDSort5Left{background-position:left -1250px}
+.IBCDSort6Left{background-position:left -1500px}
+.IBCDSort0Right{background-position:right 0px}
+.IBCDSort1Right{background-position:right -250px}
+.IBCDSort2Right{background-position:right -500px}
+.IBCDSort3Right{background-position:right -750px}
+.IBCDSort4Right{background-position:right -1000px}
+.IBCDSort5Right{background-position:right -1250px}
+.IBCDSort6Right{background-position:right -1500px}
+.IBCDDateLeft,.IBCDDatesLeft,.IBCDDefaultsLeft,.IBCDEnumLeft,.IBCDCollapseLeft,.IBCDExpandLeft,.IBCDFileLeft,.IBCDClearLeft{background-image:url(./imgs/Button.gif?v120);padding-left:17px;background-repeat:no-repeat}
+.IBCDDateRight,.IBCDDatesRight,.IBCDDefaultsRight,.IBCDEnumRight,.IBCDCollapseRight,.IBCDExpandRight,.IBCDFileRight,.IBCDClearRight{background-image:url(./imgs/Button.gif?v120);padding-right:17px;background-repeat:no-repeat}
+.IBCDDateTop,.IBCDDatesTop,.IBCDDefaultsTop,.IBCDEnumTop,.IBCDCollapseTop,.IBCDExpandTop,.IBCDFileTop,.IBCDClearTop{background-image:url(./imgs/Button.gif?v120);padding-top:20px;background-repeat:no-repeat}
+.IBCDDateBottom,.IBCDDatesBottom,.IBCDDefaultsBottom,.IBCDEnumBottom,.IBCDCollapseBottom,.IBCDExpandBottom,.IBCDFileBottom,.IBCDClearBottom{background-image:url(./imgs/Button.gif?v120);padding-bottom:20px;background-repeat:no-repeat}
+.IBCDDateLeft,.IBCDDatesLeft{background-position:left -250px;padding-left:20px}
+.IBCDDateRight,.IBCDDatesRight{background-position:right -248px;padding-right:20px}
+.IBCDDateTop,.IBCDDatesTop{background-position:center -250px}
+.IBCDDateBottom,.IBCDDatesBottom{background-position:center -230px}
+.IBCDDefaultsLeft{background-position:left 0px;padding-left:20px}
+.IBCDDefaultsRight{background-position:right 0px;padding-right:20px}
+.IBCDDefaultsTop{background-position:center 0px}
+.IBCDDefaultsBottom{background-position:center 20px}
+.IBCDEnumLeft{background-position:left -498px}
+.IBCDEnumRight{background-position:right -500px}
+.IBCDEnumTop{background-position:center -500px}
+.IBCDEnumBottom{background-position:center -480px}
+.IBCDExpandLeft{background-position:left -1000px}
+.IBCDExpandRight{background-position:right -1000px}
+.IBCDExpandTop{background-position:center -1000px}
+.IBCDExpandBottom{background-position:center -980px}
+.IBCDCollapseLeft{background-position:left -750px}
+.IBCDCollapseRight{background-position:right -750px}
+.IBCDCollapseTop{background-position:center -750px}
+.IBCDCollapseBottom{background-position:center -730px}
+.IBCDFileLeft{background-position:left -2000px;padding-left:20px}
+.IBCDFileRight{background-position:right -2000px;padding-right:20px}
+.IBCDFileTop{background-position:center -2000px}
+.IBCDFileBottom{background-position:center -1980px}
+.IBCDClearLeft{background-position:left -2250px}
+.IBCDClearRight{background-position:right -2250px}
+.IBCDClearTop{background-position:center -2250px}
+.IBCDClearBottom{background-position:center -1230px}
+.IBCDCheck0Left,.IBCDCheck1Left,.IBCDCheck2Left{background-image:url(./imgs/Bool.gif?v120);padding-left:17px;background-repeat:no-repeat}
+.IBCDCheck0Right,.IBCDCheck1Right,.IBCDCheck2Right{background-image:url(./imgs/Bool.gif?v120);padding-right:17px;background-repeat:no-repeat}
+.IBCDCheck0Center,.IBCDCheck1Center,.IBCDCheck2Center{background-image:url(./imgs/Bool.gif?v120);padding-right:17px;background-repeat:no-repeat}
+.IBCDCheck0Top,.IBCDCheck1Top,.IBCDCheck2Top{background-image:url(./imgs/Bool.gif?v120);padding-top:20px;background-repeat:no-repeat}
+.IBCDCheck0Bottom,.IBCDCheck1Bottom,.IBCDCheck2Bottom{background-image:url(./imgs/Bool.gif?v120);padding-bottom:20px;background-repeat:no-repeat}
+.IBCDCheck0Left{background-position:left 0px}
+.IBCDCheck1Left{background-position:left -250px}
+.IBCDCheck2Left{background-position:left -500px}
+.IBCDCheck0Center{background-position:center 0px}
+.IBCDCheck1Center{background-position:center -250px}
+.IBCDCheck2Center{background-position:center -500px}
+.IBCDCheck0Right{background-position:right 0px}
+.IBCDCheck1Right{background-position:right -250px}
+.IBCDCheck2Right{background-position:right -500px}
+.IBCDCheck0Top{background-position:center 0px}
+.IBCDCheck1Top{background-position:center -250px}
+.IBCDCheck2Top{background-position:center -500px}
+.IBCDCheck0Bottom{background-position:center 20px}
+.IBCDCheck1Bottom{background-position:center -230px}
+.IBCDCheck2Bottom{background-position:center -480px}
+.IBCDButtonImage{display:inline-block;height:17px;padding-left:0px;padding-right:0px}
+.IBCDIconLink{text-decoration:none;width:1000px;display:inline-block}
+.IBCDIconLeft{background-position:left 10px;padding-left:20px;background-size:14px 14px;background-repeat:no-repeat}
+.IBCDIconRight{background-position:right 10px;padding-right:20px;background-size:14px 14px;background-repeat:no-repeat}
+.IBCDIconCenter{background-position:center 0px;background-repeat:no-repeat}
+.IBCDIconTop{padding-top:20px;background-position:center 0px;background-repeat:no-repeat}
+.IBCDIconBottom{padding-bottom:21px;background-position:center 20px;background-repeat:no-repeat}
+.IBCDIconTopVAlignTop{padding-top:20px}
+.IBCDIconTopVAlignMiddle{padding-top:21px}
+.IBCDIconTopVAlignBottom{padding-top:22px}
+.IBCDIconBottomVAlignTop{padding-bottom:22px}
+.IBCDIconBottomVAlignMiddle{padding-bottom:21px}
+.IBCDIconBottomVAlignBottom{padding-bottom:21px}
+.IBCDRadio0Left,.IBCDRadio0Right,.IBCDRadio1Left,.IBCDRadio1Right,.IBCDRadio2Left,.IBCDRadio2Right,.IBCDRadio3Left,.IBCDRadio3Right,.IBCDRadioIconLeft,.IBCDRadioIconRight,.IBCDRadioNone{background-image:url(./imgs/Bool.gif?v120);background-repeat:no-repeat;font:11.9px/17px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;}
+.IBCDRadio0Left,.IBCDRadio1Left,.IBCDRadio2Left,.IBCDRadio3Left,.IBCDRadioIconLeft{padding-left:17px;padding-right:3px}
+.IBCDRadio0Right,.IBCDRadio1Right,.IBCDRadio2Right,.IBCDRadio3Right,.IBCDRadioIconRight{padding-right:17px;padding-left:3px}
+.IBCDRadio0Left{background-position:left -1504px}
+.IBCDRadio1Left{background-position:left -1753px}
+.IBCDRadio2Left{background-position:left -5px}
+.IBCDRadio3Left{background-position:left -250px}
+.IBCDRadio0Right{background-position:right -1504px}
+.IBCDRadio1Right{background-position:right -1753px}
+.IBCDRadio2Right{background-position:right 0px}
+.IBCDRadio3Right{background-position:right -250px}
+.IBCDRadioNone{background-image:none}
+.IBCDRadioIconLeft{background-position:left top}
+.IBCDRadioIconRight{background-position:right top}
+nobr.IBCDRadio0Left,nobr.IBCDRadio1Left,nobr.IBCDRadio2Left,nobr.IBCDRadio3Left,nobr.IBCDRadio0Right,nobr.IBCDRadio1Right,nobr.IBCDRadio2Right,nobr.IBCDRadio3Right,nobr.IBCDRadioIconLeft,nobr.IBCDRadioIconRight,span.IBCDRadio0Left,span.IBCDRadio1Left,span.IBCDRadio2Left,span.IBCDRadio3Left,span.IBCDRadio0Right,span.IBCDRadio1Right,span.IBCDRadio2Right,span.IBCDRadio3Right,span.IBCDRadioIconLeft,span.IBCDRadioIconRight{padding-top:2px;padding-bottom:2px;}
+.IBCDRadioCell{white-space:nowrap}
+.IBCDRadioInput{margin:1px 2px 0px 2px;padding:0px;margin-top:-4px!IE;line-height:13px}
+.IBCDRadioText{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+nobr.IBCDRadioCell,span.IBCDRadioCell{display:inline-block}
+.IBCDRadioChecked{color:blue}
+.IBCDBool0,.IBCDBool1,.IBCDBoolX,.IBCDBool1RO,.IBCDBool1RO,.IBCDBoolXRO,.IBCDBool2,.IBCDBool3,.IBCDBool2RO,.IBCDBool3RO{background-image:url(./imgs/Bool.gif?v120);background-repeat:no-repeat;padding-left:17px}
+.IBCDBoolIcon{background-repeat:no-repeat}
+.IBCDBool0{background-position:center 0px}
+.IBCDBool1{background-position:center -250px}
+.IBCDBoolX{background-position:center -500px}
+.IBCDBool0RO{background-position:center -750px}
+.IBCDBool1RO{background-position:center -1000px}
+.IBCDBoolXRO{background-position:center -1250px}
+.IBCDBool2,.IBCDBool2RO{background-position:center -1500px}
+.IBCDBool3,.IBCDBool3RO{background-position:center -1750px}
+.IBCDBool0.IBCDBoolImage{background-position:center -5px}
+.IBCDBool1.IBCDBoolImage{background-position:center -253px}
+.IBCDBoolX.IBCDBoolImage{background-position:center -503px}
+.IBCDBool0RO.IBCDBoolImage{background-position:center -755px}
+.IBCDBool1RO.IBCDBoolImage{background-position:center -1005px}
+.IBCDBoolXRO.IBCDBoolImage{background-position:center -1255px}
+.IBCDBool2.IBCDBoolImage,.IBCDBool2RO.IBCDBoolImage{background-position:center -1503px}
+.IBCDBool3.IBCDBoolImage,.IBCDBool3RO.IBCDBoolImage{background-position:center -1753px}
+.IBCDBoolImage{display:inline-block;width:17px;height:17px;overflow:hidden;padding:0px}
+.IBCDBoolXSpace,.IBCDBool0Space,.IBCDBool1Space,.IBCDBoolXSpaceRO,.IBCDBool0SpaceRO,.IBCDBool1SpaceRO{background-image:url(./imgs/BoolSpace.gif?v120);background-repeat:no-repeat;padding-left:18px}
+.IBCDBool2Space,.IBCDBool3Space,.IBCDBool2SpaceRO,.IBCDBool3SpaceRO{background-image:url(./imgs/Bool.gif?v120);background-repeat:no-repeat;padding-left:18px}
+.IBCDBoolIconSpace{background-repeat:no-repeat}
+.IBCDBool0Space{background-position:center 1px}
+.IBCDBool1Space{background-position:center -249px}
+.IBCDBoolXSpace{background-position:center -499px}
+.IBCDBool0SpaceRO{background-position:center -749px}
+.IBCDBool1SpaceRO{background-position:center -999px}
+.IBCDBoolXSpaceRO{background-position:center -1249px}
+.IBCDBool2Space,.IBCDBool2SpaceRO{background-position:center -1497px}
+.IBCDBool3Space,.IBCDBool3SpaceRO{background-position:center -1747px}
+.IBCDBoolImageSpace{display:inline-block;width:18px;height:21px;overflow:hidden;padding:0px}
+.IBCDBoolInput{margin-top:2px;margin-bottom:0px;padding:0px;margin-top:-2px!IE;margin-bottom:-6px!IE}
+.IBCDBoolInputSpace{margin-top:5px;margin-bottom:3px;padding:0px;margin-top:1px!IE;margin-bottom:1px!IE}
+.IBCDBoolChar0,.IBCDBoolChar1,.IBCDBoolChar2,.IBCDBoolChar0RO,.IBCDBoolChar1RO,.IBCDBoolChar2RO{height:9px;width:8px;border:2px ridge white;margin:2px auto 2px auto;font:bold 9px Arial;color:blue;text-align:center;overflow:hidden;}
+.IBCDBoolChar2{color:green}
+.IBCDBoolChar0RO,.IBCDBoolChar1RO,.IBCDBoolChar2RO{color:gray}
+.IBCDBoolCharIE{height:14px;width:12px}
+.IBCDPagerMain{overflow:hidden;white-space:nowrap}
+.IBCDPagerBody{background:#E8F4FF}
+.IBCDPagerBodyLeft{border-right:1px solid #c0c0ff}
+.IBCDPagerBodyRight{border-left:1px solid #c0c0ff}
+.IBCDPagerHeader{background:#FFF;border-bottom:1px solid #E8F4FF;cursor:default}
+.IBCDPagerHeaderLeft{border-right:1px solid #d0d0c0}
+.IBCDPagerHeaderRight{border-left:1px solid #d0d0c0}
+.IBCDPagerCaption{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:white;padding:5px 3px 4px 3px;white-space:nowrap}
+.IBCDPagerItem{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;overflow:hidden;white-space:nowrap;border-top:1px solid white;border-bottom:1px solid #e0e0ff;padding:0px 3px 0px 3px;}
+.IBCDPagerItemTouch{padding-top:4px;padding-bottom:4px}
+.IBCDPagerItemUsed{color:green}
+.IBCDPagerItemUnused{color:#888}
+.IBCDPagerItemExcluded{background:#DDD}
+.IBCDPagerSort1{color:#006600}
+.IBCDPagerSort2{color:#00AE00}
+.IBCDPagerSort3{color:#00FF00}
+.IBCDPagerSep1,.IBCDPagerSep2,.IBCDPagerSep3{color:black}
+.IBCDPagerFocus,.IBCDPagerFocus2,.IBCDPagerFocus3{position:relative;cursor:pointer;overflow:hidden;opacity:0.3;filter:alpha(opacity=30);border:1px solid black;background:#0FF;}
+.IBCDPagerFocus2{background:#F0F}
+.IBCDPagerFocus3{background:#AFA}
+.IBCDPagerHover{position:relative;cursor:pointer;overflow:hidden;background:#66F;opacity:0.2;filter:alpha(opacity=20);}
+.IBCDColorDefault{background-color:#FFFFFF}
+ .IBCDColorNoFocus{background-color:#E8F4FF}
+ .IBCDColorReadOnly{background-color:#F4F4F4}
+ .IBCDColorPreview{background-color:#FFFFFF}
+ .IBCDColorFormula{background-color:transparent}
+ .IBCDColorEdit{background-color:#FFFFFF}
+ .IBCDColorAlternate{background-color:#E6EAEF}
+  .IBCDColorSelected{background-color:#e5eefc}
+ .IBCDClassSelected{color:red}
+ .IBCDColorSelectedCell{background-color:#e5eefc}
+ .IBCDClassSelectedCell{color:red}
+ .IBCDColorFill{background-color:#FF80FF}
+ .IBCDColorError{background-color:#FF6969}
+ .IBCDColorDeleted{background-color:#ffe4e7}
+ .IBCDClassDeleted{font-style:italic}
+.IBCDColorAdded{background-color:#e0faf8}
+ .IBCDClassAdded{font-weight:bold}
+.IBCDColorMoved1{background-color:#FFFFFF}
+ .IBCDColorMoved2{background-color:#D7EBEB}
+ .IBCDColorChanged{background-color:#fefceb}
+ .IBCDColorChangedCell{background-color:#fefceb}
+ .IBCDClassChangedCell{font-weight:bold}
+.IBCDColorMaxChildren{background-color:#FFFFF0}
+ .IBCDColorDetail{background-color:#FFF0FF}
+ .IBCDColorDetailSelected{background-color:#FFF0E0}
+ .IBCDColorDragged{background-color:#E0E0C0}
+ .IBCDColorCellMenu{background-color:#FA0}
+ .IBCDColorFound1{background-color:#FF87FF}
+  .IBCDColorFound2{background-color:#FFC387}
+  .IBCDColorFound3{background-color:#87FF87}
+   .IBCDColorHovered{background-color:#F0F0FF}
+ .IBCDColorHoveredCell{background-color:#e7f4fb;border:1px solid}
+ .IBCDColorHoveredCellReadOnly{background-color:#F0F0F0}
+ .IBCDColorHoveredCellNoFocus{background-color:#F8F8F8}
+ .IBCDColorHoveredCellHeader{background-color:#48689b}
+ .IBCDColorHoveredCellHeaderIndex{background-color:#e5e5e5}
+.IBCDColorHoveredCellSpace{background-color:#FFFFFF}
+ .IBCDColorHoveredCellSpaceEdit{background-color:#FFFFFF}
+ .IBCDClassHoveredCellSpaceEdit > div{border:1px solid #E80!important}
+.IBCDColorHoveredCellSpaceDefaults{background-color:#FFFFFF}
+ .IBCDClassHoveredCellSpaceDefaults > div{background-position:right -500px!important}
+.IBCDColorHoveredCellSpaceBool0{background-color:#FFFFFE}
+ .IBCDClassHoveredCellSpaceBool0,.IBCDClassHoveredCellSpaceBool0 > u{background-position:center -749px}
+.IBCDColorHoveredCellSpaceBool1{background-color:#FFFFFE}
+ .IBCDClassHoveredCellSpaceBool1,.IBCDClassHoveredCellSpaceBool1 > u{background-position:center -999px}
+.IBCDColorHoveredCellSpaceBoolX{background-color:#FFFFFE}
+ .IBCDClassHoveredCellSpaceBoolX,.IBCDClassHoveredCellSpaceBoolX > u{background-position:center -1249px}
+.IBCDColorHoveredCellSpaceBoolIcon{background-color:#FFFFFE}
+ .IBCDColorHoveredCellButton{background-color:#FFFFFE}
+ .IBCDClassHoveredCellButton{color:green;background-color:#FA0!important}
+.IBCDColorHoveredCellButton1{background-color:#FFFFFE}
+ .IBCDClassHoveredCellButton1{color:red;background-color:#FA0!important}
+.IBCDColorHoveredCellButtonButton{background-color:#FFFFFE}
+ .IBCDClassHoveredCellButtonButton u{background-position:0px -253px}
+.IBCDColorHoveredCellButtonButton1{background-color:#FFFFFE}
+ .IBCDClassHoveredCellButtonButton1 u{background-position:0px -265px}
+.IBCDColorHoveredCellTab{background-color:#FFFFFE}
+ .IBCDClassHoveredCellTab{background:#FA0!important;color:green}
+.IBCDColorHoveredCellTab1{background-color:#99bbcc}
+ .IBCDClassHoveredCellTab1{background-image:none}
+ .IBCDClassHoveredCellIndex{background-position:right -250px}
+.IBCDColorFocused{background-color:#E6E6E6}
+  .IBCDColorFocusedCell,.IBCDColorFocusedCellRelative{border:solid 2px #4aade1;background-color:#fff}
+ .IBCDClassFocusedCell,.IBCDClassFocusedCell *{color:black!important}
+.IBCDColorFocusedCellRect{background-color:#AFC}
+ .IBCDColorEditedCell{background-color:#FFFFFF}
+ .IBCDColorViewedCell{background-color:#FFFFFF}
+ .IBCDColorFocusedCellSafari{background-color:#A0A0FF}
+ .IBCDColorFocusedCellHeader{background-color:#FFFFFE}
+ .IBCDClassFocusedCellHeader{background-position:0px -250px}
+.IBCDColorFocusedCellSpace{background-color:#BCD}
+ .IBCDColorFocusedCellSpaceEdit{background-color:#FFFFFF}
+ .IBCDClassFocusedCellSpaceEdit > div{border:1px solid #E80!important}
+.IBCDColorFocusedCellSpaceDefaults{background-color:#FFFFFF}
+ .IBCDClassFocusedCellSpaceDefaults > div{background-position:right -500px!important}
+.IBCDColorFocusedCellSpaceBool{background-color:#BCD}
+ .IBCDColorFocusedCellButton{background-color:#BCD}
+ .IBCDColorSelectedCol{background-color:#F0F0B0}
+ .IBCDColorSelectedRow{background-color:#F0F0B0}
+.IBCDColorFocusedCol{background-color:#DDD}
+ .IBCDColorFocusedRow{background-color:#DDD}
+.IBCDColorEditedCol{background-color:#DDD}
+ .IBCDColorEditedRow{background-color:#DDD}
+.IBCDColorHoveredCol{background-color:#E5E5FF}
+ .IBCDColorHoveredRow{background-color:#E5E5FF}
+.IBCDHoverRowBackground{opacity:0.1;filter:alpha(opacity=10);border-color:#60b8e6;background-color:#196892}
+.IBCDHoverRowBorder{z-index:1;border-top:1px solid #60b8e6;border-bottom:1px solid #60b8e6;cursor:default}
+.IBCDHoverCellBorder{z-index:3;padding:1px}
+.IBCDFocusRowBackground{opacity:0.1;filter:alpha(opacity=10);border-color:#4aade1;background-color:#2474a0 }
+.IBCDFocusRowBorder{z-index:2;border:1px solid #2d90c5}
+.IBCDFocusCellBorder{z-index:4;border:2px solid #4aade1}
+.IBCDFocusCellSpaceBorder{z-index:4}
+.IBCDFocusCellCorner{position:relative;padding:0px;border:1px solid white;background:#4aade1;margin-left:-3px;margin-top:-5px;width:5px;height:5px;z-index:4;cursor:crosshair}
+.IBCDFocusCellCornerTouch{width:10px;height:10px;margin-left:0px}
+.IBCDEditCellBorder{z-index:4;border:2px solid #2482b4;background-color:#fff}
+.IBCDEditCellSpaceBorder{z-index:4}
+.IBCDEditCellCorner{position:relative;padding:0px;border:1px solid white;background:#FF6666;margin-left:-3px;margin-top:-5px;width:5px;height:5px;z-index:4;cursor:crosshair}
+.IBCDEditCellCornerTouch{width:10px;height:10px;margin-left:0px}
+.IBCDEditCellInput{position:relative;border:none;overflow:hidden;z-index:2;background-color:#FFDCFF;line-height:0px;font-size:0px}
+.IBCDCursorBackground{position:relative;border:none;padding:0px;overflow:hidden}
+.IBCDCursorBorderLeft,.IBCDCursorBorderRight,.IBCDCursorBorderTop,.IBCDCursorBorderBottom{position:relative;overflow:hidden;width:0px;height:0px}
+.IBCDCursorBorderLeft{border-right:none!important;border-top:none!important;border-bottom:none!important;padding-right:0px!important;padding-top:0px!important;padding-bottom:0px!important}
+.IBCDCursorBorderRight{border-left:none!important;border-top:none!important;border-bottom:none!important;padding-left:0px!important;padding-top:0px!important;padding-bottom:0px!important}
+.IBCDCursorBorderTop{border-bottom:none!important;border-left:none!important;border-right:none!important;padding-bottom:0px!important;padding-left:0px!important;padding-right:0px!important}
+.IBCDCursorBorderBottom{border-top:none!important;border-left:none!important;border-right:none!important;padding-top:0px!important;padding-left:0px!important;padding-right:0px!important}
+.IBCDEditInput,.IBCDEditTextarea{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;border:0px none !important;padding:0px 3px 0px 0px !important;outline:none !important;box-sizing:content-box !important;resize:none !important;min-height:0px !important;line-height:18px !important;border-radius:0 !important;transition:none !important;border-color:#FFF !important}
+.IBCDEditInput::-ms-clear{height:13px}
+.IBCDEditNormalInput,.IBCDEditNormalTextarea{background-color:#FFF}
+.IBCDEditHeaderInput,.IBCDEditHeaderTextarea{background-color:#FFF;padding-top:2px;font:11.9px/13px Verdana,Tahoma,"Trebuchet MS",sans-serif}
+.IBCDEditSpaceInput,.IBCDEditSpaceTextarea{background-color:#FFF}
+.IBCDEditInt,.IBCDEditFloat,.IBCDEditDate{text-align:right}
+.IBCDEditReadOnly{background-color:#FFEEFF}
+.IBCDMouseObject{opacity:0.5;filter:alpha(opacity=50);z-index:300;overflow:hidden}
+.IBCDVLine{width:1px;border-left:1px solid black;overflow:hidden;cursor:e-resize}
+.IBCDHLine{height:1px;border-top:1px solid black;overflow:hidden;cursor:e-resize}
+.IBCDDragObject{z-index:300;font:11.9px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;margin-left:15px;margin-top:10px;background:#E4E5F0;border:1px solid #777;padding-left:3px;padding-right:3px;}
+.IBCDDragColInsideTop,.IBCDDragColInsideBottom,.IBCDDragColOutsideTop,.IBCDDragColOutsideBottom,.IBCDDragGanttRunTop,.IBCDDragGanttRunBottom,.IBCDDragGanttRunTopJoin,.IBCDDragGanttRunBottomJoin,.IBCDDragRowLeft,.IBCDDragRowRight{position:absolute;background-image:url(./imgs/Sort.gif?v120);width:11px;height:11px;overflow:hidden;z-index:301;}
+.IBCDDragColInsideTop{background-position:-1px -1753px}
+.IBCDDragColInsideBottom{background-position:-1px -1772px}
+.IBCDDragColOutsideTop{background-position:-1px -1793px}
+.IBCDDragColOutsideBottom{background-position:-1px -1812px}
+.IBCDDragRowLeft{background-position:-2px -1832px}
+.IBCDDragRowRight{background-position:-1px -1852px}
+.IBCDDisabled,.IBCDDisabledHard{position:absolute;z-index:264;background:white;opacity:0;filter:alpha(opacity=0)}
+.IBCDDisabledHard{opacity:0.5;filter:alpha(opacity=50)}
+.IBCDMessage{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;white-space:nowrap;text-align:center;visibility:hidden;z-index:266;position:absolute;left:0px;top:0px;background:#fff;border:1px solid black;padding:10px;}
+.IBCDMessageShadow{position:absolute;left:0px;top:0px;margin-left:3px;margin-top:3px;z-index:265;visibility:hidden;background:#888;opacity:0.5;filter:alpha(opacity=50);}
+.IBCDPageMessage{background:#FAFAFA;border:1px solid black;padding:10px;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+.IBCDProgressMain{font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+.IBCDProgressCaption{font-weight:bold;margin-bottom:15px}
+.IBCDProgressText{margin-bottom:15px}
+.IBCDProgressOuter{text-align:left;width:200px;border:1px solid black;padding:2px;margin-bottom:15px}
+.IBCDProgressInner{height:10px;background:green}
+.IBCDProgressButton,.IBCDMessageButton{border:1px solid #8a8fb5;background:#FFF;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;white-space:nowrap;}
+.IBCDProgressButton{margin:5px 2px 0px 2px;padding-left:10px;padding-right:10px}
+.IBCDMessageButton{margin:10px 3px 0px 3px;width:50px}
+.IBCDMessageButtonHover,.IBCDProgressButtonHover{background:#ffeeaa;border:1px solid #aaaadd}
+.IBCDMenuMain{position:absolute;left:0px;top:0px;z-index:258}
+.IBCDMenuShadow{position:absolute;margin-left:3px;margin-top:3px;z-index:257;background:#888;opacity:0.5;filter:alpha(opacity=50)}
+.IBCDMenuOuter{overflow:hidden;background:white;border:1px solid #6c6c6e;padding:0px}
+.IBCDMenuHeader{overflow:hidden;position:absolute;z-index:258;border:1px solid #b0b0c0;background:white;cursor:pointer;user-select:none;-o-user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;}
+.IBCDMenuHead{background:#183873;padding:3px 0px 4px 0px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;color:white;cursor:default;}
+.IBCDMenuClose{float:right;width:14px;cursor:pointer;display:none;background:url(./imgs/Menu.gif?v120) no-repeat right -354px}
+.IBCDMenuBody{cursor:default;padding-top:1px;padding-bottom:1px}
+.IBCDMenuFoot{border-top:1px solid #8CA9E1;background:#C6DBE9;margin-top:5px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;white-space:nowrap;}
+.IBCDMenuButton{border:1px solid #8a8fb5;background:#dcecf8;width:48px;margin:5px 2px 4px 2px;padding-left:0px;padding-right:0px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;white-space:nowrap;overflow:hidden;}
+.IBCDMenuButtonHover{background:#ffeeaa;border:1px solid #aaaadd}
+.IBCDMenuItem{padding:2px 3px 2px 3px}
+.IBCDMenuItemTouch{padding-top:5px;padding-bottom:5px}
+.IBCDMenuHover{margin-left:1px;margin-right:1px;padding:1px;background:#ffeeaa;border:1px solid #aaaadd}
+.IBCDMenuHoverTouch{padding-top:4px;padding-bottom:4px}
+.IBCDMenuFocus{margin-left:1px;margin-right:1px;padding:1px;background:#f1f1f1;border:1px solid #aaaadd}
+.IBCDMenuFocusTouch{padding-top:4px;padding-bottom:4px}
+.IBCDMenuFocus.IBCDMenuHover{background:#CAE1F3;border:1px solid black}
+.IBCDMenuCheckedIconLeft{background:url(./imgs/Menu.gif?v120) no-repeat -3px -51px;padding-left:15px}
+.IBCDMenuCheckedIconRight{background:url(./imgs/Menu.gif?v120) no-repeat right -51px;padding-right:15px}
+.IBCDMenuUncheckedIconLeft{background:url(./imgs/Menu.gif?v120) no-repeat -3px -1px;padding-left:15px}
+.IBCDMenuUncheckedIconRight{background:url(./imgs/Menu.gif?v120) no-repeat right -1px;padding-right:15px}
+.IBCDMenuCheckedRadioLeft{background:url(./imgs/Menu.gif?v120) no-repeat -3px -751px;padding-left:15px}
+.IBCDMenuCheckedRadioRight{background:url(./imgs/Menu.gif?v120) no-repeat right -751px;padding-right:15px}
+.IBCDMenuUncheckedRadioLeft{background:url(./imgs/Menu.gif?v120) no-repeat -3px -701px;padding-left:15px}
+.IBCDMenuUncheckedRadioRight{background:url(./imgs/Menu.gif?v120) no-repeat right -701px;padding-right:15px}
+.IBCDMenuCheckedColor{background:#CAE1F3}
+.IBCDMenuCursorIcon{background:url(./imgs/Menu.gif?v120) no-repeat -6px -150px}
+.IBCDMenuHoverIcon{background:url(./imgs/Menu.gif?v120) no-repeat -6px -100px}
+.IBCDMenuCursorIconRtl{background:url(./imgs/Menu.gif?v120) no-repeat right -1000px}
+.IBCDMenuHoverIconRtl{background:url(./imgs/Menu.gif?v120) no-repeat right -950px}
+.IBCDMenuExpandedIcon{background:url(./imgs/Menu.gif?v120) no-repeat -6px -200px}
+.IBCDMenuCollapsedIcon{background:url(./imgs/Menu.gif?v120) no-repeat -6px -250px}
+.IBCDMenuNextIcon{background:url(./imgs/Menu.gif?v120) no-repeat right -300px;padding-right:10px}
+.IBCDMenuNextIconRtl{background:url(./imgs/Menu.gif?v120) no-repeat left -900px;padding-left:10px}
+.IBCDMenuItemText,.IBCDMenuItemLeftHtml,.IBCDMenuItemRightHtml{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;white-space:nowrap;overflow:hidden}
+.IBCDMenuA11yItemText{font-size:inherit;line-height:22px;padding-left:2px}
+.IBCDMenuItemIcon{background-repeat:no-repeat}
+.IBCDMenuItemDisabled{opacity:0.70;filter:alpha(opacity=70)}
+.IBCDMenuLevel{color:blue;text-align:center}
+.IBCDMenuEnumParent{padding-left:5px;padding-right:2px}
+.IBCDMenuEnum,.IBCDMenuEnumHeaderLeft{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;white-space:nowrap;overflow:hidden}
+.IBCDMenuEnum{border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;background:white url(./imgs/Menu.gif?v120) no-repeat left -800px;padding-left:15px}
+.IBCDMenuEnumHeaderLeft{background:url(./imgs/Menu.gif?v120) no-repeat left -799px;padding:1px 0px 2px 15px;cursor:default}
+.IBCDMenuEnumParent,.IBCDMenuEnum,.IBCDMenuEnumHeaderLeft{width:90px}
+.IBCDMenuEditParent{padding-left:5px;padding-right:2px}
+.IBCDMenuEdit,.IBCDMenuEditIE{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;background:white;overflow:hidden;white-space:nowrap;border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;padding-left:3px;padding-right:3px;height:13px;}
+.IBCDMenuEditIE{height:15px}
+.IBCDMenuEditParent,.IBCDMenuEdit,.IBCDMenuEditIE{width:30px}
+.IBCDMenuEditParentPDFName,.IBCDMenuEditParentPDFName .IBCDMenuEdit,.IBCDMenuEditParentPDFName .IBCDMenuEditIE,.IBCDMenuEditParentExportName,.IBCDMenuEditParentExportName .IBCDMenuEdit,.IBCDMenuEditParentExportName .IBCDMenuEditIE{width:104px}
+.IBCDMenuEditMulti{white-space:normal}
+.IBCDMenuEditEdit{background:#FDD}
+.IBCDMenuEditInput,.IBCDMenuEditTextarea{font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;border:0px none;margin:0px;padding:0px;outline:none;background:#FDD;box-sizing:content-box;resize:none;}
+.IBCDMenuEditInput::-ms-clear{height:13px}
+.IBCDMenuEditInt,.IBCDMenuEditFloat,.IBCDMenuEditDate{text-align:right}
+.IBCDMenuCaption{padding:16px 2px 8px 2px;color:blue;text-align:center}
+.IBCDMenuSeparator{margin:3px 3px 2px 3px;height:1px;border-top:1px solid #aaaadd;overflow:hidden}
+.IBCDMenuVSeparator{border-right:1px solid #DDD;width:1px}
+.IBCDHelpOuter{overflow:hidden;background:white;border:1px solid #6c6c6e;padding:0px;width:500px;}
+.IBCDHelpClose{float:right;width:14px;cursor:pointer;display:none;background:url(./imgs/Menu.gif?v120) no-repeat right -354px;}
+.IBCDHelpListFold{height:20px;width:20px;background:url(./imgs/TreeNExpand.gif?v120)}
+.IBCDHelpListUnfold{height:20px;width:20px;background:url(./imgs/TreeNExpand.gif?v120)}
+.IBCDHelpCategory:focus{outline:auto;}
+.IBCDHelpListItem:focus{outline:auto;}
+.IBCDFilterMenuMain{margin-left:-4px;margin-top:-2px}
+.IBCDFilterMenuHeaderBottom{margin-left:-4px;margin-top:-2px;padding:2px 2px 0px 4px;border-bottom:0px none}
+.IBCDFilterMenuHeaderTop{margin-left:-4px;margin-top:-2px;padding:1px 2px 1px 4px;border-top:0px none}
+.IBCDFilterMenuShadow{margin-left:-1px}
+.IBCDEnumMenuHeader{background:white}
+.IBCDEnumMenuHeaderBottom{padding-top:1px}
+.IBCDEnumMenuHeaderTop{padding-bottom:1px}
+.IBCDEnumHeaderLeft,.IBCDEnumHeaderRight,.IBCDEnumHeaderNone{background:white;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;padding:2px 4px 2px 2px;white-space:nowrap;cursor:pointer;}
+.IBCDEnumHeaderLeft{background:white url(./imgs/Menu.gif?v120) no-repeat 1px -798px;padding-left:17px}
+.IBCDEnumHeaderRight{background:white url(./imgs/Menu.gif?v120) no-repeat right -798px;padding-right:17px}
+.IBCDToolMenuHeader{border:1px solid #e0e0ff;margin-top:1px}
+.IBCDToolMenuOuter{border:1px solid #e0e0ff;background:#E8F4FF}
+.IBCDToolHeader,.IBCDToolHeaderAbove,.IBCDToolHeaderBelow{border:none;padding:1px 5px 100px 2px}
+.IBCDToolHeaderAbove{padding-top:2px;padding-left:4px}
+.IBCDToolHeaderBelow{padding-top:1px;padding-left:4px}
+.IBCDCfgMenuOuter,.IBCDColumnsMenuOuter{border:1px solid black}
+.IBCDCfgMenuHead,.IBCDColumnsMenuHead{padding-left:3px}
+.IBCDCfgMenuBody,.IBCDColumnsMenuBody{padding-left:4px;padding-right:4px}
+.IBCDCfgMenuFoot,.IBCDColumnsMenuFoot{padding-right:3px;padding-left:3px}
+.IBCDCfgMenuButton{width:72px}
+.IBCDColumnsMenuButton{width:52px}
+.IBCDCfgMenuItemText{padding-left:3px}
+.IBCDColumnsMenuItemText{padding-left:3px;white-space:nowrap}
+.IBCDCfgMenuItem,.IBCDColumnsMenuItem{padding-top:3px;padding-bottom:3px}
+.IBCDCfgMenuHover,.IBCDColumnsMenuHover{padding-top:2px;padding-bottom:2px}
+.IBCDCfgMenuFocus,.IBCDColumnsMenuFocus{padding-top:2px;padding-bottom:2px}
+.IBCDCfgMenuItemTouch,.IBCDColumnsMenuItemTouch{padding-top:6px;padding-bottom:6px}
+.IBCDCfgMenuHoverTouch,.IBCDColumnsMenuHoverTouch{padding-top:5px;padding-bottom:5px}
+.IBCDCfgMenuFocusTouch,.IBCDColumnsMenuFocusTouch{padding-top:5px;padding-bottom:5px}
+.IBCDEditDialogSheetMain .IBCDRowAboveFirst > table .IBCDCellSpace{vertical-align:middle}
+.IBCDEditDialogSheetMain .IBCDRowBelow > table .IBCDCellSpaceButtonButton{vertical-align:middle}
+.IBCDEditDialogSheetMain .IBCDRowAboveFirst > table .IBCDSpaceWidthInner{font:18.0px/18px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif}
+.IBCDEditDialogSheetMain .IBCDMainTable .IBCDHeadMid{border-top:1px solid #cfd1d6;border-bottom:0px solid #cfd1d6}
+.IBCDPopupSheetOuter{border:0px none;overflow:visible}
+.IBCDPopupSheetHead{padding:0px}
+.IBCDPopupSheetBody{padding:0px}
+.IBCDPopupSheetFoot{padding:0px}
+.IBCDPopupSheetButton{width:50px;margin-top:-2px;margin-bottom:3px}
+.IBCDMenuItemBorderStyle{margin-bottom:9px;height:7px;width:50px;border-bottom-color:black}
+.IBCDMenuItemBorderEmpty{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#D4D4D4}
+.IBCDMenuItemBorder0{border-bottom:0px none}
+.IBCDMenuItemBorder1{border-bottom-width:1px;border-bottom-style:solid}
+.IBCDMenuItemBorder2{border-bottom-width:2px;border-bottom-style:solid}
+.IBCDMenuItemBorder3{border-bottom-width:3px;border-bottom-style:solid}
+.IBCDMenuItemBorder4{border-bottom-width:1px;border-bottom-style:dotted}
+.IBCDMenuItemBorder5{border-bottom-width:2px;border-bottom-style:dotted}
+.IBCDMenuItemBorder6{border-bottom-width:1px;border-bottom-style:dashed}
+.IBCDMenuItemBorder7{border-bottom-width:2px;border-bottom-style:dashed}
+.IBCDMenuItemBorderEdge{height:20px;width:24px;background-image:url(./imgs/ToolbarSheetWide.png?v120);-background-image:url(./imgs/ToolbarSheetWide.gif?v120);background-repeat:no-repeat}
+.IBCDMenuItemBorder{background-position:left -200px}
+.IBCDMenuItemBorderAll{background-position:left -300px}
+.IBCDMenuItemBorderO15{background-position:left -400px}
+.IBCDMenuItemBorderI3{background-position:left -500px}
+.IBCDMenuItemBorderI2{background-position:left -600px}
+.IBCDMenuItemBorderI1{background-position:left -700px}
+.IBCDMenuItemBorderO1{background-position:left -800px}
+.IBCDMenuItemBorderO2{background-position:left -900px}
+.IBCDMenuItemBorderO4{background-position:left -1000px}
+.IBCDMenuItemBorderO8{background-position:left -1100px}
+.IBCDMenuItemBorderO5{background-position:left -1200px}
+.IBCDMenuItemBorderO10{background-position:left -1300px}
+.IBCDPickMain{position:absolute;left:0px;top:0px;z-index:258}
+.IBCDPickShadow{position:absolute;background:#888;z-index:257;margin-left:3px;margin-top:3px;opacity:0.5;filter:alpha(opacity=50)}
+.IBCDPickOuter{border:1px solid #6c6c6e;background:white;padding:0px;overflow:hidden}
+.IBCDPickBody{cursor:default;padding:0px}
+.IBCDPickHeader{position:absolute;z-index:258;border:1px solid black;background:white;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;overflow:hidden;cursor:pointer;}
+.IBCDPickHeaderBottom{border-bottom:0px none}
+.IBCDPickHeaderTop{border-top:0px none}
+.IBCDPickHead,.IBCDPickFoot{background:#5c8397;padding:1px 0px 1px 5px;font:11.9px/13px Verdana,Tahoma,"Trebuchet MS",sans-serif;color:white;cursor:default}
+.IBCDPickHead{border-bottom:1px solid white}
+.IBCDPickFoot{border-top:1px solid white}
+.IBCDPickClose{float:right;width:14px;cursor:pointer;display:none;background:url(./imgs/Menu.gif?v120) no-repeat right -354px}
+.IBCDPickMY{background:#fff;padding:8px 0 7px 0;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;color:#2d384a;font-weight:bold;border-bottom:1px solid #cfd1d6;cursor:default;text-align:center;}
+.IBCDPickMYDown{padding-right:13px;background:url(./imgs/Menu.gif?v120) no-repeat right -400px;cursor:pointer}
+.IBCDPickMYUp{padding-right:13px;background:url(./imgs/Menu.gif?v120) no-repeat right -450px;cursor:pointer}
+.IBCDPickMYRtl{padding-right:0px;padding-left:13px}
+.IBCDPickBL,.IBCDPickBR{width:16px;line-height:13px;padding:2px 0px 4px 0px;overflow:hidden;cursor:pointer;display:none;margin-top:6px}
+.IBCDPickBL{float:left;background:url(./imgs/Menu.gif?v120) no-repeat left -500px}
+.IBCDPickBR{float:right;background:url(./imgs/Menu.gif?v120) no-repeat right -550px}
+.IBCDPickA11yMY{text-align:center}
+.IBCDPickTable{table-layout:fixed;width:0px}
+.IBCDPickRow{background:white}
+.IBCDPickRow > td:first-child{background:#f1f3fa}
+.IBCDPickA11yRow div{padding:1px 0px 1px 0px}
+.IBCDPickA11yRow button{width:17px;border:0px;padding:1px;background:transparent;cursor:pointer}
+.IBCDPickRowW{background:#ebedf3}
+.IBCDPickRowW > td{border-bottom:1px solid #cfd1d6}
+.IBCDPickCell{width:25px}
+.IBCDPickCellTouch{width:32px}
+.IBCDPickWDN{margin:2px 3px 2px 3px;padding:1px;font:11px/13px Arial,Helvetica,sans-serif;color:#333333;text-align:center;cursor:default}
+.IBCDPickHover,.IBCDPickSelHover,.IBCDPickWD,.IBCDPickSa,.IBCDPickSu,.IBCDPickSel,.IBCDPickNow,.IBCDPickWDNE,.IBCDPickSaNE,.IBCDPickSuNE,.IBCDPickSelNE,.IBCDPickNowNE,.IBCDPickOM,.IBCDPickOMNE{margin:2px;padding:0px 1px 0px 1px;border:1px solid white;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;cursor:pointer;line-height:22px;}
+.IBCDPickWN,.IBCDPickWNE{background:#f1f3fa;border-right:none;padding:3px 4px 3px 4px;font:11px/13px Arial,Helvetica,sans-serif;text-align:center;cursor:pointer;}
+.IBCDPickWNE{cursor:default}
+.IBCDPickWDNE,.IBCDPickSaNE,.IBCDPickSuNE,.IBCDPickSelNE,.IBCDPickNowNE{cursor:default;text-decoration:line-through}
+.IBCDPickWDNE button,.IBCDPickSaNE button,.IBCDPickSuNE button,.IBCDPickSelNE button,.IBCDPickNowNE button{cursor:default;text-decoration:line-through}
+.IBCDPickWD{background-color:white}
+.IBCDPickSa{background-color:white}
+.IBCDPickSu{background-color:white}
+.IBCDPickSel{background-color:#c0f3ff;border:1px solid #dad1d1}
+.IBCDPickSelNE{background-color:#c0f3ff;border:1px solid #dad1d1}
+.IBCDPickSel button,.IBCDPick2MSel button,.IBCDPick2YSel button{color:white}
+.IBCDPickNow{background-color:#fbea54;border:1px solid #fbea54}
+.IBCDPickNowNE{background-color:#fbea54;border:1px solid #fbea54}
+.IBCDPickOM,.IBCDPickOM button{background-color:white;color:#aaaaaa}
+.IBCDPickOMNE{color:#aaaaaa;cursor:default;text-decoration:line-through}
+.IBCDPickOMNE button{color:#aaaaaa;cursor:default;text-decoration:line-through}
+.IBCDPickEmpty{background:url(./imgs/Menu.gif?v120) no-repeat center -1050px;cursor:pointer;height:17px}
+.IBCDPickHover{background-color:#ddd;border:1px solid #ddd}
+.IBCDPickSelHover{background-color:#7cd4e7;border:1px solid #ddd}
+.IBCDPickTouch{line-height:18px}
+.IBCDPick2Table{table-layout:fixed;width:0px;margin-left:3px;margin-right:3px}
+.IBCDPick2CellM{height:22px;width:50px}
+.IBCDPick2CellMTouch{height:26px;width:75px}
+.IBCDPick2CellY{height:22px;width:35px}
+.IBCDPick2CellYTouch{height:26px;width:45px}
+.IBCDPick2A11yCellY div, .IBPick2A11yCellM div{padding:1px}
+.IBCDPick2CellSep{height:22px;width:5px}
+.IBCDPick2CellSepTouch{height:26px;width:5px}
+.IBCDPick2SepH{width:1px;height:2px;overflow:hidden}
+.IBCDPick2SepHTouch{height:7px}
+.IBCDPick2M button{width:54px;height:17px;border:0px;padding:1px;background-color:transparent;cursor:pointer}
+.IBCDPick2Y button,.IBCDPick2CellY button{widows:31px;height:17px;border:0px;padding:1px;background-color:transparent;cursor:pointer}
+.IBCDPick2M,.IBCDPick2Y,.IBCDPick2MSel,.IBCDPick2YSel,.IBCDPick2MHover,.IBCDPick2YHover,.IBCDPick2MSelHover,.IBCDPick2YSelHover{margin-left:1px;margin-right:1px;padding:3px 1px 2px 1px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;text-align:center;overflow:hidden;}
+.IBCDPick2MSel,.IBCDPick2YSel{background:#60b8e6;border:1px solid #dad1d1;margin-left:0px;margin-right:0px}
+.IBCDPick2MHover,.IBCDPick2YHover{background:#DDD;border:1px solid white;margin-left:0px;margin-right:0px}
+.IBCDPick2MSelHover,.IBCDPick2YSelHover{background:#80e0f0;border:1px solid white;margin-left:0px;margin-right:0px;padding:3px 1px 2px 1px}
+.IBCDPick2Touch{line-height:18px}
+.IBCDPick2Sep{width:1px;background:#ebedf3;overflow:hidden;margin-left:2px;margin-right:2px;height:26.8px}
+.IBCDPick2SepTouch{height:26px}
+.IBCDPick2BL,.IBCDPick2BR{width:35px;cursor:pointer;height:22px}
+.IBCDPickA11yMY > .IBCDPickBL, .IBCDPickA11yMY > .IBCDPickBR{height:20px;padding:3px}
+.IBCDPick2CellYTouch .IBCDPick2BL,.IBCDPick2CellYTouch .IBCDPick2BR{margin-left:5px}
+.IBCDPick2BL{background:url(./imgs/Menu.gif?v120) no-repeat center -595px}
+.IBCDPick2BR{background:url(./imgs/Menu.gif?v120) no-repeat center -645px}
+.IBCDPick2A11yBL,.IBCDPick2A11yBR{height:20px}
+.IBCDPickFooter,.IBCDPick2Footer.IBCDPickTimeCell{border-top:1px solid #adf;background:#f0f6ff;text-align:right;line-height:0px}
+.IBCDPickTime{background:#f0f6ff;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;margin:0px;padding:0px;border:0px none;white-space:nowrap;text-align:right;outline:none;}
+.IBCDPickFooter,.IBCDPick2Footer{background:#ebedf3;border-top:1px solid #cfd1d6;padding-top:1px;cursor:default;text-align:center;}
+.IBCDPickButton{background:#fff;border:1px solid #6c6c6e;width:60px;margin:5px 2px 4px 2px;padding-left:0px;padding-right:0px;font:13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;text-align:center;white-space:nowrap;overflow:hidden;}
+.IBCDPickButtonHover{background:#ffeeaa;border:1px solid #aaaadd}
+.IBCDEditParent{position:absolute;z-index:258;overflow:hidden}
+.IBCDEdit,.IBCDEditInline{padding:2px 4px 2px 4px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;background:white;white-space:nowrap;overflow:hidden;}
+.IBCDEditInline{display:inline-block;vertical-align:bottom}
+.IBCDEditMulti{white-space:normal}
+.IBCDEnumControl,.IBCDEnumInline{background:white url(./imgs/Menu.gif?v120) no-repeat left -797px;overflow:hidden;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;padding:2px 4px 2px 15px;border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;}
+.IBCDEnumInline{display:inline-block;vertical-align:bottom}
+.IBCDEnumHeader{background:white url(./imgs/Menu.gif?v120) no-repeat left -798px;font:11.9px/13px "Noto Sans KR", "Verdana", "Malgun Gothic", "Nanum Gothic", sans-serif;cursor:pointer;padding:2px 4px 2px 15px}
+.IBCDMouseOrig{background:yellow!important;opacity:0.5;filter:alpha(opacity=50)}
+.IBCDMouseDragObject{position:absolute;z-index:260;background:#888;opacity:0.5;filter:alpha(opacity=50)}
+.IBCDFocus{border:1px solid #AAF;border-top:1px solid #00F;border-left:1px solid #00F;background-color:#EEE}
+.IBCDHintMain{position:absolute;margin-left:-2px;margin-top:-2px;padding-left:1px;padding-top:1px;left:0px;top:0px;z-index:260;background:white;cursor:default;border:1px solid black;}
+.IBCDHintHeaderMain{padding:0px;margin-top:-1px}
+.IBCDHintSpaceMain{margin-left:-1px;margin-top:-1px;padding:0px;overflow:hidden}
+.IBCDHintSpaceEditMain,.IBCDHintSpaceSelectMain{border:0px none;background:none;margin-left:0px;margin-top:0px;padding:0px;overflow:hidden}
+.IBCDHintSpaceSelectMain{border:1px solid black}
+.IBCDHintOuter{overflow:hidden;background:white;color:black;text-align:left;border-color:white;vertical-align:middle;display:table-cell}
+ .IBCDHintOuter *{text-align:left}
+.IBCDHintSpaceOuter{background:#D5E9FE!important;margin-left:-1px;margin-top:-1px}
+.IBCDHintSpaceEditOuter{background:#D5E9FE}
+.IBCDHintSpaceSelectOuter{margin-top:-1px;margin-bottom:-1px}
+.IBCDHintHeaderOuter{background-color:#48689b;color:white;border-left:1px solid #48689b!important;border-bottom:1px solid #48689b;border-top:1px solid #48689b;border-right:1px solid #48689b}
+.IBCDHintShadow{position:absolute;margin-left:2px;margin-top:2px;z-index:259;background:#888;opacity:0.3;filter:alpha(opacity=30)}
+.IBCDHintSpaceShadow{margin-left:4px;margin-top:4px}
+.IBCDHintSpaceEditShadow,.IBCDHintSpaceSelectShadow{margin-left:4px;margin-top:4px}
+.IBCDTipMain{position:absolute;left:0px;top:0px;z-index:262;visibility:hidden}
+.IBCDTipOuter{background:#E4E5F0;border:1px solid #777;padding:1px 3px 1px 3px;overflow:hidden;cursor:default}
+.IBCDTipBody{font:12px/14px Arial,Helvetica,sans-serif;white-space:nowrap}
+.IBCDTipBody > div{white-space:pre}
+.IBCDTipShadow{position:absolute;margin-left:3px;margin-top:3px;z-index:261;background:#888;opacity:0.3;filter:alpha(opacity=30);visibility:hidden}
+.IBCDChart{padding:5px}
+.IBCDChartInner{background:white;width:100%}
+.IBCDChartLayer{overflow:hidden;height:1000px}
+.IBCDChartAxisY{background:black;height:1px;overflow:hidden}
+.IBCDChartAxisYLabel{overflow:hidden}
+.IBCDChartAxisYText{margin-right:5px;margin-top:12px;text-align:right;font:12px/14px Arial,Helvetica,sans-serif}
+.IBCDChartAxisX{width:1px;overflow:hidden;background:black}
+.IBCDChartAxisXLabel{overflow:hidden}
+.IBCDChartAxisXText{text-align:center;font:12px/14px Arial,Helvetica,sans-serif}
+.IBCDChartCaption{text-align:center;font:12px/14px Arial,Helvetica,sans-serif;margin-top:3px}
+.IBCDCustScroll1RightHidden{background:url(./imgs/VScroll.gif?v120) left -108px;height:17px}
+.IBCDCustScroll1Right{padding-right:17px;background:url(./imgs/VScroll.gif?v120) right 0px}
+.IBCDCustScroll1RightHover{padding-right:17px;background:url(./imgs/VScroll.gif?v120) right -18px}
+.IBCDCustScroll1Left{padding-left:17px;background:url(./imgs/VScroll.gif?v120) left 0px}
+.IBCDCustScroll1LeftHover{padding-left:17px;background:url(./imgs/VScroll.gif?v120) left -18px}
+.IBCDCustScroll1SliderRight{background:url(./imgs/VScroll.gif?v120) right -36px;padding-right:1px}
+.IBCDCustScroll1SliderRightHover{background:url(./imgs/VScroll.gif?v120) right -72px;padding-right:1px}
+.IBCDCustScroll1SliderLeft{background:url(./imgs/VScroll.gif?v120) left -36px;padding-left:1px}
+.IBCDCustScroll1SliderLeftHover{background:url(./imgs/VScroll.gif?v120) left -72px;padding-left:1px}
+.IBCDCustScroll1SliderHIn{height:17px;overflow:hidden;background:url(./imgs/VScroll.gif?v120) center -54px}
+.IBCDCustScroll1SliderHInHover{height:17px;overflow:hidden;background:url(./imgs/VScroll.gif?v120) center -90px}
+.IBCDCustScroll1X{background:#F4F4F4;cursor:default}
+.IBCDCustScroll2RightHidden{background:url(./imgs/VScroll.gif?v120) left -364px;height:34px}
+.IBCDCustScroll2Right{padding-right:36px;background:url(./imgs/VScroll.gif?v120) right -148px}
+.IBCDCustScroll2RightHover{padding-right:36px;background:url(./imgs/VScroll.gif?v120) right -184px}
+.IBCDCustScroll2Left{padding-left:36px;background:url(./imgs/VScroll.gif?v120) left -148px}
+.IBCDCustScroll2LeftHover{padding-left:36px;background:url(./imgs/VScroll.gif?v120) left -184px}
+.IBCDCustScroll2SliderRight{background:url(./imgs/VScroll.gif?v120) right -220px;padding-right:1px}
+.IBCDCustScroll2SliderRightHover{background:url(./imgs/VScroll.gif?v120) right -292px;padding-right:1px}
+.IBCDCustScroll2SliderLeft{background:url(./imgs/VScroll.gif?v120) left -220px;padding-left:1px}
+.IBCDCustScroll2SliderLeftHover{background:url(./imgs/VScroll.gif?v120) left -292px;padding-left:1px}
+.IBCDCustScroll2SliderHIn{height:34px;overflow:hidden;background:url(./imgs/VScroll.gif?v120) center -256px}
+.IBCDCustScroll2SliderHInHover{height:34px;overflow:hidden;background:url(./imgs/VScroll.gif?v120) center -328px}
+.IBCDCustScroll2X{background:#F4F4F4;cursor:default}
+.IBCDCustScroll3Right,.IBCDCustScroll3RightHidden{background:white;height:9px}
+.IBCDCustScroll3SliderRight,.IBCDCustScroll3SliderRightHover{padding-right:3px;height:9px;background:url(./imgs/VScroll.gif?v120) right -126px}
+.IBCDCustScroll3SliderRightHover{background-position:right -135px}
+.IBCDCustScroll3SliderLeft,.IBCDCustScroll3SliderLeftHover{height:9px;background:url(./imgs/VScroll.gif?v120) left -126px}
+.IBCDCustScroll3SliderLeftHover{background-position:left -135px}
+.IBCDCustScroll3X{background:white;cursor:default}
+.IBCDCustScroll4Right,.IBCDCustScroll4RightHidden,.IBCDCustScroll4SliderRight,.IBCDCustScroll4SliderRightHover{height:1px}
+.IBCDCustScroll1DownHidden{background:url(./imgs/HScroll.png?v120) -108px top;width:16px}
+.IBCDCustScroll1Down{padding-bottom:17px;background:url(./imgs/HScroll.png?v120) 0px bottom}
+.IBCDCustScroll1DownHover{padding-bottom:17px;background:url(./imgs/HScroll.png?v120) -18px bottom}
+.IBCDCustScroll1Up{padding-top:17px;background:url(./imgs/HScroll.png?v120) 0px top}
+.IBCDCustScroll1UpHover{padding-top:17px;background:url(./imgs/HScroll.png?v120) -18px top}
+.IBCDCustScroll1SliderDown{background:url(./imgs/HScroll.png?v120) -36px bottom;padding-bottom:1px}
+.IBCDCustScroll1SliderDownHover{background:url(./imgs/HScroll.png?v120) -72px bottom;padding-bottom:1px}
+.IBCDCustScroll1SliderUp{background:url(./imgs/HScroll.png?v120) -36px top;padding-top:1px}
+.IBCDCustScroll1SliderUpHover{background:url(./imgs/HScroll.png?v120) -72px top;padding-top:1px}
+.IBCDCustScroll1SliderVIn{background:url(./imgs/HScroll.png?v120) -54px center}
+.IBCDCustScroll1SliderVInHover{background:url(./imgs/HScroll.png?v120) -90px center}
+.IBCDCustScroll2DownHidden{background:url(./imgs/HScroll.png?v120) -364px top;width:33px}
+.IBCDCustScroll2Down{padding-bottom:36px;background:url(./imgs/HScroll.png?v120) -148px bottom}
+.IBCDCustScroll2DownHover{padding-bottom:36px;background:url(./imgs/HScroll.png?v120) -184px bottom}
+.IBCDCustScroll2Up{padding-top:36px;background:url(./imgs/HScroll.png?v120) -148px top}
+.IBCDCustScroll2UpHover{padding-top:36px;background:url(./imgs/HScroll.png?v120) -184px top}
+.IBCDCustScroll2SliderDown{background:url(./imgs/HScroll.png?v120) -220px bottom;padding-bottom:1px}
+.IBCDCustScroll2SliderDownHover{background:url(./imgs/HScroll.png?v120) -292px bottom;padding-bottom:1px}
+.IBCDCustScroll2SliderUp{background:url(./imgs/HScroll.png?v120) -220px top;padding-top:1px}
+.IBCDCustScroll2SliderUpHover{background:url(./imgs/HScroll.png?v120) -292px top;padding-top:1px}
+.IBCDCustScroll2SliderVIn{background:url(./imgs/HScroll.png?v120) -256px center}
+.IBCDCustScroll2SliderVInHover{background:url(./imgs/HScroll.png?v120) -328px center}
+.IBCDCustScroll3Down,.IBCDCustScroll3DownHidden{background:white;width:8px}
+.IBCDCustScroll3SliderDown,.IBCDCustScroll3SliderDownHover{padding-bottom:3px;background:url(./imgs/HScroll.png?v120) -126px bottom}
+.IBCDCustScroll3SliderDownHover{background-position:-135px bottom}
+.IBCDCustScroll3SliderUp,.IBCDCustScroll3SliderUpHover{background:url(./imgs/HScroll.png?v120) -126px top}
+.IBCDCustScroll3SliderUpHover{background-position:-135px top}
+.IBCDCustScroll4Down,.IBCDCustScroll4DownHidden,.IBCDCustScroll4SliderDown,.IBCDCustScroll4SliderDownHover{width:0px}
+.SheetDebugTag,.SheetDebugTagMax{overflow:auto;overflow-y:scroll;border:1px solid black;background:#DDD}
+.SheetDebugTag,.SheetDebugTagMax,.SheetDebugButtons,.SheetDebugButtonsMax{position:fixed;z-index:256;left:5px;right:5px;bottom:5px;height:200px;padding:4px;position:absolute!IE;left:expression((5+(document.compatMode=="CSS1Compat"?document.documentElement.scrollLeft:document.body.scrollLeft))+"px")!IE;width:expression((-10+(document.compatMode=="CSS1Compat"?document.documentElement.clientWidth-8:document.body.clientWidth))+"px")!IE;top:expression((-205+(document.compatMode=="CSS1Compat"?document.documentElement.scrollTop+document.documentElement.clientHeight-8:document.body.scrollTop+document.body.clientHeight))+"px")!IE;}
+.SheetDebugTagMax,.SheetDebugButtonsMax{top:5px;height:auto;top:expression((5+(document.compatMode=="CSS1Compat"?document.documentElement.scrollTop:document.body.scrollTop))+"px")!IE;height:expression((-10+(document.compatMode=="CSS1Compat"?document.documentElement.clientHeight-8:document.body.clientHeight))+"px")!IE;}
+.SheetDebugButtons,.SheetDebugButtonsMax{text-align:right;margin-right:25px;width:130px;left:auto;left:expression((-155+(document.compatMode=="CSS1Compat"?document.documentElement.clientWidth-8:document.body.clientWidth))+"px")!IE;}
+.SheetDebugButton{font-size:10px;width:40px;padding:0px}
+.SheetDebugTitle{font-size:10px;color:blue;font-style:normal;font-weight:normal}
+.SheetDebugMark{font-weight:bold}
+.SheetDebugStop{font-size:18px;font-weight:bold;color:red}
+.SheetDebugError{font-size:12px;color:red}
+.SheetDebugWarning{font-size:12px;color:#A60}
+.SheetDebugList{font-size:10px;color:#888}
+.SheetDebugInfo{font-size:12px}
+.IBCDAnimateOverflow{overflow:hidden}
+@keyframes IBCDExpandH{from{height:0px}
+ }
+@keyframes IBCDCollapseH{to{height:0px}
+ }
+.IBCDAnimateTransparent{opacity:0}
+@keyframes IBCDShow{from{opacity:0}
+ to{opacity:1}
+ }
+@keyframes IBCDHide{from{opacity:1}
+ to{opacity:0}
+ }
+.IBCDAnimateHidden{display:none}
+.IBCDAnimateVisible{display:inherit}
+.IBCDAnimateLeftTop{overflow:hidden;transform-origin:0% 0%}
+.IBCDAnimateCenterTop{overflow:hidden;transform-origin:50% 0%}
+.IBCDAnimateRightTop{overflow:hidden;transform-origin:100% 0%}
+.IBCDAnimateLeftBottom{overflow:hidden;transform-origin:0% 100%}
+.IBCDAnimateRightBottom{overflow:hidden;transform-origin:100% 100%}
+.IBCDAnimateCenterBottom{overflow:hidden;transform-origin:50% 100%}
+.IBCDAnimateLeftCenter{overflow:hidden;transform-origin:0% 50%}
+.IBCDAnimateRightCenter{overflow:hidden;transform-origin:100% 50%}
+.IBCDAnimateCenterCenter{overflow:hidden;transform-origin:50% 50%}
+@keyframes IBCDZoomInH{from{height:0px;transform:scale(1,0)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBCDZoomOutH{from{transform:scale(1,1)}
+ to{transform:scale(1,0);height:0px}
+ }
+@keyframes IBCDZoomInY{from{transform:scale(1,0)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBCDZoomOutY{from{transform:scale(1,1)}
+ to{transform:scale(1,0)}
+ }
+@keyframes IBCDZoomInX{from{transform:scale(0,1)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBCDZoomOutX{from{transform:scale(1,1)}
+ to{transform:scale(0,1)}
+ }
+@keyframes IBCDZoomIn{from{transform:scale(0)}
+ to{transform:scale(1)}
+ }
+@keyframes IBCDZoomOut{from{transform:scale(1)}
+ to{transform:scale(0)}
+ }
+@keyframes IBCDRotateX90{0%{transform:rotateX(0deg)}
+ 50%{transform:rotateX(90deg)}
+ 100%{transform:rotateX(0deg)}
+ }
+@keyframes IBCDRotateX90To{from{transform:rotateX(0deg)}
+ to{transform:rotateX(90deg)}
+ }
+@keyframes IBCDRotateX90From{from{transform:rotateX(90deg)}
+ to{transform:rotateX(0deg)}
+ }
+@keyframes IBCDRotateY90{0%{transform:rotateY(0deg)}
+ 50%{transform:rotateY(90deg)}
+ 100%{transform:rotateY(0deg)}
+ }
+@keyframes IBCDRotateY90To{from{transform:rotateY(0deg)}
+ to{transform:rotateY(90deg)}
+ }
+@keyframes IBCDRotateY90From{from{transform:rotateY(90deg)}
+ to{transform:rotateY(0deg)}
+ }
+@keyframes IBCDFocus{0%{color:inherit}
+ 50%{color:red}
+ 100%{color:inherit}
+ }
+@keyframes IBCDCopy{0%{transform:translateX(0px)}
+ 25%{transform:translateX(1px)}
+ 75%{transform:translateX(-1px)}
+ 100%{transform:translateX(0px)}
+ }
+@keyframes IBCDOpacityBlink{0%{opacity:1}
+ 50%{opacity:0.2}
+ 100%{opacity:1}
+ }
+@keyframes IBCDBackgroundBlink{0%{background-color:#FFF}
+ 50%{background-color:#888}
+ 100%{background-color:#FFF}
+ }
+.IBCDMark{background-color:#AAA!important}
+@keyframes IBCDMark{0%{background-color:#FFF}
+ 25%{background-color:#AAA}
+ 75%{background-color:#AAA}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBCDHighlight{0%{background-color:#FFF}
+ 25%{background-color:#AAA}
+ 50%{background-color:#FFF}
+ 75%{background-color:#AAA}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBCDHighlightDeselect{0%{background-color:#FFF}
+ 25%{background-color:#FF0}
+ 50%{background-color:#FFF}
+ 75%{background-color:#FF0}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBCDHighlightSelect{0%{background-color:#FF0}
+ 25%{background-color:#FFF}
+ 50%{background-color:#FF0}
+ 75%{background-color:#FFF}
+ 100%{background-color:#FF0}
+ }
+@keyframes IBCDHighlightDelete{0%{background-color:#FAA}
+ 25%{background-color:#FFF}
+ 50%{background-color:#FAA}
+ 75%{background-color:#FFF}
+ 100%{background-color:#FAA}
+ }
+@keyframes IBCDHighlightMove{0%{background-color:#AEE}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AEE}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AEE}
+ }
+@keyframes IBCDHighlightAdd{0%{background-color:#AFA}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AFA}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AFA}
+ }
+@keyframes IBCDHighlightChange{0%{background-color:#AAF}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AAF}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AAF}
+ }
+.IBCDBodyPrint{margin:0px!important;padding:0px!important;border:0px none!important;background:none!important;-webkit-print-color-adjust:exact}
+.IBCDResizeBorder{border:1px dashed black!important}
+.SheetNoMomentumScroll *{-webkit-overflow-scrolling:auto!important}
+.SheetTmpTag{position:absolute;left:5px;top:5px;visibility:hidden}
+.SheetCalcWidth table{width:auto!important}
+.SheetDisabled{position:absolute;z-index:256;background:white;opacity:0.5;filter:alpha(opacity=50)}
+.IBCDMain{z-index:255}
+.IBCDLoaded{border:1px solid black!important}
+BODY[class*=BodyPrint]>DIV[class*=PrintPage]{margin:0 auto;}
+BODY[class*=BodyPrint]>DIV[class*=PrintPage]>DIV{visibility:visible;position:static;}
+BODY[class*=BodyPrint]>DIV[class*=PrintPage]>DIV>DIV>DIV[class*=PaddingWrapper]{font-size:1rem;line-height:1rem;}
+.IBCDFindDlgTop{padding:10px 5px 4px 5px;width:100%}
+.IBCDFindDlgTop span{text-align:center;font-size:0.7em;margin:0px 3px 0px 3px;color:#888!important}
+.IBCDFindDlgTop div{float:left}
+.IBCDFindDlgTop input{padding-left:5px}
+.IBCDFindDlgTop div:first-child{border:1px solid #888;width:210px;padding:1px 2px 2px 1px}
+.IBCDFindDlgTop button{margin-left:5px;padding:4px 5px 4px 5px;font-size:13px;line-height:18px;text-decoration:none;cursor:pointer}
+.IBCDFindDlgBottom{padding:6px 5px 10px 5px;box-sizing:border-box;width:100%}
+.IBCDFindDlgBottom div:first-child{float:left;width:50%}
+.IBCDFindDlgBottom div:last-child{float:right;width:50%}
+.IBCDFindDlgBottom button{margin-left:5px;padding:4px 5px 4px 5px;font-size:13px;line-height:18px;text-decoration:none;cursor:pointer}
+.IBCDMemo.IBCDHeaderText{position:relative}
+.IBCDMemo.IBCDHeaderText:after{position:absolute;content:'';width:0;right:0;top:-10px;border:10px solid transparent;border-right:10px solid red;opacity:1;}
+.IBCDMemo.IBCDCellClassInner{position:relative}
+.IBCDMemo.IBCDCellClassInner:after{position:absolute;content:'';width:0;right:0;top:-10px;border:10px solid transparent;border-right:10px solid red;opacity:1;}
+.IBCDMemoEdit{background-color:#FFFFFF}
+.IBCDMemoEdit h4{background-color:#AAAAAA;color:#FFFFFF;text-align:center}
+.IBCDMemoEdit textarea{width:200px;height:150px;padding:2px;font-size:11px}
+.IBCDMemoEdit+div{height:25px;text-align:center;background:#ebedf3}
+.IBCDMemoEdit+div .IBCDMenuButton{border:solid 1px #2fbbcc;margin-top:4px}
+.IBCDMemoEdit+div .IBCDMenuButton:hover{background:#ffeeaa;border:1px solid #aaaadd}

@@ -1,0 +1,1820 @@
+/* IBSheet8 CSS definition, https://www.ibsheet.com */
+@font-face{font-family:'Noto Sans KR';src:url('./../../fonts/NotoSansCJKkr-Regular.otf') format('truetype')}
+@font-face{font-family:'Noto Sans KR Bold';src:url('./../../fonts/NotoSansCJKkr-Bold.otf') format('truetype')}
+.IBMain{font-family:'Noto Sans CJK kr','Noto Sans KR','Noto Sans','Verdana','Malgun Gothic','Nanum Gothic',sans-serif;font-style:normal;font-weight:normal;font-variant:normal}
+.IBMain *{font-family:inherit;font-style:inherit;font-weight:inherit;font-variant:inherit;text-overflow:ellipsis;word-wrap:normal;word-break:normal}
+.IBMain table{margin:auto;}
+.IBMain .IBSolidRow table,.IBMain .IBRowAbove table,.IBMain .IBRowBelow table,.IBMain table.IBMainTable{margin:0px;}
+.IBMain,.IBMain *{font-size:13px;line-height:18px}
+.IBWide,.IBWide *{font-size:15px;line-height:20px}
+.IBGiant,.IBGiant *{font-size:21px;line-height:24px}
+.IBHigh,.IBHigh *{font-size:21px;line-height:22px}
+.IBSmall,.IBSmall *{font-size:13px;line-height:16px}
+.IBMini,.IBMini *{font-size:13px;line-height:16px}
+.IBTiny,.IBTiny *{font-size:13px;line-height:16px}
+.IBRowAbove .IBTabHtmlBase,.IBRowBelow .IBTabHtmlBase{font-family:'Noto Sans CJK kr Bold','Noto Sans KR Bold','Noto Sans Bold','Nanum Gothic Bold',sans-serif;font-style:normal}
+.IBMessage{font-size:inherit}
+.IBMenuItemText{font-size:inherit;line-height:22px}
+.IBHigh .IBMenuItemText{line-height:26px}
+.IBBig .IBMenuItemText{line-height:34px}
+.IBSmall .IBMenuItemText{line-height:19px}
+.IBMenuControl{font-size:inherit;line-height:18px}
+.IBWide .IBMenuControl{line-height:20px}
+.IBHigh .IBMenuControl{line-height:22px}
+.IBBig .IBMenuControl{line-height:30px}
+.IBSmall .IBMenuControl{line-height:16px}
+.IBPickCell,.IBPick2CellM,.IBPick2CellY{font-size:inherit;line-height:inherit}
+.IBDialogButton{font-size:inherit;line-height:inherit}
+.IBHeaderFont *,.IBRowAbove .IBTabHtmlBase *,.IBRowBelow .IBTabHtmlBase *,.IBMessage *,.IBMenuItemText *,.IBMenuControl *,.IBPickCell *,.IBPick2CellM *,.IBPick2CellY *,.IBDialogButton *{font-size:inherit;line-height:inherit}
+.IBMain span{color:#8ad5dd;font-weight:bold}
+.IBMain b,.IBMain .SheetBold{color:#1a92ec;font-weight:bold}
+.IBMain i,.IBMain .SheetBlue{color:#1a92ec;font-style:normal}
+.IBHeaderRow b,.IBHeaderRow i,.IBHeaderRow .SheetBold,.IBHeaderRow .SheetBlue,.IBSheetButton b,.IBSheetButton i,.IBSheetButton .SheetBold,.IBSheetButton .SheetBlue,.IBTabHtmlBase b,.IBTabHtmlBase i,.IBTabHtmlBase .SheetBold,.IBTabHtmlBase .SheetBlue{color:#FF8}
+.IBMain em,.IBMain .SheetRed{color:#EA4647;font-style:normal}
+.IBMain em>b,.IBMain .SheetRed .SheetBold{color:#EA4647}
+.IBHeaderRow em,.IBHeaderRow em>b,.IBHeaderRow .SheetRed,.IBHeaderRow .SheetRed .SheetBold,.IBSheetButton em,.IBSheetButton em>b,.IBSheetButton .SheetRed,.IBSheetButton .SheetRed .SheetBold,.IBTabHtmlBase em,.IBTabHtmlBase em>b,.IBTabHtmlBase .SheetRed,.IBTabHtmlBase .SheetRed .SheetBold{color:#F88}
+.IBMain s,.IBMain .SheetGray{color:#AAA;text-decoration:none}
+.IBMain s>b,.IBMain .SheetGray .SheetBold,.IBMain s>i,.IBMain .SheetGray .SheetBlue{color:#AAA}
+.IBRowHeight{height:30px}
+ .IBHigh .IBRowHeight{height:40px}
+ .IBBig .IBRowHeight{height:50px}
+ .IBLow .IBRowHeight{height:27px}
+ .IBSmall .IBRowHeight{height:22px}
+ .IBMini .IBRowHeight{height:20px}
+ .IBHeaderRowHeight{height:34px}
+ .IBHigh .IBHeaderRowHeight{height:44px}
+ .IBBig .IBHeaderRowHeight{height:54px}
+ .IBLow .IBHeaderRowHeight{height:29px}
+ .IBSmall .IBHeaderRowHeight{height:24px}
+ .IBFilterRowHeight{height:30px}
+ .IBHigh .IBFilterRowHeight{height:40px}
+ .IBBig .IBFilterRowHeight{height:50px}
+ .IBLow .IBFilterRowHeight{height:27px}
+ .IBSmall .IBFilterRowHeight{height:22px}
+ .IBSpaceRowHeight{height:34px}
+ .IBHigh .IBSpaceRowHeight{height:46px}
+ .IBBig .IBSpaceRowHeight{height:50px}
+ .IBLow .IBSpaceRowHeight{height:28px}
+ .IBSmall .IBSpaceRowHeight{height:24px}
+ .IBTiny .IBSpaceRowHeight{height:22px}
+ .IBSpaceOutRowHeight{height:28px}
+ .IBHigh .IBSpaceOutRowHeight{height:35px}
+ .IBBig .IBSpaceOutRowHeight{height:45px}
+ .IBSmall .IBSpaceOutRowHeight{height:20px}
+ .IBSpaceMargin{margin:0px}
+.IBWidth{width:100%}
+.IBWide .IBWidth{width:100%}
+ .IBGiant .IBWidth{width:100%}
+ .IBLow .IBWidth{width:100%}
+ .IBSpaceWidth{width:100%}
+.IBWide .IBSpaceWidth{width:100%}
+ .IBGiant .IBSpaceWidth{width:100%}
+ .IBLow .IBSpaceWidth{width:100%}
+ .IBWidthPad{width:25px}
+.IBWide .IBWidthPad{width:30px}
+.IBBig .IBWidthPad{width:45px}
+.IBLow .IBWidthPad{width:20px}
+.IBMain{color:#1a364e}
+.IBMainTable{background:white;border-bottom:1px solid #cfd1d6}
+.IBHasSpace4{border-bottom:1px solid transparent}
+.IBSolidRow{background:#e5f0f2}
+ .IBSearchRow{border-bottom:1px solid #cfd1d6}
+.IBFillRow{background:#F7F7F7}
+ .IBNoDataRow{border-top:1px solid #53bfca !important}
+ .IBRowSpace4 .IBSolidRow{background:white;border-bottom:1px solid #cfd1d6;border-left:1px solid #cfd1d6;border-right:1px solid #cfd1d6}
+ .IBRowSpace0.IBRowSpaceFirst .IBSolidRow,.IBRowSpace2.IBRowSpaceFirst .IBSolidRow,.IBRowSpace3.IBRowSpaceFirst .IBSolidRow{border-top:1px solid #cfd1d6}
+ .IBRowSpace1.IBRowSpaceLast .IBSolidRow{border-bottom:1px solid #cfd1d6}
+ .IBRowSpace4.IBRowSpaceFirst .IBSolidRow{border-top:1px solid #1a364e}
+ .IBRowSpace0 .IBSolidRow,.IBRowSpace1 .IBSolidRow,.IBRowSpace2 .IBSolidRow,.IBRowSpace3 .IBSolidRow{border-left:1px solid #cfd1d6;border-right:1px solid #cfd1d6}
+  .IBSpaceSelectInner,.IBSpaceSelectInnerIcon,.IBSpaceEditInner,.IBSpaceEditInnerIcon{border:1px solid #cfd1d6;background-color:white}
+.IBSpaceEditReadOnly{border:1px solid #cfd1d6;background-color:#d8d8d8;min-height:18px}
+.IBTabHtmlBase{background:#53bfca;text-align:center;color:white}
+ .IBTabHtml1,.IBTabHtmlIcon1{background:#3c5575}
+ .IBTabFocus{background:red}
+ .IBTabDrag{background:#0F8;display:table-cell;text-align:center;vertical-align:middle;color:white}
+ .IBToolHtml,.IBToolHtml1,.IBToolHtmlIcon,.IBToolHtmlIcon1{text-align:center}
+ .IBToolHtml1,.IBToolHtmlIcon1{font-weight:bold;color:#53bfca}
+ .IBPagesLink{color:#54A3DB;font-weight:bold;text-decoration:none!important}
+ .IBPagesLinkActive{color:inherit;font-weight:bold;text-decoration:none!important}
+ .IBDropCols table{border-spacing:10px 0px}
+ .IBHeaderGroup{border:1px solid #cfd1d6}
+ .IBHeaderGroupFocus{background-color:#EAFAFD}
+ .IBHeaderGroupDelete{color:white;border-color:white}
+ .IBHeaderGroupCustom{font-style:italic;color:#BBB}
+ .IBHeaderGroupCustom:hover{background-color:#ddd;color:#000}
+ .IBCellBase{border-bottom:1px solid #cfd1d6;border-right:1px solid #cfd1d6;border-left:0px none;border-top:0px none}
+.IBLastCell{border-right:1px solid;border-bottom:1px solid}
+.IBCellHeader{color:white;background:#3d5575;border-bottom:1px solid #6F7F94;border-right:1px solid #6F7F94}
+ .IBHeaderFocus{background:#85CDC7}
+ .IBHeaderDrag{background:#85CDC7;border-right:1px solid white}
+ .IBLevelButton{color:black}
+   .IBCellFilter{color:#1a92ec}
+ .IBFilter0Value{color:silver}
+ .IBRadioChecked{color:#4ac0cd}
+ .IBCellUser{background-color:#E0F0F2}
+ .IBColorDefault{background-color:#FFFFFF}
+ .IBClassNoFocus{color:#07203a}
+ .IBClassReadOnly{opacity:1}
+ .IBColorFormula{background-color:transparent}
+ .IBColorAlternate{background-color:#fcfcfd}
+ .IBColorSelected,.IBColorSelectedCell{background-color:#e1f2f0}
+ .IBColorError{background-color:#FFD2D2}
+ .IBColorDeleted{background-color:#ffe6e0}
+ .IBColorAdded{background-color:#eee6fa}
+ .IBColorMoved2{background-color:#DAF3F2}
+ .IBColorChanged{background-color:#fffded}
+ .IBColorChangedCell{background-color:#EEE}
+ .IBColorDetail{background-color:#FFF0FF}
+ .IBColorDetailSelected{background-color:#FFF0E0}
+ .IBColorDragged{background-color:#E0E0C0}
+ .IBColorCellMenu{background-color:#FA0}
+ .IBColorHoveredCell{background-color:rgb(180, 231, 236)}
+ .IBColorHoveredCellReadOnly{background-color:#F0F0F0}
+ .IBColorHoveredCellNoFocus{background-color:#F8F8F8}
+ .IBColorHoveredCellHeader{background-color:#5b81b4}
+ .IBColorHoveredCellIndex{background-color:rgb(180, 231, 236)}
+ .IBColorHoveredCellSpace{background-color:#FFFFFF}
+ .IBColorHoveredCellTab{background-color:#5AB5F5}
+ .IBColorHoveredCellTab1{background-color:#485970}
+ .IBColorHoveredCellSpaceBool0,.IBColorHoveredCellSpaceBool1,.IBColorHoveredCellSpaceBoolX,.IBColorHoveredCellSpaceBoolIcon{background-color:#FFFFFF}
+ .IBColorHoveredCellButton,.IBColorHoveredCellButton1{background-color:#F2F2F2}
+ .IBColorFocusedCell,.IBColorFocusedCellRelative{background-color:#ffffff}
+ .IBClassFocusedCell,.IBClassFocusedCell *{color:black}
+.IBColorFocusedCellRect{background-color:#D7FFCA}
+ .IBClassFocusedCellSpaceEdit > div{border:1px solid #70d1db!important}
+ .IBClassFocusedCellSpaceDefaults > div{border:1px solid #70d1db!important}
+ .IBColorFocusedCellHeader{background-color:#384960}
+ .IBColorDefaultCol{background-color:#1a364e}
+ .IBColorDefaultRow{background-color:#FFFFFE}
+ .IBHoverRowBackground{background:rgba(152, 207, 229, 0.1)}
+ .IBFocusRowBackground{background-color:rgba(152, 207, 229, 0.2)}
+ .IBHoverRowBorder{border:1px solid #8ec0c5}
+ .IBFocusRowBorder{border:1px solid #60b6be}
+ .IBHoverCellBorder{border:1px solid rgb(142, 192, 197)}
+ .IBFocusCellBorder{border:2px solid rgba(110, 175, 182)}
+ .IBEditCellBorder{border:2px solid rgb(69, 124, 130)}
+ .IBFocusCellCorner{border:1px solid white;background:#1a92ec}
+ .IBEditCellCorner{border:1px solid white;background:#D37C89}
+ .IBEditInput, .IBEditTextarea{color:black !important;background-color:transparent !important}
+ .IBEditHeaderInput,.IBEditHeaderTextarea{color:white !important}
+ .IBEditReadOnly,.IBEditTextarea.IBEditReadOnly{background-color:#EEE !important}
+ .IBEditHeaderInput.IBEditReadOnly,.IBEditHeaderTextarea.IBEditReadOnly{background-color:#1a364e !important}
+ .IBDialogButton,u.IBSheetButton{background:#53bfca;border:0px solid #53bfca;color:white}
+.IBDialogButton:active,u.IBToolButtonButton1,u.IBToolSpaceButton1,u.IBToolButtonButton1:active,u.IBToolSpaceButton1:active{background:#1a364e;border:0px solid #1a364e}
+.IBDialogButtonHover{color:yellow}
+.IBMenuHead{color:white;background:#1a364e}
+ .IBMenuOuter{background:white;border:1px solid #3d5575}
+ .IBMenuFoot{background:#ebedf3;border-top:1px solid #cfd1d6}
+ .IBMenuEdit,.IBMenuEditEdit,.IBMenuEnum{border:1px solid #cfd1d6;background-color:white;color:black}
+ .IBMenuCaption,.IBMenuLevel{color:#3d5575;background:#ebedf3;text-align:center;border-top:1px solid #cfd1d6;border-bottom:1px solid #cfd1d6}
+ .IBMenuSeparator{border-top:1px solid #cfd1d6}
+ .IBMenuVSeparator{border-right:1px solid #cfd1d6}
+ .IBMenuHover{background:#EBF4FB}
+ .IBMenuFocus{background:#DBEEF4}
+ .IBMenuFocus.IBMenuHover{background:#E4F0F8}
+ .IBMenuHeader{border:1px solid #3d5575;background:white}
+ .IBEnumMenuHeader{border:1px solid #3d5575}
+ .IBPickMY{color:white;background:#3d5575}
+ .IBPickTableParent,.IBPick2TableParent{border:1px solid #1a364e;border-top:0px none}
+ .IBPickFooter,.IBPick2Footer,.IBPickTimeCell{background:#ebedf3;border:1px solid #1a364e;border-top:1px solid #cfd1d6}
+ .IBPickRowW{background:#ebedf3}
+ .IBPickRowW .IBPickCell{border-bottom:1px solid #cfd1d6}
+ .IBPickWN,.IBPickWNE{background:#fcf7d7;border-right:1px solid #fcf7d7}
+ .IBPickOM,.IBPickOMNE{background-color:white;color:#aaaaaa;font-weight:normal}
+   .IBPickSel,.IBPick2MSel,.IBPick2YSel{background-color:#70d1db;color:white}
+ .IBPickNow{background-color:#bef6fc}
+ .IBPickNE{text-decoration:line-through}
+ .IBPickHover,.IBPick2MHover,.IBPick2YHover{background-color:#EAEAEA}
+ .IBPickSelHover,.IBPick2MSelHover,.IBPick2YSelHover{background-color:#EAEAEA}
+   .IBPick2Sep{background:#ECECEC}
+ .IBMessage,.IBPageMessage{background:white;box-shadow:10px 10px 10px rgba(49, 36, 36, 0.12);border:1px solid #1a364e}
+ .IBMessageButtons,.IBProgressButtons{background:transparent}
+ .IBPrompt input{border:1px solid #cfd1d6}
+ .IBPagerMain{border-top:1px solid #1a364e}
+ .IBPagerHeader{background:#1a364e;color:white}
+ .IBPagerHeaderSingle{border-bottom:1px solid #cfd1d6}
+ .IBPagerBody{background:#D0E6F5}
+ .IBPagerBodyLeft,.IBPagerHeaderLeft{border-left:1px solid #cfd1d6}
+ .IBPagerBodyRight,.IBPagerHeaderRight{border-right:1px solid #cfd1d6}
+ .IBPagerItem{border-bottom:1px solid #cfd1d6}
+ .IBPagerFocus{background:#3d5575}
+ .IBPagerHover{background:#268;opacity:0.1}
+ .IBHintMain{border:1px solid #73A5CF;background:white}
+ .IBHintOuter{background:white;color:black;border-color:white}
+ .IBHintSpaceSelectOuter{border:1px solid #ACE}
+ .IBHintHeaderOuter{background:#1a364e;color:white}
+ .IBTipOuter,.IBDragObject{background:white;border:1px solid #68788C}
+ .IBHeadLeft,.IBBodyLeft,.IBFootLeft{border-left:1px solid #cfd1d6}
+.IBHeadMid,.IBBodyMid,.IBFootMid{border-left:1px solid #cfd1d6;border-right:1px solid #cfd1d6}
+.IBHeadRight,.IBBodyRight,.IBFootRight{border-right:1px solid #cfd1d6}
+.IBHeadLeft,.IBHeadMid,.IBHeadRight{border-bottom:1px solid #cfd1d6;border-top:1px solid #1a364e}
+.IBHasHead .IBHeadLeft,.IBHasHead .IBHeadMid,.IBHasHead .IBHeadRight{border-top:1px solid #cfd1d6}
+.IBFootLeft,.IBFootMid,.IBFootRight{border-top:1px solid #5b81b4}
+.IBLeftSplitter,.IBRightSplitter{width:5px;overflow:hidden;cursor:e-resize;font-size:0px}
+.IBLeftSplitter{border-left:1px solid #cfd1d6}
+.IBRightSplitter{border-right:1px solid #cfd1d6}
+.IBWide .IBLeftSplitter,.IBWide .IBRightSplitter{width:9px}
+.IBTouch .IBLeftSplitter,.IBTouch .IBRightSplitter{width:15px}
+.IBSplitterDisabled{cursor:default}
+.IBVScroll{padding-top:0px;padding-bottom:0px;overflow:hidden;border-top:1px solid #cfd1d6;border-right:1px solid #cfd1d6}
+.IBVScrollHeadPadding{border-bottom:0px solid #cfd1d6;border-top:1px solid #1a364e;border-right:1px solid #cfd1d6}
+.IBHScrollLeft,.IBHScrollMid,.IBHScrollRight{overflow:hidden;border-top:1px solid #cfd1d6;border-bottom:0px solid #cfd1d6}
+.IBHScrollLeft{border-left:1px solid #cfd1d6}
+.IBHScrollMid{border-left:1px solid #cfd1d6;border-right:1px solid #cfd1d6}
+.IBHScrollRight{border-right:1px solid #cfd1d6}
+.IBHScrollLeftResize,.IBHScrollRightResize,.IBHScrollMidLeftResize,.IBHScrollMidRightResize{background:#F4F4F4;overflow:hidden}
+.IBHScrollLeftResize{border-right:2px solid black;padding-left:1px;padding-right:5px}
+.IBTouch .IBHScrollLeftResize{padding-right:18px}
+.IBHScrollRightResize{border-left:2px solid black;padding-left:5px;padding-right:1px}
+.IBTouch .IBHScrollRightResize{padding-left:18px}
+.IBHScrollMidLeftResize{border-left:1px solid black;padding-left:5px}
+.IBTouch .IBHScrollMidLeftResize{padding-left:19px}
+.IBHScrollMidRightResize{border-right:1px solid black;padding-right:5px}
+.IBTouch .IBHScrollMidRightResize{padding-right:19px}
+.IBHScrollWide{padding-left:1px;padding-right:1px;overflow:hidden}
+.IBHScrollHidden{overflow:visible!important;background:#F4F4F4}
+.IBXScroll{background:#F4F4F4;cursor:default;border-top:1px solid #cfd1d6;border-bottom:0px solid #cfd1d6;border-right:1px solid #cfd1d6}
+.IBFF .IBHScrollHidden, .IBFF .IBXScroll{background:#F4F4F4}
+.IBMain .IBHScrollSpace{border-bottom:0px none}
+.SheetHiddenScroll > div::-webkit-scrollbar{-webkit-appearance:none;width:11px;height:11px}
+.SheetHiddenScroll > div::-webkit-scrollbar-thumb{border-radius:8px;border:2px solid white;background-color:rgba(0,0,0,0.5)}
+.IBMain *{scrollbar-face-color:#C1C1C1;scrollbar-highlight-color:#F1F1F1;scrollbar-shadow-color:#F1F1F1;scrollbar-arrow-color:#A3A3A3}
+.IBMain *::-webkit-scrollbar{width:17px;height:17px;background:#F1F1F1}
+.IBMain *::-webkit-scrollbar-button{width:17px;height:17px}
+.IBMain *::-webkit-scrollbar-button:vertical:start{background:#F1F1F1 url(./imgs/ScrollUp.png) center 1px no-repeat}
+.IBMain *::-webkit-scrollbar-button:vertical:end{background:#F1F1F1 url(./imgs/ScrollDown.png) center bottom no-repeat}
+.IBMain *::-webkit-scrollbar-button:horizontal:start{background:#F1F1F1 url(./imgs/ScrollLeft.png) center center no-repeat}
+.IBMain *::-webkit-scrollbar-button:horizontal:end{background:#F1F1F1 url(./imgs/ScrollRight.png) center center no-repeat}
+.IBMain *::-webkit-scrollbar-thumb:vertical{width:17px;background:#C1C1C1;border-top:0px none;border-bottom:0px none}
+.IBMain *::-webkit-scrollbar-thumb:horizontal{height:17px;background:#C1C1C1;border-left:0px none;border-right:0px none}
+.IBMain *::-webkit-scrollbar-track-piece:vertical{border-left:0px none;border-right:0px none}
+.IBMain *::-webkit-scrollbar-track-piece:horizontal{border-top:0px none;border-bottom:0px none}
+.IBCustScroll1RightHidden,.IBCustScroll2RightHidden{background:#f1f1f1;height:17px}
+.IBCustScroll2RightHidden{height:31px}
+.IBCustScroll1Right,.IBCustScroll1RightHover,.IBCustScroll2Right,.IBCustScroll2RightHover{background:#F1F1F1 url(./imgs/ScrollRight.png) right 1px center no-repeat;background-size:15px 15px;height:17px;padding-right:17px}
+.IBCustScroll2Right,.IBCustScroll2RightHover{background-size:24px 24px;background-position:right 3px center;height:31px;padding-right:31px}
+.IBCustScroll1Left,.IBCustScroll1LeftHover,.IBCustScroll2Left,.IBCustScroll2LeftHover{background:#F1F1F1 url(./imgs/ScrollLeft.png) 1px center no-repeat;background-size:15px 15px;height:17px;padding-left:17px}
+.IBCustScroll2Left,.IBCustScroll2LeftHover{background-size:24px 24px;background-position:3px center;height:31px;padding-left:31px}
+.IBCustScroll1RightHover,.IBCustScroll1LeftHover,.IBCustScroll2RightHover,.IBCustScroll2LeftHover{background-color:#E1E1E1}
+.IBCustScroll1Left > div,.IBCustScroll1LeftHover > div,.IBCustScroll2Left > div,.IBCustScroll2LeftHover > div{background:#F1F1F1}
+.IBCustScroll1SliderHIn,.IBCustScroll2SliderHIn{height:13px;overflow:hidden;background:#C1C1C1;margin:2px 1px 2px 1px}
+.IBCustScroll2SliderHIn{height:27px}
+.IBCustScroll1SliderHInHover,.IBCustScroll2SliderHInHover{height:13px;overflow:hidden;background:#B1B1B1;margin:2px 1px 2px 1px}
+.IBCustScroll2SliderHInHover{height:27px}
+.IBCustScroll1X,.IBCustScroll2X{background:#f1f1f1;cursor:default;border-right:1px solid #cfd1d6;border-bottom:1px solid #cfd1d6;border-top:1px solid #cfd1d6}
+.IBCustScroll3Right,.IBCustScroll3RightHidden{height:9px;background:#F1F1F1}
+.IBCustScroll3SliderRight,.IBCustScroll3SliderLeft{margin:1px;background:#C1C1C1;border-radius:5px;height:7px}
+.IBCustScroll3SliderRightHover,.IBCustScroll3SliderLeftHover{margin:1px;background:#B1B1B1;border-radius:5px;height:7px}
+.IBCustScroll3X{background:#f1f1f1;cursor:default;border-right:1px solid #cfd1d6;border-bottom:1px solid #cfd1d6;border-top:1px solid #cfd1d6}
+.IBCustScroll4Right,.IBCustScroll4RightHidden,.IBCustScroll4SliderRight,.IBCustScroll4SliderRightHover{height:0px}
+.IBCustScroll1DownHidden,.IBCustScroll2DownHidden{background:#f1f1f1;width:17px}
+.IBCustScroll2DownHidden{width:31px}
+.IBCustScroll1Down,.IBCustScroll1DownHover,.IBCustScroll2Down,.IBCustScroll2DownHover{background:#F1F1F1 url(./imgs/ScrollDown.png) center bottom 1px no-repeat;background-size:15px 15px;width:17px;padding-bottom:17px}
+.IBCustScroll2Down,.IBCustScroll2DownHover{background-size:24px 24px;background-position:left calc(50% - 1px) bottom 3px;width:31px;padding-bottom:31px}
+.IBCustScroll1Up,.IBCustScroll1UpHover,.IBCustScroll2Up,.IBCustScroll2UpHover{background:#F1F1F1 url(./imgs/ScrollUp.png) center 1px no-repeat;background-size:15px 15px;width:17px;padding-top:17px}
+.IBCustScroll2Up,.IBCustScroll2UpHover{background-size:24px 24px;background-position:calc(50% - 1px) 3px;width:31px;padding-top:31px}
+.IBCustScroll1DownHover,.IBCustScroll1UpHover,.IBCustScroll2DownHover,.IBCustScroll2UpHover{background-color:#E1E1E1}
+.IBCustScroll1Up > div,.IBCustScroll1UpHover > div,.IBCustScroll2Up > div,.IBCustScroll2UpHover > div{background:#F1F1F1}
+.IBCustScroll1Up > div > div,.IBCustScroll1UpHover > div > div,.IBCustScroll2Up > div > div,.IBCustScroll2UpHover > div > div{width:17px!important;overflow:hidden}
+.IBCustScroll2Up > div > div,.IBCustScroll2UpHover > div > div{width:29px!important}
+.IBCustScroll1SliderUp,.IBCustScroll2SliderUp{padding-bottom:1px}
+.IBCustScroll1SliderVIn,.IBCustScroll2SliderVIn{background:#C1C1C1;margin:1px 2px 1px 2px}
+.IBCustScroll1SliderVInHover,.IBCustScroll2SliderVInHover{background:#B1B1B1;margin:1px 2px 1px 2px}
+.IBCustScroll3Down,.IBCustScroll3DownHidden{width:8px;padding-top:1px;padding-bottom:1px;background:#F1F1F1}
+.IBCustScroll3SliderDown,.IBCustScroll3SliderUp{margin:0px 1px 0px 1px;background:#C1C1C1;border-radius:5px}
+.IBCustScroll3SliderDownHover,.IBCustScroll3SliderUpHover{margin:0px 1px 0px 1px;background:#B1B1B1;border-radius:5px}
+.IBCustScroll4Down,.IBCustScroll4DownHidden,.IBCustScroll4SliderDown,.IBCustScroll4SliderDownHover{width:0px}
+.IBMain *{-webkit-box-sizing:content-box!important;-moz-box-sizing:content-box!important;box-sizing:content-box!important}
+.IBMain input{height:inherit}
+.IBMain button,.IBMain input[type="button"]{height:auto}
+.IBNone{display:none}
+.IBSection,.IBSectionFF3{table-layout:fixed;width:0px;line-height:0px;contain:paint;border-collapse:separate}
+.IBSectionFF3{border-collapse:collapse}
+.IBSection img{vertical-align:middle}
+.IBSectionScroll{-ms-overflow-style:none}
+.IBSectionScroll::-webkit-scrollbar{display:none}
+.IBMainTable{border-collapse:separate}
+.IBRtl .IBMainTable{text-align:right}
+.IBSolidRow{line-height:0px;overflow:hidden;white-space:nowrap;padding:0}
+.IBHigh .IBRowSpaceFirst .IBSolidRow{padding-top:8px}
+.IBHigh .IBRowSpaceLast .IBSolidRow{padding-bottom:8px}
+.IBBig .IBRowSpaceFirst .IBSolidRow{padding-top:12px}
+.IBBig .IBRowSpaceLast .IBSolidRow{padding-bottom:12px}
+.IBTiny .IBRowSpaceFirst .IBSolidRow{padding-top:0px}
+.IBTiny .IBRowSpaceLast .IBSolidRow{padding-bottom:0px}
+.IBRowSpaceFirst.IBRowSpace0{padding-top:0px}
+.IBRowSpaceLast.IBRowSpace4{padding-top:0px}
+            .IBTabberRow{padding:0px}
+ .IBNoDataRow{padding:5px 0px 5px 5px;overflow:hidden;background-color:white}
+.IBNoDataRow div{text-align:center}
+.IBNoDataIcon{display:inline-block;width:15px;height:15px;margin-right:5px;vertical-align:text-bottom;background-repeat:no-repeat;background-size:contain;background-image:url(./imgs/InfoIcon.png)}
+.IBRowAbove,.IBRowBelow{margin-left:5px;margin-right:5px;overflow:hidden}
+.IBRowAbove{margin-top:0px}
+.IBRowBelow{margin-bottom:0px}
+.IBTiny .IBRowAbove,.IBTiny .IBRowBelow{margin-left:2px;margin-right:2px}
+.IBCellBase{vertical-align:middle;overflow:hidden;height:auto}
+.IBVAlignTop.IBCellHeader{background-position-y:0px}
+.IBIndexSmall{margin-top:-8px;margin-bottom:-50px}
+.IBWide .IBIndexSmall{margin-top:-10px}
+.IBGiant .IBIndexSmall{margin-top:-12px}
+.IBCellEmpty{background:white;border-bottom-color:white}
+.IBCellHidden{background:transparent!important;border:none!important}
+.IBCellBorder,.IBCellHeaderBorder,.IBCellNoBorder{border-left:2px solid transparent;border-top:2px solid transparent}
+.IBCellNoBorder{border-color:transparent}
+.IBCellClassInner{padding-top:0px;padding-bottom:0px}
+.IBCellBorderFF3{border-left:0px none!important;border-top:0px none!important}
+.IBType{padding:6px 10px 5px 10px;white-space:nowrap}
+.IBNoRight.IBType,.IBNoRight .IBType{padding-right:2px}
+.IBWide .IBType{padding-top:5px;padding-bottom:4px}
+.IBHigh .IBType{padding-top:10px;padding-bottom:9px}
+.IBBig .IBType{padding-top:15px;padding-bottom:14px}
+.IBGiant .IBType{padding-top:13px;padding-bottom:12px}
+.IBLow .IBType{padding:4px 3px 4px 3px}
+.IBLow .IBNoRight,.IBLow .IBNoRight .IBType{padding-right:0px}
+.IBSmall .IBType{padding-top:2px;padding-bottom:1px}
+.IBMini .IBDataRow .IBType{padding-top:1px;padding-bottom:0px}
+.IBMini .IBDataRow .IBButton,.IBMini .IBDataRow .IBImg,.IBMini .IBDataRow .IBHtml,.IBMini .IBDataRow .IBBool,.IBMini .IBDataRow .IBAbs,.IBMini .IBDataRow .IBUser{padding-top:0px}
+.IBLow .IBButton{padding-left:5px;padding-right:5px}
+.IBSmall .IBButton{padding-top:0px;padding-bottom:0px}
+.IBInt,.IBFloat,.IBDate{text-align:right}
+.IBLines,.IBRadio,.IBHtml,.IBList{white-space:normal}
+ .IBImg,.IBHtml{padding-top:0px;padding-bottom:0px}
+.IBPass{font-size:16px}
+.IBBool{text-align:center;line-height:0px}
+.IBMain .IBBool{padding:0px 5px 0px 5px}
+.IBLow .IBBool{padding-left:1px;padding-right:1px}
+.IBWide .IBBool{padding-left:7px;padding-right:7px}
+.IBBig .IBBool{padding-left:10px;padding-right:10px}
+.IBIcon{background-repeat:no-repeat}
+.IBAbs{padding:0px;vertical-align:top!important}
+.IBUser{padding:0px}
+.IBIndexText{text-align:center}
+.IBHiddenSpace{display:none}
+.IBHiddenValue,.IBHiddenValue *{color:transparent!important}
+.IBMain .IBOverflowVisible,.IBMain .IBOverflowLeftVisible{overflow:visible}
+.IBMain .IBOverflowLeftVisible>div{float:right}
+.IBMain .IBOverflowDisable{background-color:transparent;opacity:0.99}
+.IBMain.IBIE .IBOverflowDisable{opacity:1;position:relative}
+.IBMain.IBIE .IBMulti.IBOverflowDisable{opacity:1;position:inherit}
+button.IBRightButton{padding:1px 2px 1px 2px;margin-top:5px;margin-bottom:4px;line-height:14px;box-sizing:border-box!important;color:#1a364e}
+.IBWide button.IBRightButton{margin-top:2px;margin-bottom:1px;line-height:inherit}
+.IBHigh button.IBRightButton{margin-top:7px;margin-bottom:6px}
+.IBBig button.IBRightButton{margin-top:12px;margin-bottom:11px}
+.IBGiant button.IBRightButton{margin-top:10px;margin-bottom:9px}
+.IBLow button.IBRightButton{margin-top:2px;margin-bottom:2px}
+.IBSmall button.IBRightButton{margin-top:1px;margin-bottom:1px;line-height:13px;padding-top:0px;padding-bottom:0px}
+.IBMini .IBDataRow button.IBRightButton{line-height:11px}
+u.IBRightButton{padding:0px 7px 0px 7px;margin:0px 5px 0px 5px;text-decoration:none;display:inline-block;overflow:hidden;white-space:nowrap;vertical-align:middle}
+.IBWide u.IBRightButton{margin-top:4px;margin-bottom:3px}
+.IBHigh u.IBRightButton{margin-top:9px;margin-bottom:8px}
+.IBBig u.IBRightButton{margin-top:12px;margin-bottom:11px;padding-top:2px;padding-bottom:2px}
+.IBGiant u.IBRightButton{padding-top:0px;padding-bottom:0px}
+.IBLow u.IBRightButton{margin-top:3px;margin-bottom:3px}
+.IBSmall u.IBRightButton{margin-top:2px;margin-bottom:1px;line-height:14px}
+.IBMini .IBDataRow u.IBRightButton{margin-top:1px;margin-bottom:1px;line-height:13px}
+.IBMain .IBRightHtml{padding-top:7px;padding-bottom:6px;color:inherit}
+.IBWide .IBRightHtml{padding-top:5px;padding-bottom:4px}
+.IBHigh .IBRightHtml{padding-top:10px;padding-bottom:9px}
+.IBBig .IBRightHtml{padding-top:15px;padding-bottom:14px}
+.IBGiant .IBRightHtml{padding-top:13px;padding-bottom:12px}
+.IBLow .IBRightHtml{padding-top:4px;padding-bottom:4px}
+.IBSmall .IBRightHtml{padding-top:2px;padding-bottom:1px}
+.IBMini .IBDataRow .IBRightHtml{padding-top:1px;padding-bottom:0px}
+.IBLevels{padding-left:4px}
+.IBWide .IBLevels{padding-left:5px}
+.IBBig .IBLevels{padding-left:7px}
+.IBLow .IBLevels{padding-left:3px}
+.IBLevels>table{width:100%}
+.IBLevelButton{width:20px;background:url(./imgs/SideLevels.png) 2px center no-repeat;padding-top:7px;padding-bottom:6px;background-size:16px 16px;text-align:center!important;cursor:pointer}
+.IBWide .IBLevelButton{padding-top:5px;padding-bottom:4px;width:24px;background-position:2px center;background-size:20px 20px}
+.IBHigh .IBLevelButton{padding-top:10px;padding-bottom:9px}
+.IBBig .IBLevelButton{padding-top:15px;padding-bottom:14px;width:32px;background-position:4px center;background-size:24px 24px}
+.IBLow .IBLevelButton{padding-top:4px;padding-bottom:3px;width:16px;background-position:2px center;background-size:12px 12px}
+.IBSmall .IBLevelButton{padding-top:2px;padding-bottom:1px}
+.IBLevelButtonSpace{width:5px}
+.IBMergedCellH{padding:0px;padding-right:5px}
+.IBMergedCellV{padding:0px;padding-bottom:1px}
+.IBRequired{width:10px;height:15px;margin:0px 2px;vertical-align:middle;display:inline-block;background-repeat:no-repeat;background-image:url(./imgs/Required.png)}
+.IBHeaderText{color:white}
+.IBHeaderDrag{cursor:default;overflow:hidden}
+.IBHeaderResize{border-right:2px solid white}
+.IBDropCols{padding:1px 0px 1px 0px!important}
+.IBHeaderGroup{padding:4px 8px 4px 8px;background-clip:padding-box;overflow:hidden}
+.IBHeaderGroupCustom{padding:4px 0px 4px 5px;white-space:nowrap}
+.IBWide .IBHeaderGroup,.IBWide .IBHeaderGroupCustom{padding-top:2px;padding-bottom:2px}
+.IBHigh .IBHeaderGroup,.IBHigh .IBHeaderGroupCustom{padding-top:5px;padding-bottom:3px}
+.IBBig .IBHeaderGroup,.IBBig .IBHeaderGroupCustom{padding-top:7px;padding-bottom:5px}
+.IBLow .IBHeaderGroup,.IBLow .IBHeaderGroupCustom{padding-top:1px;padding-bottom:1px}
+.IBResizingRow{border-bottom:2px solid white}
+.IBCellSpaceBase{vertical-align:middle}
+.IBCellSpace,.IBCellSpaceIcon{padding-left:10px;padding-right:10px}
+.IBLow .IBCellSpace,.IBLow .IBCellSpaceIcon{padding-left:6px;padding-right:6px}
+.IBWide .IBCellSpace,.IBWide .IBCellSpaceIcon{padding-left:15px;padding-right:15px}
+.IBCellSpace,.IBSpaceIconInner{padding-top:5px;padding-bottom:5px}
+.IBCellSpaceIcon{padding-top:0px;padding-bottom:0px}
+.IBSpaceIconInner > div{overflow:hidden}
+.IBWide .IBCellSpace,.IBWide .IBSpaceIconInner{padding-top:3px;padding-bottom:3px}
+.IBHigh .IBCellSpace,.IBHigh .IBSpaceIconInner{padding-top:6px;padding-bottom:4px}
+.IBBig .IBCellSpace,.IBBig .IBSpaceIconInner{padding-top:8px;padding-bottom:6px}
+.IBLow .IBCellSpace,.IBLow .IBSpaceIconInner{padding-top:2px;padding-bottom:2px}
+.IBCellSpaceEmpty{padding-left:0px;padding-right:0px}
+.IBInfoRow, .IBInfoRow *{background-color:#e5f0f2}
+.IBFormulaRow, .IBFormulaRow *{background-color:#d8e3f2;font-weight:600}
+.IBMain .IBCellSpaceButton,.IBMain .IBSpaceButtonIconInner{padding-top:5px;padding-bottom:5px;white-space:nowrap}
+.IBWide .IBCellSpaceButton,.IBWide .IBSpaceButtonIconInner{padding-top:3px;padding-bottom:3px}
+.IBHigh .IBCellSpaceButton,.IBHigh .IBSpaceButtonIconInner{padding-top:6px;padding-bottom:4px}
+.IBBig .IBCellSpaceButton,.IBBig .IBSpaceButtonIconInner{padding-top:8px;padding-bottom:6px}
+.IBLow .IBCellSpaceButton,.IBLow .IBSpaceButtonIconInner{padding-top:2px;padding-bottom:2px}
+.IBMain .IBCellSpaceButtonIcon{padding-top:0px;padding-bottom:0px;white-space:nowrap}
+.IBSpaceButtonIconInner > div{overflow:hidden}
+.IBMain .IBCellSpaceTool{padding:0px}
+.IBMain .IBCellSpaceBool{line-height:0px;padding-top:0px;padding-bottom:0px}
+.IBCellSpaceRadio{padding-top:0px;padding-bottom:0px}
+.IBCellSpaceSelect{padding:0px}
+.IBSpaceSelectInner, .IBSpaceSelectInnerIcon{padding:4px 22px 4px 6px;background-size:16px 16px;background-image:url(./imgs/SideDefaultsSpace.png);background-position:right 5px center;background-repeat:no-repeat;white-space:nowrap}
+.IBSpaceSelectInnerIcon{padding:0px 20px 0px 1px}
+.IBSpaceSelectIconInner{padding:4px 6px 4px 6px}
+.IBSpaceSelectIconInner > div{overflow:hidden}
+.IBWide .IBSpaceSelectInner,.IBWide .IBSpaceSelectIconInner{padding-top:2px;padding-bottom:2px}
+.IBWide .IBSpaceSelectInner,.IBWide .IBSpaceSelectInnerIcon{padding-right:26px;background-size:20px 20px}
+.IBBig .IBSpaceSelectInner,.IBBig .IBSpaceSelectInnerIcon{padding-right:32px;background-size:24px 24px}
+.IBLow .IBSpaceSelectInner,.IBLow .IBSpaceSelectInnerIcon{padding-right:16px;background-size:12px 12px}
+.IBHigh .IBSpaceSelectInner{padding-top:5px;padding-bottom:3px}
+.IBHigh .IBSpaceSelectInnerIcon{padding-top:1px;padding-bottom:1px}
+.IBHigh .IBSpaceSelectIconInner{padding-top:4px;padding-bottom:2px}
+.IBBig .IBSpaceSelectInner,.IBBig .IBSpaceSelectInnerIcon{padding-top:7px;padding-bottom:5px}
+.IBBig .IBSpaceSelectInnerIcon{padding-top:3px;padding-bottom:3px}
+.IBLow .IBSpaceSelectInner,.IBLow .IBSpaceSelectIconInner{padding-top:1px;padding-bottom:1px;padding-right:17px;background-position:right 1px center}
+.IBCellSpaceEdit{padding:0px}
+.IBSpaceEditInner,.IBSpaceEditIconInner, .IBSpaceEditReadOnly{padding:4px 6px 4px 6px}
+.IBSpaceEditInnerIcon{padding:0px 2px 0px 1px}
+.IBSpaceEditIconInner > div{overflow:hidden}
+.IBSpaceEditButtonIconInner{padding-top:0px;padding-bottom:0px}
+.IBWide .IBSpaceEditInner{padding-top:2px;padding-bottom:2px}
+.IBWide .IBSpaceEditInnerIcon{padding-top:1px;padding-bottom:1px}
+.IBWide .IBSpaceEditIconInner{padding-top:1px;padding-bottom:1px}
+.IBHigh .IBSpaceEditInner{padding-top:5px;padding-bottom:3px}
+.IBHigh .IBSpaceEditIconInner{padding-top:4px;padding-bottom:2px}
+.IBBig .IBSpaceEditInner{padding-top:7px;padding-bottom:5px}
+.IBBig .IBSpaceEditInnerIcon{padding-top:3px;padding-bottom:3px}
+.IBBig .IBSpaceEditIconInner{padding-top:4px;padding-bottom:2px}
+.IBLow .IBSpaceEditInner,.IBLow .IBSpaceEditIconInner{padding-top:1px;padding-bottom:1px}
+.IBMain .IBSpaceClassInner{padding-top:0px;padding-bottom:0px}
+.IBMain .IBSpaceWrap{padding-left:8px;padding-right:8px;white-space:normal}
+.IBHigh .IBSpaceWrap{padding-left:16px;padding-right:16px}
+.IBSmall .IBSpaceWrap{padding-left:6px;padding-right:6px}
+.IBTiny .IBSpaceWrap{padding-left:1px;padding-right:1px}
+.IBMain .IBCellSpaceWrap{display:inline-block;margin-top:4px;margin-bottom:4px}
+.IBHigh .IBCellSpaceWrap{margin-top:8px;margin-bottom:8px}
+.IBSmall .IBCellSpaceWrap{margin-top:2px;margin-bottom:2px}
+.IBTiny .IBCellSpaceWrap{margin-top:1px;margin-bottom:1px}
+.IBMain .IBCellSpaceWrap.IBEmpty{height:26px;padding-top:0px;padding-bottom:0px}
+.IBHigh .IBCellSpaceWrap.IBEmpty{height:30px}
+.IBBig .IBCellSpaceWrap.IBEmpty{height:34px}
+.IBLow .IBCellSpaceWrap.IBEmpty{height:20px}
+.IBCellRotate1{vertical-align:bottom;text-align:center}
+.IBCellRotate2{vertical-align:top;text-align:center}
+.IBMain .IBCellRotate{padding-left:0px;padding-right:0px}
+.IBSmall .IBCellRotate{padding-top:2px;padding-bottom:2px}
+.IBRotate1,.IBRotate2{overflow:hidden;white-space:nowrap;display:inline-block;writing-mode:tb-rl}
+.IBRotate1{-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg);transform:rotate(180deg)}
+.IBIconRotate{padding-top:30px!important;padding-left:0px!important;padding-right:0px!important;background-position:center 5px!important}
+.IBIconRotateHeader{padding-top:25px!important;padding-bottom:6px!important}
+.IBWide .IBIconRotateHeader{padding-top:30px!important;padding-bottom:4px!important}
+.IBHigh .IBIconRotateHeader{padding-bottom:9px!important}
+.IBBig .IBIconRotateHeader{padding-top:35px!important;padding-bottom:14px!important}
+.IBSmall .IBIconRotateHeader{padding-top:20px!important;padding-bottom:0px!important}
+.IBIconRotate.IBAlignLeft{background-position-x:2px!important}
+.IBIconRotate.IBAlignCenter{background-position-x:center!important}
+.IBIconRotate.IBAlignRight{background-position-x:right 2px!important}
+.IBCellRotate.IBNoLeft{background-position-y:5px!important}
+.IBWrap0{white-space:nowrap}
+.IBWrap1{white-space:normal}
+.IBAlignLeft{text-align:left}
+.IBAlignCenter{text-align:center}
+.IBAlignJustify{text-align:justify}
+.IBAlignRight{text-align:right}
+.IBVAlignMiddle{vertical-align:middle;display:table-cell}
+.IBVAlignBottom{vertical-align:bottom;display:table-cell}
+.IBVAlignTop{vertical-align:top;display:table-cell}
+.IBTextBold,.IBTextBold>div{font-weight:bold}
+.IBTextItalic,.IBTextItalic>div{font-style:italic}
+.IBTextUnderline,.IBTextUnderline>div{text-decoration:underline}
+.IBTextStrike,.IBTextStrike>div{text-decoration:line-through}
+.IBTextOverline,.IBTextOverline>div{text-decoration:overline}
+.IBTextUnderlineStrike,.IBTextUnderlineStrike>div{text-decoration:underline line-through}
+.IBTextUnderlineOverline,.IBTextUnderlineOverline>div{text-decoration:underline overline}
+.IBTextStrikeOverline,.IBTextStrikeOverline>div{text-decoration:line-through overline}
+.IBTextUnderlineStrikeOverline,.IBTextUnderlineStrikeOverline>div{text-decoration:underline line-through overline}
+.IBTextSmall,.IBTextSmall>div{font-variant:small-caps}
+.IBTextShadow0{text-shadow:0px 0px 5px}
+.IBTextShadow1{text-shadow:-1px -1px}
+.IBTextShadow2{text-shadow:-1px -1px, -3px -3px silver}
+.IBTextShadow3{text-shadow:-1px -1px, 0px 0px 5px}
+.IBTextShadow4{text-shadow:-1px -1px, 0px 0px 10px}
+.IBTextShadow5{text-shadow:-2px -2px silver}
+.IBTextShadow6{text-shadow:-3px -3px silver, -1px -1px}
+.IBTextShadow7{text-shadow:0px 0px 3px black,0px 0px 3px black,0px 0px 3px black}
+.IBTextShadow8{text-shadow:0px 0px 5px yellow, -1px -1px}
+.IBTextShadow9{text-shadow:0px 0px 10px}
+.IBMain .IBIndentLeft1{padding-left:10px}
+ .IBMain .IBIndentRight1{padding-right:10px}
+.IBMain .IBIndentLeft2{padding-left:20px}
+ .IBMain .IBIndentRight2{padding-right:20px}
+.IBMain .IBIndentLeft3{padding-left:30px}
+ .IBMain .IBIndentRight3{padding-right:30px}
+.IBMain .IBIndentLeft4{padding-left:40px}
+ .IBMain .IBIndentRight4{padding-right:40px}
+.IBMain .IBIndentLeft5{padding-left:50px}
+ .IBMain .IBIndentRight5{padding-right:50px}
+.IBMain .IBIndentLeft6{padding-left:60px}
+ .IBMain .IBIndentRight6{padding-right:60px}
+.IBMain .IBIndentLeft7{padding-left:70px}
+ .IBMain .IBIndentRight7{padding-right:70px}
+.IBMain .IBIndentLeft8{padding-left:80px}
+ .IBMain .IBIndentRight8{padding-right:80px}
+.IBMain .IBIndentLeft9{padding-left:90px}
+ .IBMain .IBIndentRight9{padding-right:90px}
+.IBMain .IBIndentLeft10{padding-left:100px}
+ .IBMain .IBIndentRight10{padding-right:100px}
+.IBMain .IBIndentLeft15{padding-left:150px}
+ .IBMain .IBIndentRight15{padding-right:150px}
+.IBMain .IBIndentLeft20{padding-left:200px}
+ .IBMain .IBIndentRight20{padding-right:200px}
+.IBMain .IBIndentLeft25{padding-left:250px}
+ .IBMain .IBIndentRight25{padding-right:250px}
+.IBMain .IBIndentLeft30{padding-left:300px}
+ .IBMain .IBIndentRight30{padding-right:300px}
+.IBMain .IBIndentLeft35{padding-left:350px}
+ .IBMain .IBIndentRight30{padding-right:350px}
+.IBMain .IBIndentLeft40{padding-left:400px}
+ .IBMain .IBIndentRight40{padding-right:400px}
+.IBMain .IBIndentLeft45{padding-left:450px}
+ .IBMain .IBIndentRight40{padding-right:450px}
+.IBMain .IBIndentLeft50{padding-left:500px}
+ .IBMain .IBIndentRight50{padding-right:500px}
+.IBNoLeft,.IBNoSpaceLeft{border-left:0px none!important;border-bottom-left-radius:0px!important;border-top-left-radius:0px!important}
+.IBMain .IBNoSpaceLeft{padding-left:2px}
+.IBWide .IBNoSpaceLeft{padding-left:3px}
+.IBLow .IBNoSpaceLeft{padding-left:1px}
+.IBNoRight,.IBNoSpaceRight{border-right:0px none!important;border-bottom-right-radius:0px!important;border-top-right-radius:0px!important;background-image:none}
+.IBMain .IBNoSpaceRight{padding-right:2px}
+.IBWide .IBNoSpaceRight{padding-right:3px}
+.IBLow .IBNoSpaceRight{padding-right:1px}
+.IBNoSpaceLeft.IBNoSpaceRight{padding-left:0px;padding-right:0px}
+.IBEmpty{text-decoration:none!important;font-size:0px!important}
+.IBPages{overflow:visible;padding:0px!important}
+.IBPages,.IBPages > div{text-overflow:clip}
+.IBPagesLink,.IBPagesLinkActive{padding:2px 1px 2px 2px;margin:2px 2px 2px 2px;display:inline-block;cursor:pointer}
+.IBWide .IBPagesLink,.IBWide .IBPagesLinkActive{margin-left:4px;margin-right:4px}
+.IBLow .IBPagesLink,.IBLow .IBPagesLinkActive{margin-left:1px;margin-right:1px}
+.IBTouch .IBPagesLink,.IBTouch .IBPagesLinkActive{margin-left:6px;margin-right:6px}
+.IBTree{padding:0px;white-space:nowrap;line-height:0px;height:0px;text-overflow:clip}
+.IBFF .IBTree{height:100%}
+.IBNoTreeLines1,.IBNoTreeLines2,.IBNoTreeLines3{text-align:right}
+.IBSpannedTree{line-height:0px;height:0px}
+.IBTreeAlign{vertical-align:middle}
+.IBTreeTop,.IBTreeMiddle,.IBTreeBottom{background-repeat:no-repeat!important}
+.IBTreeTop.IBTreeIcon{background-position:center top}
+.IBTreeMiddle.IBTreeIcon{background-position:center center}
+.IBTreeBottom.IBTreeIcon{background-position:center bottom}
+.IBTreeImage,.IBTreeImageIE{display:inline-block;height:100%;width:0px}
+.IBWidth1{padding-left:20px;background:url(./imgs/TreeVLine.png) 73.4% 0px}
+.IBWidth2{padding-left:40px;background:url(./imgs/TreeVLine.png) 86.7% 0px,url(./imgs/TreeVLine.png) 36.7% 0px}
+.IBWidth3{padding-left:60px;background:url(./imgs/TreeVLine.png) 91.1% 0px,url(./imgs/TreeVLine.png) 57.8% 0px,url(./imgs/TreeVLine.png) 24.5% 0px}
+.IBWidth1T{padding-left:28px;background:none right 47.6% center,url(./imgs/TreeHLine.png) calc(50.0% + 50.0px) 49.5%,url(./imgs/TreeVLine.png) left 52.2% top}
+.IBWidth2T{padding-left:48px;background:none right 18.9% center,url(./imgs/TreeHLine.png) calc(70.8% + 70.8px) 49.5%,url(./imgs/TreeVLine.png) 72.1% 0px,url(./imgs/TreeVLine.png) 30.5% 0px}
+.IBWidth3T{padding-left:68px;background:none,url(./imgs/TreeHLine.png) calc(79.4% + 79.4px) 49.5%,url(./imgs/TreeVLine.png) 80.3% 0px,url(./imgs/TreeVLine.png) 50.9% 0px,url(./imgs/TreeVLine.png) 21.5% 0px}
+.IBWidth4T{padding-left:88px;background:none,url(./imgs/TreeHLine.png) calc(84.1% + 84.1px) 49.5%,url(./imgs/TreeVLine.png) 84.8% 0px,url(./imgs/TreeVLine.png) 62% 0px,url(./imgs/TreeVLine.png) 39.4% 0px,url(./imgs/TreeVLine.png) 16.4% 0px}
+.IBWide .IBWidth1T{padding-left:34px}
+ .IBWide .IBWidth1{padding-left:24px}
+.IBWide .IBWidth2T{padding-left:58px}
+ .IBWide .IBWidth2{padding-left:48px}
+.IBWide .IBWidth3T{padding-left:82px}
+ .IBWide .IBWidth3{padding-left:72px}
+.IBWide .IBWidth4T{padding-left:106px}
+.IBBig .IBWidth1T{padding-left:45px}
+ .IBBig .IBWidth1{padding-left:32px}
+.IBBig .IBWidth2T{padding-left:77px}
+ .IBBig .IBWidth2{padding-left:64px}
+.IBBig .IBWidth3T{padding-left:109px}
+ .IBBig .IBWidth3{padding-left:96px}
+.IBBig .IBWidth4T{padding-left:141px}
+.IBLow .IBWidth1T{padding-left:22px}
+ .IBLow .IBWidth1{padding-left:16px}
+.IBLow .IBWidth2T{padding-left:38px}
+ .IBLow .IBWidth2{padding-left:32px}
+.IBLow .IBWidth3T{padding-left:54px}
+ .IBLow .IBWidth3{padding-left:48px}
+.IBLow .IBWidth4T{padding-left:70px}
+.IBTreeL{background-position-y:50%,50%,calc(50% - 500px),0px,0px,0px}
+.IBTreeRev.IBTreeL{background-position-y:50%,50%,calc(50% + 500px),0px,0px,0px}
+.IBTreeTop.IBTreeT{background-position-y:7px,14px,0px,0px,0px,0px}
+.IBWide .IBTreeTop.IBTreeT{background-position-y:5px,14px,0px,0px,0px,0px}
+.IBHigh .IBTreeTop.IBTreeT{background-position-y:10px,19px,0px,0px,0px,0px}
+.IBBig .IBTreeTop.IBTreeT{background-position-y:13px,24px,0px,0px,0px,0px}
+.IBLow .IBTreeTop.IBTreeT{background-position-y:6px,11px,0px,0px,0px,0px}
+.IBSmall .IBTreeTop.IBTreeT{background-position-y:4px, 9px,0px,0px,0px,0px}
+.IBMini .IBTreeTop.IBTreeT{background-position-y:3px, 8px,0px,0px,0px,0px}
+.IBTreeTop.IBTreeL{background-position-y:7px,14px,-986px,0px,0px,0px}
+.IBWide .IBTreeTop.IBTreeL{background-position-y:5px,14px,-986px,0px,0px,0px}
+.IBHigh .IBTreeTop.IBTreeL{background-position-y:10px,19px,-981px,0px,0px,0px}
+.IBBig .IBTreeTop.IBTreeL{background-position-y:13px,24px,-976px,0px,0px,0px}
+.IBLow .IBTreeTop.IBTreeL{background-position-y:6px,11px,-989px,0px,0px,0px}
+.IBSmall .IBTreeTop.IBTreeL{background-position-y:4px, 9px,-991px,0px,0px,0px}
+.IBMini .IBTreeTop.IBTreeL{background-position-y:3px, 8px,-992px,0px,0px,0px}
+.IBTreeRev.IBTreeTop.IBTreeL{background-position-y:7px,14px,14px,0px,0px,0px}
+.IBWide .IBTreeRev.IBTreeTop.IBTreeL{background-position-y:5px,14px,14px,0px,0px,0px}
+.IBHigh .IBTreeRev.IBTreeTop.IBTreeL{background-position-y:10px,19px,19px,0px,0px,0px}
+.IBBig .IBTreeRev.IBTreeTop.IBTreeL{background-position-y:13px,24px,24px,0px,0px,0px}
+.IBLow .IBTreeRev.IBTreeTop.IBTreeL{background-position-y:6px,11px,11px,0px,0px,0px}
+.IBSmall .IBTreeRev.IBTreeTop.IBTreeL{background-position-y:4px, 9px, 9px,0px,0px,0px}
+.IBMini .IBTreeRev.IBTreeTop.IBTreeL{background-position-y:3px, 8px, 8px,0px,0px,0px}
+.IBTreeBottom.IBTreeT{background-position-y:calc(100% - 6px),calc(100% - 14px),0px,0px,0px,0px}
+.IBWide .IBTreeBottom.IBTreeT{background-position-y:calc(100% - 4px),calc(100% - 14px),0px,0px,0px,0px}
+.IBHigh .IBTreeBottom.IBTreeT{background-position-y:calc(100% - 9px),calc(100% - 19px),0px,0px,0px,0px}
+.IBBig .IBTreeBottom.IBTreeT{background-position-y:calc(100% - 12px),calc(100% - 24px),0px,0px,0px,0px}
+.IBLow .IBTreeBottom.IBTreeT{background-position-y:calc(100% - 6px),calc(100% - 12px),0px,0px,0px,0px}
+.IBSmall .IBTreeBottom.IBTreeT{background-position-y:calc(100% - 3px),calc(100% - 9px),0px,0px,0px,0px}
+.IBMini .IBTreeBottom.IBTreeT{background-position-y:calc(100% - 2px),calc(100% - 8px),0px,0px,0px,0px}
+.IBTreeBottom.IBTreeL{background-position-y:calc(100% - 6px),calc(100% - 14px),calc(100% - 14px),0px,0px,0px}
+.IBWide .IBTreeBottom.IBTreeL{background-position-y:calc(100% - 4px),calc(100% - 14px),calc(100% - 14px),0px,0px,0px}
+.IBHigh .IBTreeBottom.IBTreeL{background-position-y:calc(100% - 9px),calc(100% - 19px),calc(100% - 19px),0px,0px,0px}
+.IBBig .IBTreeBottom.IBTreeL{background-position-y:calc(100% - 12px),calc(100% - 24px),calc(100% - 24px),0px,0px,0px}
+.IBLow .IBTreeBottom.IBTreeL{background-position-y:calc(100% - 6px),calc(100% - 12px),calc(100% - 12px),0px,0px,0px}
+.IBSmall .IBTreeBottom.IBTreeL{background-position-y:calc(100% - 3px),calc(100% - 9px),calc(100% - 9px),0px,0px,0px}
+.IBMini .IBTreeBottom.IBTreeL{background-position-y:calc(100% - 2px),calc(100% - 8px),calc(100% - 8px),0px,0px,0px}
+.IBTreeRev.IBTreeBottom.IBTreeL{background-position-y:calc(100% - 6px),calc(100% - 14px),calc(100% + 986px),0px,0px,0px}
+.IBWide .IBTreeRev.IBTreeBottom.IBTreeL{background-position-y:calc(100% - 4px),calc(100% - 14px),calc(100% + 986px),0px,0px,0px}
+.IBHigh .IBTreeRev.IBTreeBottom.IBTreeL{background-position-y:calc(100% - 9px),calc(100% - 19px),calc(100% + 981px),0px,0px,0px}
+.IBBig .IBTreeRev.IBTreeBottom.IBTreeL{background-position-y:calc(100% - 12px),calc(100% - 24px),calc(100% + 976px),0px,0px,0px}
+.IBLow .IBTreeRev.IBTreeBottom.IBTreeL{background-position-y:calc(100% - 6px),calc(100% - 12px),calc(100% + 988px),0px,0px,0px}
+.IBSmall .IBTreeRev.IBTreeBottom.IBTreeL{background-position-y:calc(100% - 3px),calc(100% - 9px),calc(100% + 991px),0px,0px,0px}
+.IBMini .IBTreeRev.IBTreeBottom.IBTreeL{background-position-y:calc(100% - 2px),calc(100% - 8px),calc(100% + 992px),0px,0px,0px}
+.IB111{background-size:1px 100%,1px 100%,1px 100%}
+.IB110{background-size:0px 0px ,1px 100%,1px 100%}
+.IB101{background-size:1px 100%,0px 0px ,1px 100%}
+.IB100{background-size:0px 0px ,0px 0px ,1px 100%}
+.IB011,.IB11{background-size:1px 100%,1px 100%,0px 0px }
+.IB010,.IB10{background-size:0px 0px ,1px 100%,0px 0px }
+.IB001,.IB01,.IB1{background-size:1px 100%,0px 0px ,0px 0px }
+.IB000,.IB00,.IB0{background-size:0px 0px ,0px 0px ,0px 0px }
+.IB111T{background-size:24px 24px,100px 1px,1px 1000px,1px 100%,1px 100%,1px 100%}
+.IB110T{background-size:24px 24px,100px 1px,1px 1000px,0px 0px ,1px 100%,1px 100%}
+.IB101T{background-size:24px 24px,100px 1px,1px 1000px,1px 100%,0px 0px ,1px 100%}
+.IB100T{background-size:24px 24px,100px 1px,1px 1000px,0px 0px ,0px 0px ,1px 100%}
+.IB011T,.IB11T{background-size:24px 24px,100px 1px,1px 1000px,1px 100%,1px 100%,0px 0px }
+.IB010T,.IB10T{background-size:24px 24px,100px 1px,1px 1000px,0px 0px ,1px 100%,0px 0px }
+.IB001T,.IB01T{background-size:24px 24px,100px 1px,1px 1000px,1px 100%,0px 0px ,0px 0px }
+.IB000T,.IB00T{background-size:24px 24px,100px 1px,1px 1000px,0px 0px ,0px 0px ,0px 0px }
+.IB1E,.IB0E,.IB1EL,.IB0EL{background-image:url(./imgs/TreeExpand.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png),url(./imgs/TreeVLine.png)}
+.IB1C,.IB0C,.IB1CL,.IB0CL{background-image:url(./imgs/TreeCollapse.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png),url(./imgs/TreeVLine.png)}
+.IBTreeRev .IB1C,.IBTreeRev .IB0C,.IBTreeRev .IB1CL,.IBTreeRev .IB0CL,.IBTreeRev.IB1C,.IBTreeRev.IB0C,.IBTreeRev.IB1CL,.IBTreeRev.IB0CL{background-image:url(./imgs/TreeCollapseRev.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png),url(./imgs/TreeVLine.png)}
+.IBE,.IBEL{background-image:url(./imgs/TreeExpand.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png)}
+.IBC,.IBCL{background-image:url(./imgs/TreeCollapse.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png)}
+.IBTreeRev .IBC,.IBTreeRev .IBCL,.IBTreeRev.IBC,.IBTreeRev.IBCL{background-image:url(./imgs/TreeCollapseRev.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png)}
+.IBD0,.IBD0L{background-image:url(./imgs/TreeDropNone.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png)}
+.IBD1,.IBD1L{background-image:url(./imgs/TreeDropAbove.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png)}
+.IBD2,.IBD2L{background-image:url(./imgs/TreeDropInto.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png)}
+.IBD3,.IBD3L{background-image:url(./imgs/TreeDropBelow.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png)}
+.IBD4,.IBD4L{background-image:url(./imgs/TreeWait.png),url(./imgs/TreeHLine.png),url(./imgs/TreeVLine.png)}
+.IB1T,.IB1E,.IB1C,.IB1TL,.IB1EL,.IB1CL{background-size:16px 16px,100px 1px,1px 1000px,1px 100%}
+.IB0T,.IB0E,.IB0C,.IB0TL,.IB0EL,.IB0CL{background-size:16px 16px,100px 1px,1px 1000px,0px 0px }
+.IBT,.IBE,.IBC,.IBD0,.IBD1,.IBD2,.IBD3,.IBD4,.IBTL,.IBEL,.IBCL,.IBD0L,.IBD1L,.IBD2L,.IBD3L,.IBD4L{background-size:16px 16px,100px 1px,1px 1000px}
+.IBWide .IB1T,.IBWide .IB1E,.IBWide .IB1C,.IBWide .IB1TL,.IBWide .IB1EL,.IBWide .IB1CL{background-size:20px 20px,100px 1px,1px 1000px,1px 100%}
+.IBWide .IB0T,.IBWide .IB0E,.IBWide .IB0C,.IBWide .IB0TL,.IBWide .IB0EL,.IBWide .IB0CL{background-size:20px 20px,100px 1px,1px 1000px,0px 0px }
+.IBWide .IBT,.IBWide .IBE,.IBWide .IBC,.IBWide .IBD0,.IBWide .IBD1,.IBWide .IBD2,.IBWide .IBD3,.IBWide .IBD4,.IBWide .IBTL,.IBWide .IBEL,.IBWide .IBCL,.IBWide .IBD0L,.IBWide .IBD1L,.IBWide .IBD2L,.IBWide .IBD3L,.IBWide .IBD4L{background-size:20px 20px,100px 1px,1px 1000px}
+.IBBig .IB1T,.IBBig .IB1E,.IBBig .IB1C,.IBBig .IB1TL,.IBBig .IB1EL,.IBBig .IB1CL{background-size:24px 24px,100px 1px,1px 1000px,1px 100%}
+.IBBig .IB0T,.IBBig .IB0E,.IBBig .IB0C,.IBBig .IB0TL,.IBBig .IB0EL,.IBBig .IB0CL{background-size:24px 24px,100px 1px,1px 1000px,0px 0px }
+.IBBig .IBT,.IBBig .IBE,.IBBig .IBC,.IBBig .IBD0,.IBBig .IBD1,.IBBig .IBD2,.IBBig .IBD3,.IBBig .IBD4,.IBBig .IBTL,.IBBig .IBEL,.IBBig .IBCL,.IBBig .IBD0L,.IBBig .IBD1L,.IBBig .IBD2L,.IBBig .IBD3L,.IBBig .IBD4L{background-size:24px 24px,100px 1px,1px 1000px}
+.IBLow .IB1T,.IBLow .IB1E,.IBLow .IB1C,.IBLow .IB1TL,.IBLow .IB1EL,.IBLow .IB1CL{background-size:12px 12px,100px 1px,1px 1000px,1px 100%}
+.IBLow .IB0T,.IBLow .IB0E,.IBLow .IB0C,.IBLow .IB0TL,.IBLow .IB0EL,.IBLow .IB0CL{background-size:12px 12px,100px 1px,1px 1000px,0px 0px }
+.IBLow .IBT,.IBLow .IBE,.IBLow .IBC,.IBLow .IBD0,.IBLow .IBD1,.IBLow .IBD2,.IBLow .IBD3,.IBLow .IBD4,.IBLow .IBTL,.IBLow .IBEL,.IBLow .IBCL,.IBLow .IBD0L,.IBLow .IBD1L,.IBLow .IBD2L,.IBLow .IBD3L,.IBLow .IBD4L{background-size:12px 12px,100px 1px,1px 1000px}
+.IBNTree,.IBNTreeImage{background-size:16px 16px;background-position:right 6px center;background-repeat:no-repeat}
+.IBWide .IBNTree,.IBWide .IBNTreeImage{background-size:20px 20px;background-position:right 12px center}
+.IBBig .IBNTree,.IBBig .IBNTreeImage{background-size:24px 24px;background-position:right 10px center}
+.IBLow .IBNTree,.IBLow .IBNTreeImage{background-size:12px 12px;background-position:right 4px center}
+.IBRtl .IBNTree,.IBRtl .IBNTreeImage{background-position:left 6px center}
+.IBRtl.IBWide .IBNTree,.IBRtl.IBWide .IBNTreeImage{background-position:left 12px center}
+.IBRtl.IBBig .IBNTree,.IBRtl.IBBig .IBNTreeImage{background-position:left 10px center}
+.IBRtl.IBLow .IBNTree,.IBRtl.IBLow .IBNTreeImage{background-position:left 4px center}
+.IBNTreeImage{display:inline-block;width:28px;height:29px}
+.IBWide .IBNTreeImage{width:34px}
+.IBHigh .IBNTreeImage{height:39px}
+.IBBig .IBNTreeImage{height:49px;width:45px}
+.IBLow .IBNTreeImage{width:22px;height:25px}
+.IBSmall .IBNTreeImage{height:19px}
+.IBMini .IBDataRow .IBNTreeImage{height:17px}
+.IBNWidth{width:20px}
+.IBWide .IBNWidth{width:24px}
+.IBBig .IBNWidth{width:32px}
+.IBLow .IBNWidth{width:16px}
+.IBNC,.IBNCR{background-image:url(./imgs/TreeCollapseN.png)}
+.IBNTreeRev.IBNC,.IBNTreeRev.IBNCR{background-image:url(./imgs/TreeCollapseNRev.png)}
+.IBNE,.IBNER{background-image:url(./imgs/TreeExpandN.png)}
+.IBRtl .IBNE,.IBRtl .IBNER{background-image:url(./imgs/TreeExpandNRtl.png)}
+.IBND0,.IBND0R{background-image:url(./imgs/TreeDropNone.png)}
+.IBND1{background-image:url(./imgs/TreeDropAbove.png)}
+.IBND1R{background-image:url(./imgs/TreeDropAboveRtl.png)}
+.IBND2{background-image:url(./imgs/TreeDropInto.png)}
+.IBND2R{background-image:url(./imgs/TreeDropIntoRtl.png)}
+.IBND3{background-image:url(./imgs/TreeDropBelow.png)}
+.IBND3R{background-image:url(./imgs/TreeDropBelowRtl.png)}
+.IBND4,.IBND4R{background-image:url(./imgs/TreeWaitN.png)}
+.IBFilter0,.IBFilter1,.IBGroup0,.IBGroup1,.IBSearch0,.IBSearch1{background-position:center center;background-repeat:no-repeat;display:inline-block}
+.IBFilter0,.IBFilter1{height:29px;background-size:16px 16px;width:16px}
+.IBWide .IBFilter0,.IBWide .IBFilter1{background-size:20px 20px;width:20px}
+.IBHigh .IBFilter0,.IBHigh .IBFilter1{height:39px}
+.IBBig .IBFilter0,.IBBig .IBFilter1{height:49px;background-size:24px 24px;width:24px}
+.IBLow .IBFilter0,.IBLow .IBFilter1{height:24px;background-size:12px 12px;width:12px}
+.IBSmall .IBFilter0,.IBSmall .IBFilter1{height:19px}
+.IBTiny .IBFilter0,.IBTiny .IBFilter1{height:17px}
+.IBFilter0,.IBGroup0,.IBSearch0{background-image:url(./imgs/Bool0.png)}
+.IBFilter1,.IBGroup1,.IBSearch1{background-image:url(./imgs/Bool1.png)}
+.IBGroup0,.IBGroup1,.IBSearch0,.IBSearch1{height:26px;background-size:20px 20px;width:20px}
+.IBWide .IBGroup0,.IBWide .IBGroup1,.IBWide .IBSearch0,.IBWide .IBSearch1{background-size:24px 24px;width:24px}
+.IBHigh .IBGroup0,.IBHigh .IBGroup1,.IBHigh .IBSearch0,.IBHigh .IBSearch1{height:30px}
+.IBBig .IBGroup0,.IBBig .IBGroup1,.IBBig .IBSearch0,.IBBig .IBSearch1{height:34px;background-size:28px 28px;width:28px}
+.IBGiant .IBGroup0,.IBGiant .IBGroup1,.IBGiant .IBSearch0,.IBGiant .IBSearch1{height:38px}
+.IBLow .IBGroup0,.IBLow .IBGroup1,.IBLow .IBSearch0,.IBLow .IBSearch1{height:20px;background-size:16px 16px;width:16px}
+.IBMain .IBPSpace1{width:29px;text-align:center}
+.IBMain .IBPSpace2{width:53px;text-align:center}
+.IBMain .IBPSpace3{width:77px;text-align:center}
+.IBMain .IBPSpace4{width:101px;text-align:center}
+.IBHigh .IBPSpace1{width:64px}
+.IBHigh .IBPSpace2{width:98px}
+.IBHigh .IBPSpace3{width:132px}
+.IBHigh .IBPSpace4{width:166px}
+.IBLow .IBPSpace1{width:24px}
+.IBLow .IBPSpace2{width:43px}
+.IBLow .IBPSpace3{width:62px}
+.IBLow .IBPSpace4{width:81px}
+.IBTabHtmlBase *{font-size:inherit;line-height:inherit}
+.IBMain .IBTabSep{padding-left:3px;padding-right:0px;cursor:default!important}
+.IBMain .IBTabSepRight,.IBMain .IBTabSepLeft{padding:5px;width:5px}
+.IBTabSepLast{display:none}
+.IBTabSepFirst{display:none}
+.IBMain .IBToolButton{text-align:center;padding:0px 1px 0px 1px;overflow:hidden}
+button.IBToolButtonButton,button.IBToolButtonButton1{margin-top:5px;margin-bottom:4px;padding:1px 2px 1px 2px;line-height:14px;cursor:pointer;white-space:nowrap;display:block;color:inherit}
+.IBWide button.IBToolButtonButton,.IBWide button.IBToolButtonButton1{margin-top:2px;margin-bottom:1px;line-height:inherit}
+.IBHigh button.IBToolButtonButton,.IBHigh button.IBToolButtonButton1{margin-top:7px;margin-bottom:6px}
+.IBBig button.IBToolButtonButton,.IBBig button.IBToolButtonButton1{margin-top:12px;margin-bottom:11px}
+.IBGiant button.IBToolButtonButton,.IBGiant button.IBToolButtonButton1{margin-top:10px;margin-bottom:9px}
+.IBLow button.IBToolButtonButton,.IBLow button.IBToolButtonButton1{margin-top:2px;margin-bottom:2px}
+.IBSmall button.IBToolButtonButton,.IBSmall button.IBToolButtonButton1{margin-top:1px;margin-bottom:1px;line-height:13px;padding-top:0px;padding-bottom:0px}
+.IBMini .IBDataRow button.IBToolButtonButton,.IBMini .IBDataRow button.IBToolButtonButton1{line-height:11px}
+button.IBToolSpaceButton,button.IBToolSpaceButton1{padding:4px 6px 4px 6px;cursor:pointer;white-space:nowrap}
+button.IBToolButtonButton1,button.IBToolSpaceButton1{color:#3d5575;font-weight:bold}
+u.IBToolButtonButton,u.IBToolButtonButton1,u.IBToolSpaceButton,u.IBToolSpaceButton1{cursor:pointer;text-decoration:none;display:block;overflow:hidden;white-space:nowrap}
+u.IBToolButtonButton,u.IBToolButtonButton1{margin:1px 0px 1px 0px;padding:0px 2px 0px 2px}
+.IBAlignCenter>u.IBToolButtonButton,.IBAlignCenter>u.IBToolButtonButton1{margin:1px auto 1px auto}
+.IBAlignRight>u.IBToolButtonButton,.IBAlignRight>u.IBToolButtonButton1{margin:1px 0px 1px auto}
+.IBWide u.IBToolButtonButton,.IBWide u.IBToolButtonButton1{margin-top:4px;margin-bottom:3px}
+.IBHigh u.IBToolButtonButton,.IBHigh u.IBToolButtonButton1{margin-top:9px;margin-bottom:8px}
+.IBBig u.IBToolButtonButton,.IBBig u.IBToolButtonButton1{margin-top:12px;margin-bottom:11px;padding-top:2px;padding-bottom:2px}
+.IBGiant u.IBToolButtonButton,.IBGiant u.IBToolButtonButton1{padding-top:0px;padding-bottom:0px}
+.IBLow u.IBToolButtonButton,.IBLow u.IBToolButtonButton1{margin-top:3px;margin-bottom:3px}
+.IBSmall u.IBToolButtonButton,.IBSmall u.IBToolButtonButton1{margin-top:2px;margin-bottom:1px;line-height:14px}
+.IBMini .IBDataRow u.IBToolButtonButton,.IBMini .IBDataRow u.IBToolButtonButton1{margin-top:1px;margin-bottom:1px;line-height:13px}
+.IBMain i.IBToolButtonIconInner{background-size:11px 11px;display:inline-block;font-style:normal}
+.IBHigh i.IBToolButtonIconInner{background-size:15px 15px}
+.IBSmall i.IBToolButtonIconInner{line-height:14px}
+.IBMini i.IBToolButtonIconInner{line-height:13px}
+u.IBToolSpaceButton,u.IBToolSpaceButton1,.IBMain .IBToolSpaceIconInner{padding:4px 5px 4px 5px}
+.IBMain u.IBToolSpaceIcon{padding-top:0px;padding-bottom:0px}
+.IBMain .IBToolSpaceIconInner{display:inline-block;font-style:normal}
+.IBWide .IBToolSpaceButton,.IBWide .IBToolSpaceButton1,.IBWide .IBToolSpaceIconInner{padding-top:2px;padding-bottom:2px}
+.IBHigh .IBToolSpaceButton,.IBHigh .IBToolSpaceButton1,.IBHigh .IBToolSpaceIconInner{padding:4px 10px 4px 10px}
+.IBBig .IBToolSpaceButton,.IBBig .IBToolSpaceButton1,.IBBig .IBToolSpaceIconInner{padding-top:6px;padding-bottom:6px}
+.IBLow .IBToolSpaceButton,.IBLow .IBToolSpaceButton1,.IBLow .IBToolSpaceIconInner{padding:1px 3px 1px 3px}
+.IBMain .IBToolButtonEmpty,.IBMain .IBToolSpaceEmpty{width:0px;overflow:hidden;display:inline-block}
+.IBMain .IBToolButtonEmpty{height:13px}
+.IBWide .IBToolButtonEmpty{height:18px}
+.IBHigh .IBToolButtonEmpty{height:20px}
+.IBGiant .IBToolButtonEmpty{height:22px}
+.IBMain .IBToolSpaceEmpty{height:19px}
+.IBGiant .IBToolSpaceEmpty{height:24px}
+.IBToolHtml,.IBToolHtml1{padding-left:10px;padding-right:10px}
+.IBToolHtmlIconLeft{text-align:left}
+.IBToolHtmlIconRight{text-align:right}
+.IBToolHtmlEmpty{height:16px;width:0px;overflow:hidden;display:inline-block}
+.IBWide .IBToolHtmlEmpty{height:20px}
+.IBDisabledButton{opacity:0.3}
+.IBButtonClose{background-size:16px 16px;padding-right:14px;background-image:url(./imgs/SideClose.png);background-position:right 1px top -1px;background-repeat:no-repeat}
+.IBLow .IBButtonClose{background-size:12px 12px;padding-right:10px;background-position:right 0px top -1px}
+.IBWide .IBButtonClose{background-size:20px 20px;padding-right:20px}
+.IBBig .IBButtonClose{background-size:24px 24px;padding-right:24px}
+.IBPopupLeft, .IBPopupRight{background-size:16px 16px;background-image:url(./imgs/SidePopup.png);background-repeat:no-repeat}
+.IBTabHtmlBase .IBPopupLeft, .IBTabHtmlBase .IBPopupRight{background-image:url(./imgs/SidePopupTab.png)}
+.IBPopupLeft{background-position:-4px calc(50% - 1px);padding-left:12px}
+.IBPopupRight{background-position:right -4px top calc(50% - 1px);padding-right:12px}
+.IBPopupNone{padding-right:16px}
+.IBWide .IBPopupLeft{background-size:20px 20px;padding-left:16px;background-position-y:center}
+.IBWide .IBPopupRight{background-size:20px 20px;padding-right:16px;background-position-y:center}
+.IBBig .IBPopupLeft{background-size:24px 24px;padding-left:20px}
+.IBBig .IBPopupRight{background-size:24px 24px;padding-right:20px}
+.IBLow .IBPopupLeft{background-size:12px 12px;padding-left:10px}
+.IBLow .IBPopupRight{background-size:12px 12px;padding-right:10px}
+.IBMain .IBToolAlignSingle{background-size:21px 21px;padding-left:24px;padding-right:6px;background-position:center center;background-repeat:no-repeat;opacity:0.7}
+.IBWide .IBToolAlignSingle{background-size:27px 27px;padding-left:32px}
+.IBBig .IBToolAlignSingle{background-size:35px 35px;padding-left:46px}
+.IBTiny .IBToolAlignSingle{background-size:19px 19px;padding-left:16px}
+.IBToolAlignSingle.IBHasLine{padding-left:0px}
+.IBMain .IBToolAlignLeft{background-size:21px 21px;padding-left:25px;padding-right:10px;background-position:left center;background-repeat:no-repeat;opacity:0.7}
+.IBWide .IBToolAlignLeft{background-size:27px 27px;padding-left:30px;padding-right:18px}
+.IBBig .IBToolAlignLeft{background-size:35px 35px;padding-left:38px}
+.IBTiny .IBToolAlignLeft{background-size:19px 19px;padding-left:18px}
+.IBMain .IBToolAlignRight{background-size:21px 21px;padding-right:25px;padding-left:10px;background-position:right center;background-repeat:no-repeat;opacity:0.7}
+.IBWide .IBToolAlignRight{background-size:27px 27px;padding-right:30px;padding-left:18px}
+.IBBig .IBToolAlignRight{background-size:35px 35px;padding-right:38px}
+.IBTiny .IBToolAlignRight{background-size:19px 19px;padding-right:20px}
+.IBMain .IBToolAlignTop{background-size:21px 21px;padding:23px 5px 3px 5px;background-position:center top;background-repeat:no-repeat;opacity:0.7}
+.IBWide .IBToolAlignTop{background-size:27px 27px;padding-top:28px}
+.IBBig .IBToolAlignTop{background-size:35px 35px;padding-top:36px}
+.IBTiny .IBToolAlignTop{background-size:19px 19px;padding:16px 3px 0px 3px}
+.IBMain .IBToolAlignBottom{background-size:21px 21px;padding:5px 5px 25px 5px;background-position:center bottom;background-repeat:no-repeat;opacity:0.7}
+.IBWide .IBToolAlignBottom{background-size:27px 27px;padding-bottom:30px;background-position:center bottom}
+.IBBig .IBToolAlignBottom{background-size:35px 35px;padding-bottom:38px}
+.IBTiny .IBToolAlignBottom{background-size:19px 19px;padding:0px 3px 16px 3px}
+.IBToolLineAlignSingle{margin:10px 11px -14px 0px;height:0px;width:20px}
+.IBWide .IBToolLineAlignSingle{margin:11px 16px -15px 0px;width:24px}
+.IBBig .IBToolLineAlignSingle{margin:14px 20px -18px 0px;width:32px}
+.IBTiny .IBToolLineAlignSingle{margin:7px 8px -11px 0px;width:16px}
+.IBCellSpaceTool .IBToolLine{margin:23px 3px -27px 0px!important}
+.IBHigh .IBCellSpaceTool .IBToolLine{margin:26px 3px -30px 0px!important}
+.IBBig .IBCellSpaceTool .IBToolLine{margin:32px 3px -36px 0px!important}
+.IBLow .IBCellSpaceTool .IBToolLine{margin:20px 3px -24px 0px!important}
+.IBTiny .IBCellSpaceTool .IBToolLine{margin:16px 3px -20px 0px!important}
+.IBToolLineAlignLeft{margin:18px 0px -22px -26px;height:0px}
+.IBToolLineAlignRight{margin:18px -26px -22px 0px;height:0px}
+.IBWide .IBToolLineAlignLeft{margin:21px 0px -25px -30px}
+.IBWide .IBToolLineAlignRight{margin:21px -30px -25px 0px}
+.IBBig .IBToolLineAlignLeft{margin:24px 0px -28px -38px}
+.IBBig .IBToolLineAlignRight{margin:24px -38px -28px 0px}
+.IBTiny .IBToolLineAlignLeft{margin:15px 0px -19px -18px}
+.IBTiny .IBToolLineAlignRight{margin:24px -38px -28px 0px}
+.IBToolLineAlignTop{margin:-2px auto -2px auto;height:0px}
+.IBCellSpaceTool .IBToolLineAlignTop{margin-top:20px!important;margin-bottom:-24px!important}
+.IBWide .IBCellSpaceTool .IBToolLineAlignTop{margin-top:23px!important;margin-bottom:-27px!important}
+.IBBig .IBCellSpaceTool .IBToolLineAlignTop{margin-top:31px!important;margin-bottom:-35px!important}
+.IBTiny .IBCellSpaceTool .IBToolLineAlignTop{margin-top:15px!important;margin-bottom:-19px!important}
+.IBToolLineAlignBottom{margin:40px auto -44px auto;height:0px}
+.IBWide .IBToolLineAlignBottom{margin-top:49px;margin-bottom:-53px}
+.IBBig .IBToolLineAlignBottom{margin-top:57px;margin-bottom:-61px}
+.IBGiant .IBToolLineAlignBottom{margin-top:61px;margin-bottom:-65px}
+.IBTiny .IBToolLineAlignBottom{margin-top:12px;margin-bottom:-16px}
+.IBCellSpaceTool .IBToolLineAlignBottom{margin:45px 3px -49px 0px!important}
+.IBWide .IBCellSpaceTool .IBToolLineAlignBottom{margin:54px 3px -58px 0px!important}
+.IBBig .IBCellSpaceTool .IBToolLineAlignBottom{margin:62px 3px -66px 0px!important}
+.IBGiant .IBCellSpaceTool .IBToolLineAlignBottom{margin:66px 3px -70px 0px!important}
+.IBLow .IBCellSpaceTool .IBToolLineAlignBottom{margin:45px 3px -49px 0px!important}
+.IBTiny .IBCellSpaceTool .IBToolLineAlignBottom{margin:13px 3px -17px 0px!important}
+.IBToolLineAlignText{margin:17px auto -21px auto;height:0px}
+.IBWide .IBToolLineAlignText{margin-top:19px;margin-bottom:-23px}
+.IBGiant .IBToolLineAlignText{margin-top:24px;margin-bottom:-28px}
+.IBTiny .IBToolLineAlignText{margin-top:15px;margin-bottom:-19px}
+.IBToolLineNone{border-bottom:4px solid;padding-top:0px}
+.IBToolLineEmpty{border-bottom:1px solid #D4D4D4!important;padding-top:2px}
+.IBToolLine0{border-bottom:0px none;padding-top:3px}
+.IBToolLine1{border-bottom:1px solid;padding-top:2px}
+.IBToolLine2{border-bottom:2px solid;padding-top:2px}
+.IBToolLine3{border-bottom:3px solid;padding-top:1px}
+.IBToolLine4{border-bottom:1px dotted;padding-top:2px}
+.IBToolLine5{border-bottom:2px dotted;padding-top:2px}
+.IBToolLine6{border-bottom:1px dashed;padding-top:2px}
+.IBToolLine7{border-bottom:2px dashed;padding-top:2px}
+.IBToolSave{background-image:url(./imgs/ButtonSave.png)}
+.IBToolReload{background-image:url(./imgs/ButtonReload.png)}
+.IBToolRepaint{background-image:url(./imgs/ButtonRepaint.png)}
+.IBToolRepaint1{background-image:url(./imgs/ButtonPaging.png)}
+.IBToolPrint{background-image:url(./imgs/ButtonPrint.png)}
+.IBToolExportPDF{background-image:url(./imgs/ButtonExportPDF.png)}
+.IBToolExport{background-image:url(./imgs/ButtonExport.png)}
+.IBToolImport{background-image:url(./imgs/ButtonImport.png)}
+.IBToolUndo, .IBToolUndo1{background-image:url(./imgs/ButtonUndo.png)}
+.IBToolRedo, .IBToolRedo1{background-image:url(./imgs/ButtonRedo.png)}
+.IBMain .IBToolUndo, .IBMain .IBToolRedo{opacity:0.3}
+.IBToolAdd{background-image:url(./imgs/ButtonAdd.png)}
+.IBToolAddChild{background-image:url(./imgs/ButtonAddChild.png)}
+.IBToolAddCol{background-image:url(./imgs/ButtonAddCol.png)}
+.IBToolJoin{background-image:url(./imgs/ButtonJoin.png)}
+.IBToolSplit{background-image:url(./imgs/ButtonSplit.png)}
+.IBToolOutdent{background-image:url(./imgs/ButtonOutdent.png)}
+.IBToolIndent{background-image:url(./imgs/ButtonIndent.png)}
+.IBToolSort, .IBToolSort1{background-image:url(./imgs/ButtonSort.png)}
+.IBToolCalc, .IBToolCalc1{background-image:url(./imgs/ButtonCalc.png)}
+.IBMain .IBToolSort, .IBMain .IBToolCalc{opacity:0.3}
+.IBToolExpandAll{background-image:url(./imgs/ButtonExpandAll.png)}
+.IBToolCollapseAll{background-image:url(./imgs/ButtonCollapseAll.png)}
+.IBToolColumns{background-image:url(./imgs/ButtonColumns.png)}
+.IBToolCfg{background-image:url(./imgs/ButtonCfg.png)}
+.IBToolHelp{background-image:url(./imgs/ButtonHelp.png)}
+.IBToolDebug{background-image:url(./imgs/ButtonDebug.png)}
+.IBResizeSheet{background-image:url(./imgs/ButtonResizeSheet.png)}
+.IBResizeSheetRtl{background-image:url(./imgs/ButtonResizeSheetRtl.png)}
+.IBToolPagerFirst, .IBToolPagerFirst1{background-image:url(./imgs/PagerFirst.png)}
+.IBToolPagerPrev, .IBToolPagerPrev1{background-image:url(./imgs/PagerPrev.png)}
+.IBToolPagerNext, .IBToolPagerNext1{background-image:url(./imgs/PagerNext.png)}
+.IBToolPagerLast, .IBToolPagerLast1{background-image:url(./imgs/PagerLast.png)}
+.IBMain .IBToolPagerFirst, .IBMain .IBToolPagerPrev, .IBMain .IBToolPagerNext, .IBMain .IBToolPagerLast{opacity:0.3}
+.IBToolCorrect{background-image:url(./imgs/ButtonCorrect.png)}
+.IBToolCorrect1{background-image:url(./imgs/ButtonCorrectErrors.png)}
+.IBToolZoomIn, .IBToolZoomIn1{background-image:url(./imgs/ButtonZoomIn.png)}
+.IBToolZoomOut, .IBToolZoomOut1{background-image:url(./imgs/ButtonZoomOut.png)}
+.IBMain .IBToolZoomIn, .IBMain .IBToolZoomOut{opacity:0.3}
+.IBToolZoomFit{background-image:url(./imgs/ButtonZoomFit.png)}
+.IBToolLeft{background-image:url(./imgs/ButtonAlignLeft.png)}
+.IBToolLeft1{background-image:url(./imgs/ButtonAlignLeft1.png)}
+.IBToolCenter{background-image:url(./imgs/ButtonAlignCenter.png)}
+.IBToolCenter1{background-image:url(./imgs/ButtonAlignCenter1.png)}
+.IBToolRight{background-image:url(./imgs/ButtonAlignRight.png)}
+.IBToolRight1{background-image:url(./imgs/ButtonAlignRight1.png)}
+.IBToolTop{background-image:url(./imgs/ButtonAlignTop.png)}
+.IBToolTop1{background-image:url(./imgs/ButtonAlignTop1.png)}
+.IBToolMiddle{background-image:url(./imgs/ButtonAlignMiddle.png)}
+.IBToolMiddle1{background-image:url(./imgs/ButtonAlignMiddle1.png)}
+.IBToolBottom{background-image:url(./imgs/ButtonAlignBottom.png)}
+.IBToolBottom1{background-image:url(./imgs/ButtonAlignBottom1.png)}
+.IBToolBold{background-image:url(./imgs/ButtonTextBold.png)}
+.IBToolBold1{background-image:url(./imgs/ButtonTextBold1.png)}
+.IBToolItalic{background-image:url(./imgs/ButtonTextItalic.png)}
+.IBToolItalic1{background-image:url(./imgs/ButtonTextItalic1.png)}
+.IBToolUnderline{background-image:url(./imgs/ButtonTextUnderline.png)}
+.IBToolUnderline1{background-image:url(./imgs/ButtonTextUnderline1.png)}
+.IBToolStrike{background-image:url(./imgs/ButtonTextStrike.png)}
+.IBToolStrike1{background-image:url(./imgs/ButtonTextStrike1.png)}
+.IBToolRotateLeft{background-image:url(./imgs/ButtonRotateLeft.png)}
+.IBToolRotateLeft1{background-image:url(./imgs/ButtonRotateLeft1.png)}
+.IBToolRotateRight{background-image:url(./imgs/ButtonRotateRight.png)}
+.IBToolRotateRight1{background-image:url(./imgs/ButtonRotateRight1.png)}
+.IBToolWrapText{background-image:url(./imgs/ButtonWrapText.png)}
+.IBToolWrapText1{background-image:url(./imgs/ButtonWrapText1.png)}
+.IBToolColorText{background-image:url(./imgs/ButtonColorText.png), url(./imgs/ButtonPopup.png)}
+.IBToolColorBackground{background-image:url(./imgs/ButtonColorBackground.png), url(./imgs/ButtonPopup.png)}
+.IBToolColorShadow{background-image:url(./imgs/ButtonColorShadow.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorder{background-image:url(./imgs/ButtonBorder.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderAll{background:url(./imgs/ButtonBorderAll.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderO15{background:url(./imgs/ButtonBorderOut15.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderI3{background:url(./imgs/ButtonBorderIn3.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderI2{background:url(./imgs/ButtonBorderIn2.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderI1{background:url(./imgs/ButtonBorderIn1.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderO1{background:url(./imgs/ButtonBorderOut1.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderO2{background:url(./imgs/ButtonBorderOut2.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderO4{background:url(./imgs/ButtonBorderOut4.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderO8{background:url(./imgs/ButtonBorderOut8.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderO5{background:url(./imgs/ButtonBorderOut5.png), url(./imgs/ButtonPopup.png)}
+.IBToolBorderO10{background:url(./imgs/ButtonBorderOut10.png), url(./imgs/ButtonPopup.png)}
+.IBToolColorText,.IBToolColorBackground,.IBToolColorShadow,.IBToolBorder{background-position:left center,right center!important}
+.IBToolImage.IBToolColorText,.IBToolImage.IBToolColorBackground,.IBToolImage.IBToolColorShadow,.IBToolImage.IBToolBorder{padding-left:30px}
+.IBWide .IBToolImage.IBToolColorText,.IBWide .IBToolImage.IBToolColorBackground,.IBWide .IBToolImage.IBToolColorShadow,.IBWide .IBToolImage.IBToolBorder{padding-left:38px}
+.IBBig .IBToolImage.IBToolColorText,.IBBig .IBToolImage.IBToolColorBackground,.IBBig .IBToolImage.IBToolColorShadow,.IBBig .IBToolImage.IBToolBorder{padding-left:52px}
+.IBTiny .IBToolImage.IBToolColorText,.IBTiny .IBToolImage.IBToolColorBackground,.IBTiny .IBToolImage.IBToolColorShadow,.IBTiny .IBToolImage.IBToolBorder{padding-left:22px}
+.IBToolColorTextLeft,.IBToolColorBackgroundLeft,.IBToolColorShadowLeft,.IBToolBorderLeft{padding-right:20px!important}
+.IBBig .IBToolColorTextLeft,.IBBig .IBToolColorBackgroundLeft,.IBBig .IBToolColorShadowLeft,.IBBig .IBToolBorderLeft{padding-right:26px!important}
+.IBToolColorTextRight,.IBToolColorBackgroundRight,.IBToolColorShadowRight,.IBToolBorderRight{background-position:right 16px center,right center!important;padding-right:44px!important}
+.IBWide .IBToolColorTextRight,.IBWide .IBToolColorBackgroundRight,.IBWide .IBToolColorShadowRight,.IBWide .IBToolBorderRight{background-position:right 20px center,right center!important;padding-right:50px!important}
+.IBBig .IBToolColorTextRight,.IBBig .IBToolColorBackgroundRight,.IBBig .IBToolColorShadowRight,.IBBig .IBToolBorderRight{background-position:right 26px center,right center!important;padding-right:65px!important}
+.IBToolColorTextTop,.IBToolColorBackgroundTop,.IBToolColorShadowTop,.IBToolBorderTop{background-position:center top,right top!important;min-width:40px}
+.IBWide .IBToolColorTextTop,.IBWide .IBToolColorBackgroundTop,.IBWide .IBToolColorShadowTop,.IBWide .IBToolBorderTop{min-width:55px}
+.IBBig .IBToolColorTextTop,.IBBig .IBToolColorBackgroundTop,.IBBig .IBToolColorShadowTop,.IBBig .IBToolBorderTop{background-position:center top,right -6px top!important;min-width:60px}
+.IBToolColorTextBottom,.IBToolColorBackgroundBottom,.IBToolColorShadowBottom,.IBToolBorderBottom{background-position:center bottom,right bottom!important;min-width:40px}
+.IBWide .IBToolColorTextBottom,.IBWide .IBToolColorBackgroundBottom,.IBWide .IBToolColorShadowBottom,.IBWide .IBToolBorderBottom{min-width:55px}
+.IBBig .IBToolColorTextBottom,.IBBig .IBToolColorBackgroundBottom,.IBBig .IBToolColorShadowBottom,.IBBig .IBToolBorderBottom{background-position:center bottom,right -6px bottom!important;min-width:60px}
+.IBToolResize{visibility:hidden}
+.IBMain .IBToolImage{display:inline-block;height:26px;width:0px;overflow:hidden}
+.IBHigh .IBToolImage{height:30px}
+.IBBig .IBToolImage{height:34px}
+.IBLow .IBToolImage{height:20px}
+.IBToolImageLeftText,.IBToolImageRightText,.IBToolImageTopText,.IBToolImageBottomText{display:inline-block;text-decoration:none}
+.IBToolImageLeftText,.IBToolImageRightText{line-height:26px}
+.IBHigh .IBToolImageLeftText,.IBHigh .IBToolImageRightText{line-height:30px}
+.IBBig .IBToolImageLeftText,.IBBig .IBToolImageRightText{line-height:34px}
+.IBLow .IBToolImageLeftText,.IBLow .IBToolImageRightText{line-height:20px}
+.IBToolIconSingle{background-position:center center}
+.IBToolIconLeft{background-position:left center}
+.IBToolIconRight{background-position:right center}
+.IBToolIconTop{background-position:center top}
+.IBToolIconBottom{background-position:center bottom}
+.IBPagerEdit > div{text-align:center}
+.IBResizeSheet, .IBResizeSheetRtl{margin:-17px 0px 0px auto;height:17px;width:17px;overflow:hidden;padding:0px;cursor:nw-resize;background:url(./imgs/ButtonResizeSheet.png) 0px 0px no-repeat;background-size:17px 17px;position:relative}
+.IBResizeSheetRtl{margin-left:0px;margin-right:auto;cursor:ne-resize;background:url(./imgs/ButtonResizeSheetRtl.png) 0px 0px no-repeat}
+.IBWide .IBResizeSheet,.IBWide .IBResizeSheetRtl{margin-top:-25px;height:25px;width:25px;background-size:25px 25px}
+.IBMain .IBSideLeft,.IBMain .IBSideCenter,.IBMain .IBSideRight,.IBMain .IBSideTop,.IBMain .IBSideBottom{background-size:14px 14px;background-repeat:no-repeat}
+.IBWide .IBSideLeft,.IBWide .IBSideCenter,.IBWide .IBSideRight,.IBWide .IBSideTop,.IBWide .IBSideBottom{background-size:18px 18px}
+.IBBig .IBSideLeft,.IBBig .IBSideCenter,.IBBig .IBSideRight,.IBBig .IBSideTop,.IBBig .IBSideBottom{background-size:24px 24px}
+.IBLow .IBSideLeft,.IBLow .IBSideCenter,.IBLow .IBSideRight,.IBLow .IBSideTop,.IBLow .IBSideBottom{background-size:12px 12px}
+.IBMain .IBSideLeft{padding-left:25px;background-position:5px center}
+.IBWide .IBSideLeft{padding-left:30px}
+.IBBig .IBSideLeft{padding-left:45px;background-position:10px center}
+.IBLow .IBSideLeft{padding-left:20px;background-position:4px center}
+.IBMain .IBSideCenter{padding-left:25px;background-position:center center}
+.IBWide .IBSideCenter{padding-left:30px}
+.IBBig .IBSideCenter{padding-left:45px;background-position:center center}
+.IBLow .IBSideCenter{padding-left:20px;background-position:center center}
+.IBMain .IBSideRight{padding-right:25px;background-position:right 4px center}
+.IBWide .IBSideRight{padding-right:30px}
+.IBBig .IBSideRight{padding-right:45px;background-position:right 10px center}
+.IBLow .IBSideRight{padding-right:20px;background-position:right 4px center}
+.IBMain .IBSideTop{padding-top:15px;background-position:center top}
+.IBWide .IBSideTop{padding-top:20px}
+.IBBig .IBSideTop{padding-top:25px}
+.IBMain .IBSideBottom{padding-bottom:15px;background-position:center bottom}
+.IBWide .IBSideBottom{padding-bottom:20px}
+.IBBig .IBSideBottom{padding-bottom:25px}
+.IBMain .IBDateLeft,.IBMain .IBDatesLeft,.IBMain .IBDateRight,.IBMain .IBDatesRight,.IBMain .IBDateTop,.IBMain .IBDatesTop,.IBMain .IBDateBottom,.IBMain .IBDatesBottom{background-image:url(./imgs/SideDate.png)}
+.IBDefaultsLeft, .IBDefaultsRight, .IBDefaultsTop, .IBDefaultsBottom{background-image:url(./imgs/SideDefaults.png)}
+.IBEnumLeft, .IBEnumRight, .IBEnumTop, .IBEnumBottom{background-image:url(./imgs/SideEnum.png)}
+.IBExpandLeft, .IBExpandRight, .IBExpandTop, .IBExpandBottom{background-image:url(./imgs/SideExpand.png)}
+.IBHeaderRow .IBExpandLeft, .IBHeaderRow .IBExpandRight, .IBHeaderRow .IBExpandTop, .IBHeaderRow .IBExpandBottom{background-image:url(./imgs/SideExpandHeader.png)}
+.IBCollapseLeft, .IBCollapseRight, .IBCollapseTop, .IBCollapseBottom{background-image:url(./imgs/SideCollapse.png)}
+.IBHeaderRow .IBCollapseLeft, .IBHeaderRow .IBCollapseRight, .IBHeaderRow .IBCollapseTop, .IBHeaderRow .IBCollapseBottom{background-image:url(./imgs/SideCollapseHeader.png)}
+.IBFileLeft, .IBFileRight, .IBFileTop, .IBFileBottom{background-image:url(./imgs/SideFile.png)}
+.IBClearLeft, .IBClearRight, .IBClearTop, .IBClearBottom{background-image:url(./imgs/SideClear.png)}
+.IBCheck0Left, .IBCheck0Center, .IBCheck0Right, .IBCheck0Top, .IBCheck0Bottom{background-image:url(./imgs/SideBool0.png)}
+.IBCheck1Left, .IBCheck1Center, .IBCheck1Right, .IBCheck1Top, .IBCheck1Bottom{background-image:url(./imgs/SideBool1.png)}
+.IBCheck2Left, .IBCheck2Center, .IBCheck2Right, .IBCheck2Top, .IBCheck2Bottom{background-image:url(./imgs/SideBoolEmpty.png)}
+.IBMain .IBButtonImage{height:25px;display:inline-block;padding-left:0px;padding-right:0px}
+.IBHigh .IBButtonImage{height:35px}
+.IBBig .IBButtonImage{height:45px}
+.IBLow .IBButtonImage{height:15px}
+.IBMini .IBButtonImage{height:13px}
+.IBIconLink{text-decoration:none;width:1000px;display:inline-block}
+.IBIconLeft{background-position:left center;padding-left:25px;background-repeat:no-repeat}
+.IBWide .IBIconLeft{padding-left:30px}
+.IBHigh .IBIconLeft{padding-left:45px}
+.IBLow .IBIconLeft{padding-left:20px}
+.IBIconRight{background-position:right center;padding-right:25px;background-repeat:no-repeat}
+.IBWide .IBIconRight{padding-right:30px}
+.IBHigh .IBIconRight{padding-right:45px}
+.IBLow .IBIconRight{padding-right:20px}
+.IBIconCenter{background-position:center center;background-repeat:no-repeat}
+.IBIconTop{padding-top:20px;background-position:center 0px;background-repeat:no-repeat}
+.IBIconBottom{padding-bottom:21px;background-position:center 20px;background-repeat:no-repeat}
+.IBIconTopVAlignTop{padding-top:20px}
+.IBIconTopVAlignMiddle{padding-top:21px}
+.IBIconTopVAlignBottom{padding-top:22px}
+.IBIconBottomVAlignTop{padding-bottom:22px}
+.IBIconBottomVAlignMiddle{padding-bottom:21px}
+.IBIconBottomVAlignBottom{padding-bottom:21px}
+.IBFilter0Left,.IBFilter0Right,.IBFilter0Menu{background-image:url(./imgs/Filter0.png)}
+.IBFilter1Left,.IBFilter1Right,.IBFilter1Menu{background-image:url(./imgs/Filter1.png)}
+.IBFilter2Left,.IBFilter2Right,.IBFilter2Menu{background-image:url(./imgs/Filter2.png)}
+.IBFilter3Left,.IBFilter3Right,.IBFilter3Menu{background-image:url(./imgs/Filter3.png)}
+.IBFilter4Left,.IBFilter4Right,.IBFilter4Menu{background-image:url(./imgs/Filter4.png)}
+.IBFilter5Left,.IBFilter5Right,.IBFilter5Menu{background-image:url(./imgs/Filter5.png)}
+.IBFilter6Left,.IBFilter6Right,.IBFilter6Menu{background-image:url(./imgs/Filter6.png)}
+.IBFilter7Left,.IBFilter7Right,.IBFilter7Menu{background-image:url(./imgs/Filter7.png)}
+.IBFilter8Left,.IBFilter8Right,.IBFilter8Menu{background-image:url(./imgs/Filter8.png)}
+.IBFilter9Left,.IBFilter9Right,.IBFilter9Menu{background-image:url(./imgs/Filter9.png)}
+.IBFilter10Left,.IBFilter10Right,.IBFilter10Menu{background-image:url(./imgs/Filter10.png)}
+.IBFilter11Left,.IBFilter11Right,.IBFilter11Menu{background-image:url(./imgs/Filter11.png)}
+.IBFilter12Left,.IBFilter12Right,.IBFilter12Menu{background-image:url(./imgs/Filter12.png)}
+.IBFilterAllMenu{background-size:16px 16px;width:23px;height:16px;overflow:hidden;background-position-y:center;background-repeat:no-repeat}
+.IBWide .IBFilterAllMenu{background-size:20px 20px;width:29px;height:20px}
+.IBBig .IBFilterAllMenu{background-size:24px 24px;width:35px;height:24px}
+.IBLow .IBFilterAllMenu{background-size:12px 12px;width:20px}
+.IBMain .IBSortLeft{background-size:21px 21px;background-position:3px center;background-repeat:no-repeat}
+.IBMain .IBSortRight{background-size:21px 21px;background-position:right 3px center;background-repeat:no-repeat}
+.IBWide .IBSortLeft{background-size:25px 25px}
+.IBWide .IBSortRight{background-size:25px 25px}
+.IBBig .IBSortLeft{background-size:29px 29px}
+.IBBig .IBSortRight{background-size:29px 29px}
+.IBLow .IBSortLeft{background-size:19px 19px}
+.IBLow .IBSortRight{background-size:19px 19px}
+.IBSort0Left,.IBSort0Right{background-image:url(./imgs/SortNone.png)}
+.IBSort1Left,.IBSort1Right{background-image:url(./imgs/SortDesc0.png)}
+.IBSort2Left,.IBSort2Right{background-image:url(./imgs/SortDesc1.png)}
+.IBSort3Left,.IBSort3Right{background-image:url(./imgs/SortDesc2.png)}
+.IBSort4Left,.IBSort4Right{background-image:url(./imgs/SortAsc0.png)}
+.IBSort5Left,.IBSort5Right{background-image:url(./imgs/SortAsc1.png)}
+.IBSort6Left,.IBSort6Right{background-image:url(./imgs/SortAsc2.png)}
+.IBRadioBase{background-size:16px 16px;background-repeat:no-repeat;padding-top:0px;padding-bottom:0px}
+.IBWide .IBRadioBase{background-size:20px 20px}
+.IBHigh .IBRadioBase{padding-top:0px;padding-bottom:0px}
+.IBBig .IBRadioBase{padding-top:0px;padding-bottom:0px;background-size:22px 22px}
+.IBLow .IBRadioBase{padding-top:0px;padding-bottom:0px;background-size:12px 12px}
+.IBSmall .IBRadioBase{padding-top:0px;padding-bottom:0px}
+.IBMini .IBRadioBase{padding-top:0px;padding-bottom:0px}
+.IBRadioLeft,.IBRadioIconLeft{padding-left:20px;padding-right:6px;background-position:left center}
+.IBRadioRight,.IBRadioIconRight{padding-right:20px;padding-left:6px;background-position:right center}
+.IBWide .IBRadioLeft,.IBWide .IBRadioIconLeft{padding-left:25px;padding-right:10px}
+.IBWide .IBRadioRight,.IBWide .IBRadioIconRight{padding-right:25px;padding-left:10px}
+.IBBig .IBRadioLeft,.IBBig .IBRadioIconLeft{padding-left:30px;padding-right:15px}
+.IBBig .IBRadioRight,.IBBig .IBRadioIconRight{padding-right:30px;padding-left:15px}
+.IBLow .IBRadioLeft,.IBLow .IBRadioIconLeft{padding-left:16px;padding-right:5px}
+.IBLow .IBRadioRight,.IBLow .IBRadioIconRight{padding-right:16px;padding-left:5px}
+.IBRadio0Left,.IBRadio0Right{background-image:url(./imgs/Radio0.png)}
+.IBRadio1Left,.IBRadio1Right{background-image:url(./imgs/Radio1.png)}
+.IBRadio2Left,.IBRadio2Right{background-image:url(./imgs/Bool0.png)}
+.IBRadio3Left,.IBRadio3Right{background-image:url(./imgs/Bool1.png)}
+.IBRadioNone{background-image:none}
+.IBRadio{padding-top:4px;padding-bottom:4px}
+.IBWide .IBRadio{padding-top:2px;padding-bottom:2px}
+.IBHigh .IBRadio{padding-top:6px;padding-bottom:6px}
+.IBBig .IBRadio{padding-top:8px;padding-bottom:8px}
+.IBGiant .IBRadio{padding-top:6px;padding-bottom:6px}
+.IBLow .IBRadio{padding-top:2px;padding-bottom:2px}
+.IBSmall .IBRadio{padding-top:1px;padding-bottom:0px}
+.IBMini .IBRadio{padding-top:1px;padding-bottom:0px}
+.IBRadioNone{padding-left:5px;padding-right:5px}
+.IBLow .IBRadioNone{padding-left:2px;padding-right:2px}
+.IBRadioIconLeft{background-position:left center}
+.IBRadioIconRight{background-position:right center}
+span.IBRadioBase,nobr.IBRadioBase{display:inline-block}
+.IBRadioCell{white-space:nowrap;vertical-align:top}
+.IBRadioInput{margin:4px 4px 3px 4px;padding:0px}
+.IBWide .IBRadioInput{margin-top:6px;margin-bottom:5px}
+.IBHigh .IBRadioInput{margin-top:7px;margin-bottom:6px}
+.IBBig .IBRadioInput{margin-top:10px;margin-bottom:9px}
+.IBLow .IBRadioInput{margin-top:3px;margin-bottom:3px}
+.IBSmall .IBRadioInput{margin-top:2px;margin-bottom:2px}
+.IBMini .IBRadioInput{margin-top:0px;margin-bottom:0px}
+.IBRadioText{padding-right:6px}
+.IBSmall .IBRadioText{line-height:13px}
+nobr.IBRadioCell,span.IBRadioCell{display:inline-block}
+.IBBoolBase,.IBBoolImage{background-size:14px 14px;background-repeat:no-repeat;background-position:center center}
+.IBWide .IBBoolBase,.IBWide .IBBoolImage{background-size:20px 20px}
+.IBBig .IBBoolBase,.IBBig .IBBoolImage{background-size:24px 24px}
+.IBLow .IBBoolBase,.IBLow .IBBoolImage{background-size:12px 12px}
+.IBBoolImage{display:inline-block;height:29px;width:24px;overflow:hidden;padding:0px}
+.IBBig .IBBoolImage{height:49px;width:24px}
+.IBHigh .IBBoolImage{height:39px;width:24px}
+.IBNormal .IBBoolImage{height:29px;width:14px}
+.IBLow .IBBoolImage{height:24px;width:12px}
+.IBSmall .IBBoolImage{height:19px;width:12px}
+.IBMini .IBDataRow .IBBoolImage{height:17px;width:16px}
+.IBBool0,.IBBool0RO{background-image:url(./imgs/Bool0.png)}
+.IBBool1,.IBBool1RO{background-image:url(./imgs/Bool1.png)}
+.IBBoolX,.IBBoolXRO{background-image:url(./imgs/BoolEmpty.png)}
+.IBBool2,.IBBool2RO{background-image:url(./imgs/Radio0.png)}
+.IBBool3,.IBBool3RO{background-image:url(./imgs/Radio1.png)}
+.IBBoolRO{opacity:0.5}
+.IBMain .IBBoolBaseSpace,.IBMain .IBBoolImageSpace{background-size:20px 20px;padding-left:22px;padding-right:10px;background-position:center center;background-repeat:no-repeat}
+.IBNoSpaceLeft.IBBoolBaseSpace,.IBNoSpaceLeft.IBBoolImageSpace{background-position-x:3px}
+.IBNoSpaceRight.IBBoolBaseSpace,.IBNoSpaceRight.IBBoolImageSpace{background-position-x:calc(100% - 3px)}
+.IBWide .IBBoolBaseSpace,.IBWide .IBBoolImageSpace{background-size:24px 24px;padding-left:27px}
+.IBBig .IBBoolBaseSpace,.IBBig .IBBoolImageSpace{background-size:28px 28px;padding-left:32px}
+.IBLow .IBBoolBaseSpace,.IBLow .IBBoolImageSpace{background-size:14px 14px;padding-left:20px;padding-right:3px}
+.IBLow .IBNoSpaceLeft.IBBoolBaseSpace.IBLow .IBNoSpaceLeft.IBBoolImageSpace{background-position-x:1px}
+.IBLow .IBNoSpaceRight.IBBoolBaseSpace,.IBLow .IBNoSpaceRight.IBBoolImageSpace{background-position-x:calc(100% - 1px)}
+.IBMain .IBBoolImageSpace{display:inline-block;width:0px;height:26px;overflow:hidden}
+.IBHigh .IBBoolImageSpace{height:30px}
+.IBBig .IBBoolImageSpace{height:34px}
+.IBGiant .IBBoolImageSpace{height:38px}
+.IBLow .IBBoolImageSpace{height:20px}
+.IBBool0Space,.IBBool0SpaceRO{background-image:url(./imgs/Bool0.png)}
+.IBBool1Space,.IBBool1SpaceRO{background-image:url(./imgs/Bool1.png)}
+.IBBoolXSpace,.IBBoolXSpaceRO{background-image:url(./imgs/BoolEmpty.png)}
+.IBBool2Space,.IBBool2SpaceRO{background-image:url(./imgs/Radio0.png)}
+.IBBool3Space,.IBBool3SpaceRO{background-image:url(./imgs/Radio1.png)}
+.IBBool0SpaceRO,.IBBool1SpaceRO,.IBBoolXSpaceRO,.IBBool2SpaceRO,.IBBool3SpaceRO{opacity:0.5}
+.IBBoolInput{margin:8px auto 8px auto;padding:0px;display:inline-block}
+.IBHigh .IBBoolInput{margin-top:13px;margin-bottom:13px}
+.IBBig .IBBoolInput{margin-top:18px;margin-bottom:18px}
+.IBLow .IBBoolInput{margin-top:5px;margin-bottom:6px}
+.IBSmall .IBBoolInput{margin-top:3px;margin-bottom:3px}
+.IBMini .IBDataRow .IBBoolInput{margin-top:1px;margin-bottom:2px}
+.IBBoolInputSpace{margin-top:5px;margin-bottom:3px;padding:0px;display:inline-block}
+.IBBoolChar{height:11px;width:10px;font:bold 11px Arial;margin:7px auto 7px auto;padding-left:1px;border:2px ridge white;color:#1a92ec;text-align:center;overflow:hidden;display:inline-block}
+.IBWide .IBBoolChar{height:16px;width:15px;font-size:16px;margin-top:4px;margin-bottom:5px}
+.IBHigh .IBBoolChar{margin-top:9px;margin-bottom:10px}
+.IBBig .IBBoolChar{height:20px;width:19px;font-size:20px;margin-top:12px;margin-bottom:13px}
+.IBLow .IBBoolChar{height:9px;width:8px;font-size:10px;margin-top:5px;margin-bottom:6px}
+.IBSmall .IBBoolChar{margin-top:3px;margin-bottom:3px}
+.IBMini .IBDataRow .IBBoolChar{margin-top:2px;margin-bottom:2px}
+.IBBoolChar2{color:#1a92ec}
+.IBBoolChar0RO,.IBBoolChar1RO,.IBBoolChar2RO{color:gray}
+.IBPagerMain{overflow:hidden;white-space:nowrap}
+.IBPagerHeader{cursor:default}
+.IBPagerCaption{padding:0px 10px 0px 10px;white-space:nowrap;vertical-align:middle;display:table-cell}
+.IBLow .IBPagerCaption{padding-left:3px;padding-right:3px}
+.IBPagerItem{cursor:pointer;overflow:hidden;white-space:nowrap;padding:7px 5px 6px 10px}
+.IBWide .IBPagerItem{padding-top:5px;padding-bottom:4px}
+.IBHigh .IBPagerItem{padding-top:10px;padding-bottom:9px}
+.IBBig .IBPagerItem{padding-top:15px;padding-bottom:14px}
+.IBGiant .IBPagerItem{padding-top:13px;padding-bottom:12px}
+.IBLow .IBPagerItem{padding:4px 3px 4px 3px}
+.IBSmall .IBPagerItem{padding-top:2px;padding-bottom:1px}
+.IBMini .IBPagerItem{padding-top:1px;padding-bottom:0px}
+.IBPagerItemUsed{color:green}
+.IBPagerItemUnused{color:#888}
+.IBPagerItemExcluded{background:#DDD}
+.IBMain b.IBPagerSort1{color:inherit;font-weight:bold}
+.IBPagerSort2{color:#54A3DB}
+.IBPagerSort3{color:#AAA614}
+.IBPagerSep1,.IBPagerSep2,.IBPagerSep3{color:#1a92ec}
+.IBPagerFocus,.IBPagerFocus2,.IBPagerFocus3{position:relative;cursor:pointer;overflow:hidden;opacity:0.3}
+.IBPagerFocus2{background:#F0F}
+.IBPagerFocus3{background:#AFA}
+.IBPagerHover{position:relative;cursor:pointer;overflow:hidden}
+  .IBColorReadOnly{background-color:#f4f4f4}
+ .IBColorPreview{background-color:#FFFFFF}
+         .IBColorFill{background-color:#FF80FF}
+    .IBColorMoved1{background-color:#FFFFFF}
+         .IBColorFound1{background-color:#FF87FF}
+  .IBColorFound2{background-color:#FFC387}
+  .IBColorFound3{background-color:#87FF87}
+   .IBColorHovered{background-color:#F0F0FF}
+       .IBColorHoveredCellSpaceEdit{background-color:#FFFFFF}
+ .IBClassHoveredCellSpaceEdit > div{border-color:#ACE}
+.IBColorHoveredCellSpaceDefaults{background-color:#FFFFFF}
+ .IBClassHoveredCellSpaceDefaults > div{border-color:#ACE}
+ .IBClassHoveredCellSpaceBool0{opacity:0.6}
+ .IBClassHoveredCellSpaceBool1{opacity:0.6}
+ .IBClassHoveredCellSpaceBoolX{opacity:0.6}
+ .IBClassHoveredCellSpaceBoolIcon{opacity:0.6}
+  .IBClassHoveredCellButton{opacity:0.5}
+ .IBClassHoveredCellButton1{opacity:0.5}
+ .IBClassHoveredCellButtonButton u{border-color:#124D64}
+ .IBClassHoveredCellButtonButton1 u{border-color:#124D64}
+ .IBClassHoveredCellTab{border-top:1px solid #003D64;border-bottom:1px solid #003D64}
+ .IBClassHoveredCellTab1{border-top:1px solid #003D64;border-bottom:1px solid #003D64}
+.IBSmall .IBClassHoveredCellTab,.IBSmall .IBClassHoveredCellTab1{border:0px none;outline:1px solid #003D64}
+ .IBColorFocused{background-color:#E6E6E6}
+     .IBColorEditedCell{background-color:#FFFFFF}
+ .IBColorViewedCell{background-color:#FFFFFF}
+ .IBColorFocusedCellSafari{background-color:#A0A0FF}
+  .IBColorFocusedCellSpace{background-color:#BCD}
+ .IBColorFocusedCellSpaceEdit{background-color:#FFFFFF}
+  .IBColorFocusedCellSpaceDefaults{background-color:#FFFFFF}
+  .IBColorFocusedCellSpaceBool{background-color:#BCD}
+ .IBColorFocusedCellButton{background-color:#586980}
+ .IBColorSelectedCol{background-color:#EEE}
+ .IBColorSelectedRow{background-color:#EEE}
+.IBColorFocusedCol{background-color:#EEE}
+ .IBColorFocusedRow{background-color:#EEE}
+.IBColorEditedCol{background-color:#DDD}
+ .IBColorEditedRow{background-color:#DDD}
+.IBColorHoveredCol{background-color:#EEE}
+ .IBColorHoveredRow{background-color:#EEE}
+.IBHoverRowBorder{z-index:1;cursor:default}
+.IBHoverCellBorder{z-index:1;padding:1px}
+.IBHoverRowBorder{z-index:1;cursor:default}
+.IBHoverCellBorder{z-index:1;padding:1px}
+.IBFocusRowBorder{z-index:2}
+.IBFocusCellBorder{z-index:4}
+.IBFocusCellSpaceBorder{z-index:4}
+.IBFocusCellCorner{position:relative;padding:0px;margin-left:-3px;margin-top:-5px;width:7px;height:7px;z-index:4;cursor:crosshair}
+.IBTouch .IBFocusCellCorner{width:10px;height:10px;margin-left:0px}
+.IBEditCellBorder{z-index:4}
+.IBEditCellSpaceBorder{z-index:4}
+.IBEditCellCorner{position:relative;padding:0px;margin-left:-3px;margin-top:-5px;width:7px;height:7px;z-index:4;cursor:crosshair}
+.IBTouch .IBEditCellCorner{width:10px;height:10px;margin-left:0px}
+.IBEditCellInput{position:relative;overflow:hidden;z-index:2;padding:1px;line-height:0px;vertical-align:middle;display:table-cell}
+.IBCursorBackground{position:relative;border:none;padding:0px;overflow:hidden}
+.IBCursorBorderLeft,.IBCursorBorderRight,.IBCursorBorderTop,.IBCursorBorderBottom{position:relative;overflow:hidden;width:0px;height:0px}
+.IBCursorBorderLeft{border-right:none!important;border-top:none!important;border-bottom:none!important;padding-right:0px!important;padding-top:0px!important;padding-bottom:0px!important}
+.IBCursorBorderRight{border-left:none!important;border-top:none!important;border-bottom:none!important;padding-left:0px!important;padding-top:0px!important;padding-bottom:0px!important}
+.IBCursorBorderTop{border-bottom:none!important;border-left:none!important;border-right:none!important;padding-bottom:0px!important;padding-left:0px!important;padding-right:0px!important}
+.IBCursorBorderBottom{border-top:none!important;border-left:none!important;border-right:none!important;padding-top:0px!important;padding-left:0px!important;padding-right:0px!important}
+.IBEditInput,.IBEditTextarea{border:0px none !important;padding:0px 3px 0px 0px !important;outline:none !important;box-sizing:content-box !important;resize:none !important;min-height:0px !important;line-height:18px !important;border-radius:0 !important;font-size:inherit !important;transition:none !important;border-color:#FFF !important}
+.IBEditTextarea{margin:0px !important;background:white !important;word-break:normal}
+.IBEditInput::-ms-clear{height:13px !important}
+.IBEditInt,.IBEditFloat,.IBEditDate,.IBEditRight{text-align:right}
+.IBEditInt::-ms-clear,.IBEditFloat::-ms-clear,.IBEditDate::-ms-clear,.IBEditRight::-ms-clear{display:none}
+.IBWK .IBEditInt,.IBWK .IBEditFloat,.IBWK .IBEditDate,.IBWK .IBEditRight{margin-left:0px!important}
+.IBEditTab{color:white;text-align:center;font-weight:bold}
+.IBHigh.IBIE .IBEditTab,.IBHigh.IBFF .IBEditTab{margin-top:-1px}
+.IBMouseObject{opacity:0.5;z-index:300;overflow:hidden}
+.IBVLine{width:1px;border-left:1px solid black;overflow:hidden;cursor:e-resize}
+.IBHLine{height:1px;border-top:1px solid black;overflow:hidden;cursor:e-resize}
+.IBDragObject{z-index:300;margin-left:15px;margin-top:10px;padding:5px}
+.IBDragColInsideTop,.IBDragColInsideBottom,.IBDragColOutsideTop,.IBDragColOutsideBottom,.IBDragRowLeft,.IBDragRowRight{position:absolute;width:20px;height:22px;overflow:hidden;z-index:301;background-repeat:no-repeat;background-size:16px 16px}
+.IBDragColInsideTop{background-position:center 7px;background-image:url(./imgs/DropColAbove.png)}
+.IBDragColOutsideTop,.IBDragGanttRunTopJoin{background-position:center 7px;background-image:url(./imgs/DropColOutAbove.png)}
+.IBWide .IBDragColInsideTop,.IBWide .IBDragColOutsideTop/* ,.IBWide .IBDragGanttRunTopJoin */{background-position:center 2px;background-size:20px 20px}
+.IBDragColInsideBottom{background-position:center bottom 7px;background-image:url(./imgs/DropColBelow.png)}
+.IBDragColOutsideBottom{background-position:center bottom 7px;background-image:url(./imgs/DropColOutBelow.png)}
+.IBWide .IBDragColInsideBottom,.IBWide .IBDragColOutsideBottom/* ,.IBWide .IBDragGanttRunBottomJoin */{background-position:center bottom 2px;background-size:20px 20px}
+.IBDragRowLeft{width:21px;background-position:left 3px center;background-image:url(./imgs/DropRowLeft.png)}
+.IBDragRowRight{width:22px;background-position:right 5px center;background-image:url(./imgs/DropRowRight.png)}
+.IBWide .IBDragRowLeft{background-position:left -2px center;background-size:20px 20px}
+.IBWide .IBDragRowRight{background-position:right center;background-size:20px 20px}
+.IBDisabled,.IBDisabledHard{position:absolute;z-index:264;background:white;opacity:0}
+.IBDisabledHard{opacity:0.5}
+.IBMessage{white-space:nowrap;text-align:center;visibility:hidden;z-index:266;position:absolute;left:0px;top:0px;padding:20px;min-width:120px}
+.IBMessageShadow{position:absolute;display:none}
+.IBPageMessage{padding:20px}
+.IBPrompt{padding-top:30px;padding-bottom:10px}
+.IBLow .IBPrompt{padding-top:10px;padding-bottom:0px}
+.IBPrompt input{padding:5px 6px 5px 6px;display:inline-block;box-sizing:border-box;width:200px}
+.IBWide .IBPrompt input{width:250px}
+.IBGiant .IBPrompt input{width:300px}
+.IBLow .IBPrompt input{padding:2px 4px 2px 4px}
+.IBProgressCaption{font-weight:bold;margin-bottom:15px}
+.IBLow .IBProgressCaption{margin-bottom:5px}
+.IBProgressText{margin-bottom:15px}
+.IBLow .IBProgressText{margin-bottom:10px}
+.IBProgressOuter{text-align:left;width:300px;margin:0px 30px 10px 30px;border:1px solid #cfd1d6}
+.IBLow .IBProgressOuter{margin:0px 10px 10px 10px;width:200px}
+.IBProgressInner{height:14px;background:#00CC99}
+.IBLow .IBProgressInner{height:20px}
+.IBMessageButtons{margin:10px 0px 0px 0px}
+.IBProgressButtons{margin:10px -20px -20px -20px;padding:15px}
+.IBLow .IBMessageButtons,.IBLow .IBProgressButtons{padding:5px}
+.IBProgressButton,.IBMessageButton{padding:4px 5px 4px 5px;margin:1px 4px 1px 4px;text-align:center;white-space:nowrap;overflow:hidden;min-width:70px}
+.IBHigh .IBProgressButton,.IBHigh .IBMessageButton{padding-top:6px;padding-bottom:5px}
+.IBBig .IBProgressButton,.IBBig .IBMessageButton{padding-top:8px;padding-bottom:8px}
+.IBLow .IBProgressButton,.IBLow .IBMessageButton{padding-top:2px;padding-bottom:1px;margin-left:3px;margin-right:3px}
+.IBTiny .IBProgressButton,.IBTiny .IBMessageButton{padding-top:1px;padding-bottom:0px}
+.IBMenuMain{position:absolute;left:0px;top:0px;z-index:258;overflow:hidden;box-shadow:0 2px 5px rgba(84, 105, 120, 0.3)}
+.IBMenuShadow{position:absolute;display:none}
+.IBMenuOuter{overflow:hidden}
+.IBMenuMainTop{margin-top:-2px}
+.IBDB.IBMenuMainTop{margin-top:-1px}
+.IBMenuMainSpace.IBMenuMainTop{margin-top:0px}
+.IBMenuMainBottom{margin-top:1px}
+.IBMenuHeader{overflow:hidden;position:absolute;z-index:258;cursor:pointer;user-select:none;-ms-user-select:none;-o-user-select:none;-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none}
+.IBMenuHeader > div{vertical-align:middle;display:table-cell}
+.IBMenuHead{padding:7px 0px 7px 23px;text-align:center;cursor:default}
+.IBWide .IBMenuHead{padding-left:30px}
+.IBHigh .IBMenuHead{padding-top:15px;padding-bottom:15px}
+.IBLow .IBMenuHead{padding-top:3px;padding-bottom:3px}
+.IBMenuClose{float:right;width:27px;line-height:20px;cursor:pointer;display:none;background:url(./imgs/MenuClose.png) no-repeat;background-size:16px 16px}
+.IBWide .IBMenuClose{background-size:20px 20px;width:31px}
+.IBBig .IBMenuClose{background-size:24px 24px;width:35px;background-position-y:-2px;line-height:30px}
+.IBGiant .IBMenuClose{background-position-y:0px}
+.IBLow .IBMenuClose{background-size:12px 12px;line-height:20px;width:22px;background-position:3px 1px}
+.IBTiny .IBMenuClose{background-position:0px 0px;width:16px}
+.IBMenuBody{cursor:default;margin:2px 1px 2px 1px;width:calc(100% - 2px)}
+.IBMenuFoot{padding:7px 6px 7px 6px;text-align:center;white-space:nowrap}
+.IBHigh .IBMenuFoot{padding-top:10px;padding-bottom:10px}
+.IBBig .IBMenuFoot{padding-top:15px;padding-bottom:15px}
+.IBLow .IBMenuFoot{padding:5px 3px 5px 3px}
+.IBTiny .IBMenuFoot{padding:2px 2px 2px 2px}
+.IBMenuButton{padding:4px 5px 3px 5px;margin:3px 4px 3px 4px;width:70px;text-align:center;white-space:nowrap;overflow:hidden;border:transparent 0px}
+.IBHigh .IBMenuButton{padding-top:6px;padding-bottom:5px;width:80px}
+.IBBig .IBMenuButton{padding-top:8px;padding-bottom:8px}
+.IBGiant .IBMenuButton{width:90px}
+.IBLow .IBMenuButton{padding-top:2px;padding-bottom:1px;margin-top:1px;margin-bottom:1px;width:50px}
+.IBTiny .IBMenuButton{padding-top:1px;padding-bottom:0px;margin-left:2px;margin-right:2px}
+.IBMenuItem{margin-left:1px;margin-right:1px;padding:1px 8px 0px 8px}
+.IBLow .IBMenuItem{padding-left:5px;padding-right:5px}
+.IBTiny .IBMenuItem{padding-left:2px;padding-right:2px}
+.IBMenuCheckedIconLeft,.IBMenuCheckedIconRight{background:url(./imgs/MenuBool1.png) no-repeat}
+.IBMenuUncheckedIconLeft,.IBMenuUncheckedIconRight{background:url(./imgs/MenuBool0.png) no-repeat}
+.IBMenuCheckedRadioLeft,.IBMenuCheckedRadioRight{background:url(./imgs/MenuRadio1.png) no-repeat}
+.IBMenuUncheckedRadioLeft,.IBMenuUncheckedRadioRight{background:url(./imgs/MenuRadio0.png) no-repeat}
+.IBMenuCheckedIconLeft,.IBMenuUncheckedIconLeft,.IBMenuCheckedRadioLeft,.IBMenuUncheckedRadioLeft{padding-left:20px;background-position:left center;background-size:16px 16px}
+.IBWide .IBMenuCheckedIconLeft,.IBWide .IBMenuUncheckedIconLeft,.IBWide .IBMenuCheckedRadioLeft,.IBWide .IBMenuUncheckedRadioLeft{padding-left:25px;background-size:20px 20px}
+.IBBig .IBMenuCheckedIconLeft,.IBBig .IBMenuUncheckedIconLeft,.IBBig .IBMenuCheckedRadioLeft,.IBBig .IBMenuUncheckedRadioLeft{padding-left:30px;background-size:24px 24px}
+.IBSmall .IBMenuCheckedIconLeft,.IBSmall .IBMenuUncheckedIconLeft,.IBSmall .IBMenuCheckedRadioLeft,.IBSmall .IBMenuUncheckedRadioLeft{padding-left:16px;background-size:12px 12px}
+.IBMenuCheckedIconRight,.IBMenuUncheckedIconRight,.IBMenuCheckedRadioRight,.IBMenuUncheckedRadioRight{padding-right:20px;background-position:right center;background-size:16px 16px}
+.IBWide .IBMenuCheckedIconRight,.IBWide .IBMenuUncheckedIconRight,.IBWide .IBMenuCheckedRadioRight,.IBWide .IBMenuUncheckedRadioRight{padding-right:25px;background-size:20px 20px}
+.IBBig .IBMenuCheckedIconRight,.IBBig .IBMenuUncheckedIconRight,.IBBig .IBMenuCheckedRadioRight,.IBBig .IBMenuUncheckedRadioRight{padding-right:30px;background-size:24px 24px}
+.IBSmall .IBMenuCheckedIconRight,.IBSmall .IBMenuUncheckedIconRight,.IBSmall .IBMenuCheckedRadioRight,.IBSmall .IBMenuUncheckedRadioRight{padding-right:16px;background-size:12px 12px}
+.IBMenuCursorIcon{padding-left:0px!important}
+.IBMenuHoverIcon{padding-left:0px!important}
+.IBMenuCursorIconRtl{padding-left:0px!important}
+.IBMenuHoverIconRtl{padding-left:0px!important}
+.IBMenuExpandedIcon{padding-left:0px!important;background:url(./imgs/MenuExpanded.png) no-repeat left center;background-size:16px 16px}
+.IBMenuCollapsedIcon{padding-left:0px!important;background:url(./imgs/MenuCollapsed.png) no-repeat left center;background-size:16px 16px}
+.IBWide .IBMenuExpandedIcon,.IBWide .IBMenuCollapsedIcon{background-size:20px 20px}
+.IBBig .IBMenuExpandedIcon,.IBBig .IBMenuCollapsedIcon{background-size:24px 24px}
+.IBSmall .IBMenuExpandedIcon,.IBSmall .IBMenuCollapsedIcon{background-size:12px 12px}
+.IBMenuExpandedIcon > div, .IBMenuCollapsedIcon > div{background:transparent;border:0px none;padding-left:20px;text-align:left!important}
+.IBWide .IBMenuExpandedIcon > div, .IBWide .IBMenuCollapsedIcon > div{padding-left:26px}
+.IBHigh .IBMenuExpandedIcon > div, .IBHigh .IBMenuCollapsedIcon > div{padding-left:32px}
+.IBMenuNextIcon{background:url(./imgs/MenuNext.png) no-repeat right center;background-size:16px 16px;padding-right:20px}
+.IBWide .IBMenuNextIcon{background-size:20px 20px;padding-right:26px}
+.IBBig .IBMenuNextIcon{background-size:24px 24px;padding-right:32px}
+.IBSmall .IBMenuNextIcon{background-size:12px 12px;padding-right:16px}
+.IBMenuNextIconRtl{background:url(./imgs/MenuNextRtl.png) no-repeat left center;background-size:16px 16px;padding-left:20px}
+.IBWide .IBMenuNextIconRtl{background-size:20px 20px;padding-left:26px}
+.IBBig .IBMenuNextIconRtl{background-size:24px 24px;padding-left:32px}
+.IBSmall .IBMenuNextIconRtl{background-size:12px 12px;padding-left:16px}
+.IBMenuItemText{white-space:nowrap;overflow:hidden}
+.IBMenuItemText *{font-size:inherit;line-height:inherit}
+.IBMenuItemIcon{background-repeat:no-repeat;background-position:center center}
+.IBMenuItemDisabled{opacity:0.70}
+.IBMenuEnumParent{padding-left:5px}
+.IBMenuEnum,.IBMenuEnumHeaderLeft{white-space:nowrap;overflow:hidden;background-repeat:no-repeat;background-size:16px 16px;background-position:2px center}
+.IBMenuEnum{background-image:url(./imgs/MenuEnum.png);padding-left:20px}
+.IBMenuEnumHeaderLeft{background-image:url(./imgs/MenuEnumExpanded.png);padding:1px 0px 0px 20px;cursor:default}
+.IBWide .IBMenuEnum,.IBWide .IBMenuEnumHeaderLeft{background-size:20px 20px;padding-left:25px}
+.IBBig .IBMenuEnum,.IBBig .IBMenuEnumHeaderLeft{background-size:24px 24px;padding-left:30px}
+.IBSmall .IBMenuEnum,.IBSmall .IBMenuEnumHeaderLeft{background-size:12px 12px;padding-left:16px}
+.IBMenuEnumParent,.IBMenuEnum,.IBMenuEnumHeaderLeft{width:90px}
+.IBWide .IBMenuEnumParent,.IBWide .IBMenuEnum,.IBWide .IBMenuEnumHeaderLeft{width:120px}
+.IBGiant .IBMenuEnumParent,.IBGiant .IBMenuEnum,.IBGiant .IBMenuEnumHeaderLeft{width:150px}
+.IBMenuEnumMain{margin-top:0px}
+.IBMenuEditParent{padding-left:5px}
+.IBMenuEdit{padding-left:3px;padding-right:3px;overflow:hidden;white-space:nowrap}
+.IBMenuEditParent,.IBMenuEdit{width:30px}
+.IBMenuEditParentPDFName,.IBMenuEditParentPDFName > .IBMenuEdit,.IBMenuEditParentExportName,.IBMenuEditParentExportName > .IBMenuEdit{width:104px}
+.IBWide .IBMenuEditParent,.IBWide .IBMenuEdit{width:50px}
+.IBWide .IBMenuEditParentPDFName,.IBWide .IBMenuEditParentPDFName > .IBMenuEdit,.IBWide .IBMenuEditParentExportName,.IBWide .IBMenuEditParentExportName > .IBMenuEdit{width:139px}
+.IBBig .IBMenuEditParentPDFName,.IBBig .IBMenuEditParentPDFName > .IBMenuEdit,.IBBig .IBMenuEditParentExportName,.IBBig .IBMenuEditParentExportName > .IBMenuEdit{width:144px}
+.IBGiant .IBMenuEditParent,.IBGiant .IBMenuEdit{width:60px}
+.IBGiant .IBMenuEditParentPDFName,.IBGiant .IBMenuEditParentPDFName > .IBMenuEdit,.IBGiant .IBMenuEditParentExportName,.IBGiant .IBMenuEditParentExportName > .IBMenuEdit{width:174px}
+.IBSmall .IBMenuEditParent,.IBSmall .IBMenuEdit{width:46px}
+.IBSmall .IBMenuEditParentPDFName,.IBSmall .IBMenuEditParentPDFName > .IBMenuEdit,.IBSmall .IBMenuEditParentExportName,.IBSmall .IBMenuEditParentExportName > .IBMenuEdit{width:100px}
+.IBMenuEditMulti{white-space:normal}
+input.IBMenuEditInput,textarea.IBMenuEditTextarea{border:0px none;margin:0px 1px 0px 0px;padding:0px;height:18px;outline:none;background:transparent;resize:none}
+.IBHigh .IBMenuEditInput,.IBHigh .IBMenuEditTextarea{height:22px}
+.IBGiant .IBMenuEditInput,.IBGiant .IBMenuEditTextarea{height:30px}
+.IBSmall .IBMenuEditInput,.IBSmall .IBMenuEditTextarea{height:15px}
+.IBMenuEditInput::-ms-clear{height:13px}
+.IBMenuEditInt,.IBMenuEditFloat,.IBMenuEditDate{text-align:right}
+.IBMenuCaption{padding:4px 2px 3px 2px}
+.IBHigh .IBMenuCaption{padding-top:8px;padding-bottom:7px}
+.IBMenuSeparator{margin:5px 0px 5px 0px;height:0px;overflow:hidden}
+.IBLow .IBMenuSeparator{margin-top:3px;margin-bottom:3px}
+.IBTiny .IBMenuSeparator{margin-top:2px;margin-bottom:1px}
+.IBMenuVSeparator{width:0px;font-size:0px}
+.IBFilterMenuMainTop,.IBFilterMenuMainBottom{margin-left:-1px;margin-top:-1px}
+.IBFilterMenuHeader{margin-left:-1px;padding:0px 3px 0px 5px}
+.IBBig .IBFilterMenuHeader{padding-left:10px}
+.IBLow .IBFilterMenuHeader{padding-left:3px}
+.IBFilterMenuHeaderTop{border-top:0px none;margin-top:-1px;padding-bottom:1px}
+.IBFilterMenuHeaderBottom{border-bottom:0px none;margin-top:-1px;padding-top:1px}
+.IBFilterMenuHeader .IBFilterAllMenu{width:20px;height:21px}
+.IBFilterMenuHeaderTop .IBFilterAllMenu{background-position-y:6px}
+.IBFilterMenuHeaderBottom .IBFilterAllMenu{background-position-y:3px}
+.IBWide .IBFilterMenuHeader .IBFilterAllMenu{height:25px}
+.IBWide .IBFilterMenuHeaderTop .IBFilterAllMenu{background-position-y:5px}
+.IBWide .IBFilterMenuHeaderBottom .IBFilterAllMenu{background-position-y:3px}
+.IBBig .IBFilterMenuHeader .IBFilterAllMenu{height:31px;width:27px}
+.IBBig .IBFilterMenuHeaderTop .IBFilterAllMenu{background-position-y:6px}
+.IBBig .IBFilterMenuHeaderBottom .IBFilterAllMenu{background-position-y:4px}
+.IBLow .IBFilterMenuHeader .IBFilterAllMenu{height:19px;width:15px}
+.IBLow .IBFilterMenuHeaderTop .IBFilterAllMenu{background-position:1px 6px}
+.IBLow .IBFilterMenuHeaderBottom .IBFilterAllMenu{background-position:1px 4px}
+.IBFilterMenuItem{padding-top:3px;padding-bottom:3px;padding-left:3px}
+.IBBig .IBFilterMenuItem{padding-top:5px;padding-bottom:5px;padding-left:9px}
+.IBLow .IBFilterMenuItem{padding-top:2px;padding-bottom:2px;padding-left:2px}
+.IBEnumMenuMain{margin-left:-2px;margin-right:-1px}
+.IBMenuMainSpace.IBEnumMenuMain{margin-left:2px;margin-right:3px}
+.IBEnumMenuMainBottom{margin-top:-2px}
+.IBEnumMenuMainTop.IBMenuMainSpace{margin-top:1px}
+.IBDB.IBEnumMenuMain{margin-left:-5px}
+.IBDB.IBEnumMenuMainTop{margin-top:-3px}
+.IBDB.IBEnumMenuMainBottom{margin-top:-5px}
+.IBDB .IBEnumMenuOuter{margin-right:2px}
+.IBEnumMenuHeader{padding:0px 2px 2px 1px;margin-left:-2px}
+.IBEnumMenuHeaderBottom,.IBEnumMenuHeaderTop{padding-top:2px;padding-bottom:1px;margin-top:-2px}
+.IBDB.IBEnumMenuHeaderBottom,.IBDB.IBEnumMenuHeaderTop{margin-top:-5px;padding-bottom:2px;margin-left:-5px;padding-left:4px;padding-right:0px}
+.IBMain .IBEnumHeaderLeft,.IBMain .IBEnumHeaderRight,.IBMain .IBEnumHeaderNone{box-sizing:border-box!important}
+.IBEnumHeaderLeft,.IBEnumHeaderRight,.IBEnumHeaderNone{background:white;padding:5px 10px 3px 10px;white-space:nowrap;cursor:pointer}
+.IBEnumHeaderLeft,.IBEnumHeaderRight{background:transparent url(./imgs/SideEnumExpanded.png) no-repeat;background-size:16px 16px}
+.IBEnumHeaderLeft{padding-left:25px;background-position:5px 5px}
+.IBEnumHeaderRight{padding-right:25px;background-position:right 3px top 5px}
+.IBDB .IBEnumHeaderLeft,.IBDB .IBEnumHeaderRight,.IBDB .IBEnumHeaderNone{padding-top:10px;padding-bottom:4px}
+.IBDB .IBEnumHeaderLeft{background-position:5px 11px;padding-left:25px}
+.IBDB .IBEnumHeaderRight{background-position:right 5px top 11px;padding-right:25px}
+.IBWide .IBEnumHeaderLeft,.IBWide .IBEnumHeaderRight,.IBWide .IBEnumHeaderNone{padding-top:5px;background-size:20px 20px;background-position-y:5px}
+.IBWide .IBEnumHeaderLeft{padding-left:30px}
+.IBWide .IBEnumHeaderRight{padding-right:30px}
+.IBWide .IBDB .IBEnumHeaderLeft,.IBWide .IBDB .IBEnumHeaderRight,.IBWide .IBDB .IBEnumHeaderNone{padding-top:8px;padding-bottom:2px;background-position-y:9px}
+.IBBig .IBEnumHeaderLeft,.IBBig .IBEnumHeaderRight,.IBBig .IBEnumHeaderNone{padding-top:4px;padding-bottom:2px;background-size:24px 24px}
+.IBBig .IBEnumHeaderLeft{padding-left:45px;background-position:10px 2px}
+.IBBig .IBEnumHeaderRight{padding-right:45px;background-position:right 9px top 2px}
+.IBBig .IBDB .IBEnumHeaderLeft{background-position:10px 7px}
+.IBBig .IBDB .IBEnumHeaderRight{background-position:right 11px top 7px}
+.IBGiant .IBEnumHeaderLeft,.IBGiant .IBEnumHeaderRight{background-position-y:4px}
+.IBGiant .IBDB .IBEnumHeaderLeft,.IBGiant .IBDB .IBEnumHeaderRight{background-position-y:9px}
+.IBLow .IBEnumHeaderLeft,.IBLow .IBEnumHeaderRight,.IBLow .IBEnumHeaderNone{padding:2px 0px 1px 3px;background-size:12px 12px}
+.IBLow .IBEnumHeaderLeft{padding-left:20px;background-position:4px 4px}
+.IBLow .IBEnumHeaderRight{padding-right:20px;background-position:right 3px top 4px}
+.IBLow .IBDB .IBEnumHeaderLeft,.IBLow .IBDB .IBEnumHeaderRight,.IBLow .IBDB .IBEnumHeaderNone{padding-top:7px;padding-bottom:2px}
+.IBLow .IBDB .IBEnumHeaderLeft{background-position:4px 9px}
+.IBLow .IBDB .IBEnumHeaderRight{background-position:right 5px top 9px}
+.IBSmall .IBEnumHeaderLeft,.IBSmall .IBEnumHeaderRight,.IBSmall .IBEnumHeaderNone{padding-top:2px;padding-bottom:0px;line-height:12px;background-position-y:1px}
+.IBSmall .IBEnumHeaderLeft *,.IBSmall .IBEnumHeaderRight *,.IBSmall .IBEnumHeaderNone *{line-height:12px}
+.IBSmall .IBDB .IBEnumHeaderLeft,.IBSmall .IBDB .IBEnumHeaderRight,.IBSmall .IBDB .IBEnumHeaderNone{background-position-y:7px}
+.IBMini .IBEnumHeaderLeft,.IBMini .IBEnumHeaderRight,.IBMini .IBEnumHeaderNone{background-position-y:2px}
+.IBMini .IBDB .IBEnumHeaderLeft,.IBMini .IBDB .IBEnumHeaderRight,.IBMini .IBDB .IBEnumHeaderNone{padding-top:6px;padding-bottom:0px;line-height:12px;background-position-y:6px}
+.IBMini .IBDB .IBEnumHeaderLeft *,.IBMini .IBDB .IBEnumHeaderRight *,.IBMini .IBDB .IBEnumHeaderNone *{line-height:12px}
+.IBToolMenuHeader{display:none}
+.IBColumnsMenuItemText{white-space:nowrap}
+.IBCfgMenuItem,.IBColumnsMenuItem{padding-top:1px;padding-bottom:1px}
+.IBWide .IBCfgMenuItem,.IBWide .IBColumnsMenuItem{padding-top:4px;padding-bottom:4px}
+.IBEditDialogSheetMain .IBRowAboveFirst > table .IBSpaceWidthInner{font-size:18px}
+.IBEditDialogSheetMain .IBMainTable .IBHeadMid{border-top:1px solid #cfd1d6;border-bottom:0px solid #cfd1d6}
+.IBPopupSheetOuter{overflow:visible}
+.IBPopupSheetHead{padding:0px}
+.IBPopupSheetBody{padding:0px}
+.IBPopupSheetFoot{padding:0px}
+.IBPopupSheetButton{width:50px;margin-top:-2px;margin-bottom:3px}
+.IBMenuItemBorderStyle{margin-bottom:9px;height:7px;width:50px;border-bottom-color:black}
+.IBMenuItemBorderEmpty{border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#D4D4D4}
+.IBMenuItemBorder0{border-bottom:0px none}
+.IBMenuItemBorder1{border-bottom-width:1px;border-bottom-style:solid}
+.IBMenuItemBorder2{border-bottom-width:2px;border-bottom-style:solid}
+.IBMenuItemBorder3{border-bottom-width:3px;border-bottom-style:solid}
+.IBMenuItemBorder4{border-bottom-width:1px;border-bottom-style:dotted}
+.IBMenuItemBorder5{border-bottom-width:2px;border-bottom-style:dotted}
+.IBMenuItemBorder6{border-bottom-width:1px;border-bottom-style:dashed}
+.IBMenuItemBorder7{border-bottom-width:2px;border-bottom-style:dashed}
+.IBMenuItemBorderEdge{height:23px;width:24px;background-size:20px 20px;background-repeat:no-repeat;background-position:center center}
+.IBBig .IBMenuItemBorderEdge{height:28px;background-size:24px 24px}
+.IBMenuItemBorder{background-image:url(./imgs/ButtonBorder.png)}
+.IBMenuItemBorderAll{background-image:url(./imgs/ButtonBorderAll.png)}
+.IBMenuItemBorderO15{background-image:url(./imgs/ButtonBorderOut15.png)}
+.IBMenuItemBorderI3{background-image:url(./imgs/ButtonBorderIn3.png)}
+.IBMenuItemBorderI2{background-image:url(./imgs/ButtonBorderIn2.png)}
+.IBMenuItemBorderI1{background-image:url(./imgs/ButtonBorderIn1.png)}
+.IBMenuItemBorderO1{background-image:url(./imgs/ButtonBorderOut1.png)}
+.IBMenuItemBorderO2{background-image:url(./imgs/ButtonBorderOut2.png)}
+.IBMenuItemBorderO4{background-image:url(./imgs/ButtonBorderOut4.png)}
+.IBMenuItemBorderO8{background-image:url(./imgs/ButtonBorderOut8.png)}
+.IBMenuItemBorderO5{background-image:url(./imgs/ButtonBorderOut5.png)}
+.IBMenuItemBorderO10{background-image:url(./imgs/ButtonBorderOut10.png)}
+.IBPickMain{position:absolute;left:0px;top:0px;z-index:258}
+.IBPickShadow{position:absolute;display:none}
+.IBPickOuter{border:0px none;padding:0px;overflow:hidden}
+.IBPickBody{cursor:default;padding:0px;margin:0px;width:100%}
+.IBWide .IBPickBody{margin:0px}
+.IBPickHeader{position:absolute;z-index:258;border:1px solid #ABD7D3;background:white;overflow:hidden;cursor:pointer}
+.IBPickHeaderBottom{border-bottom:0px none}
+.IBPickHeaderTop{border-top:0px none}
+.IBPickHead,.IBPickFoot{background:white;padding:1px 0px 1px 5px;color:white;cursor:default}
+.IBPickClose{display:none}
+.IBPickMY{padding:8px 0px 7px 0px;cursor:default;text-align:center}
+.IBHigh .IBPickMY{padding-top:11px;padding-bottom:9px}
+.IBBig .IBPickMY{padding-top:16px;padding-bottom:14px}
+.IBLow .IBPickMY{padding-top:4px;padding-bottom:3px}
+.IBPickMYDown{background-image:url(./imgs/CalendarMonths.png)}
+.IBPickMYUp{background-image:url(./imgs/CalendarDays.png)}
+.IBPickMYDown,.IBPickMYUp{padding-right:18px;background-size:16px 16px;background-position:right calc(50% - 1px);background-repeat:no-repeat;cursor:pointer}
+.IBWide .IBPickMYDown,.IBWide .IBPickMYUp{padding-right:22px;background-size:20px 20px}
+.IBBig .IBPickMYDown,.IBBig .IBPickMYUp{padding-right:26px;background-size:24px 24px}
+.IBLow .IBPickMYDown,.IBLow .IBPickMYUp{padding-right:14px;background-size:12px 12px}
+.IBPickMYRtl{padding-right:0px;padding-left:13px}
+.IBPickBL{float:left;background:url(./imgs/CalendarPrevMonth.png) no-repeat 5px 7px}
+.IBPickBR{float:right;background:url(./imgs/CalendarNextMonth.png) no-repeat right 5px top 7px}
+.IBPickBL,.IBPickBR{width:24px;height:24px;background-size:16px 16px;padding:0px;overflow:hidden;cursor:pointer;display:none}
+.IBWide .IBPickBL,.IBWide .IBPickBR{background-size:20px 20px;background-position-y:7px;height:31px}
+.IBHigh .IBPickBL,.IBHigh .IBPickBR{background-position-y:10px;height:34px}
+.IBBig .IBPickBL,.IBBig .IBPickBR{background-size:24px 24px;background-position-y:13px;height:39px}
+.IBGiant .IBPickBL,.IBGiant .IBPickBR{background-position-y:15px;height:42px}
+.IBLow .IBPickBL,.IBLow .IBPickBR{background-size:12px 12px;background-position-y:6px;height:22px}
+.IBPickTableParent{border-top:0px none;clear:both}
+.IBPickTable{table-layout:fixed;width:0px}
+.IBPickRow{background:white}
+.IBPickCell{width:36px;font-size:inherit;line-height:inherit}
+.IBLow .IBPickCell{width:28px}
+.IBWide .IBPickCell{width:42px}
+.IBPickWDN{margin:2px 3px 2px 3px;padding:1px;font-weight:bold;line-height:22px;text-align:center;cursor:default}
+.IBPickWDN.IBPickSa{color:#0043ff;}
+.IBPickWDN.IBPickSu{color:#ec264b;}
+.IBHigh .IBPickWDN{line-height:30px}
+.IBPickHover,.IBPickSelHover,.IBPickWD,.IBPickSa,.IBPickSu,.IBPickSel,.IBPickNow,.IBPickWDNE,.IBPickSaNE,.IBPickSuNE,.IBPickSelNE,.IBPickNowNE,.IBPickOM,.IBPickOMNE{margin:1px;padding:1px 3px 1px 3px;line-height:22px;text-align:center;cursor:pointer}
+.IBPickWN,.IBPickWNE{padding:2px 4px 2px 4px;line-height:22px;text-align:center;cursor:pointer}
+.IBHigh .IBPickCell>div{line-height:26px}
+.IBBig .IBPickCell>div{line-height:30px}
+.IBLow .IBPickCell>div{line-height:16px}
+.IBPickWNE{cursor:default}
+.IBPickNE{cursor:default}
+.IBPickSa{color:#0043ff;}
+.IBPickSu{color:#ec264b;}
+.IBPickSa.IBPickHover{color:#0043ff;}
+.IBPickSu.IBPickHover{color:#ec264b;}
+.IBPickOM.IBPickSa{color:#6c92ff;}
+.IBPickOM.IBPickSu{color:#e090a0;}
+.IBPickOM.IBPickSa.IBPickHover{color:#6c92ff;}
+.IBPickOM.IBPickSu.IBPickHover{color:#e090a0;}
+.IBPickEmpty{background:url(./imgs/CalendarEmpty.png) no-repeat center center;background-size:16px 16px;cursor:pointer;height:17px}
+.IBWide .IBPickEmpty{background-size:20px 20px;height:20px}
+.IBBig .IBPickEmpty{background-size:24px 24px;height:24px}
+.IBLow .IBPickEmpty{background-size:12px 12px;height:12px}
+.IBPick2TableParent{padding-top:2px;padding-bottom:2px;display:block;overflow:hidden;clear:both}
+.IBHigh .IBPick2TableParent{padding-top:0px;padding-bottom:0px}
+.IBPick2Table{table-layout:fixed;width:0px;margin-left:3px;margin-right:3px}
+.IBPick2CellM{width:86px}
+.IBLow .IBPick2CellM{width:68px}
+.IBWide .IBPick2CellM{width:105px}
+.IBPick2CellY{width:53px}
+.IBLow .IBPick2CellY{width:40px}
+.IBWide .IBPick2CellY{width:58px}
+.IBPick2CellSep{width:5px}
+.IBLow .IBPick2CellSep{width:2px}
+.IBPick2SepH{display:none}
+.IBPick2M,.IBPick2Y{margin:2px;padding:3px 1px 3px 1px;line-height:20px;cursor:pointer;text-align:center;overflow:hidden}
+.IBBig .IBPick2M,.IBBig .IBPick2Y{line-height:26px}
+.IBLow .IBPick2M,.IBLow .IBPick2Y{line-height:17px;padding-top:1px;padding-bottom:1px}
+.IBPick2Sep{height:30px;width:1px;overflow:hidden;margin-left:2px;margin-right:2px}
+.IBHigh .IBPick2Sep{height:35px}
+.IBBig .IBPick2Sep{height:40px}
+.IBLow .IBPick2Sep{height:23px}
+.IBPick2BL,.IBPick2BR{width:53px;cursor:pointer;height:31px;background-repeat:no-repeat;background-position:center 7px;background-size:16px 16px}
+.IBPick2BL{background-image:url(./imgs/CalendarPrevYears.png)}
+.IBPick2BR{background-image:url(./imgs/CalendarNextYears.png)}
+.IBWide .IBPick2BL,.IBWide .IBPick2BR{background-position:center 5px;background-size:20px 20px}
+.IBHigh .IBPick2BL,.IBHigh .IBPick2BR{height:38px;background-position:center 10px}
+.IBBig .IBPick2BL,.IBBig .IBPick2BR{height:41px;background-position:center 10px;background-size:24px 24px}
+.IBLow .IBPick2BL,.IBLow .IBPick2BR{height:24px;width:40px;background-position:center 6px;background-size:12px 12px}
+.IBPickTimeCell{padding:12px 14px 13px 0px;margin-top:-1px;text-align:right;line-height:0px;height:15px}
+.IBWide .IBPickTimeCell{height:20px;padding-right:17px}
+.IBHigh .IBPickTimeCell{padding-top:18px;padding-bottom:17px}
+.IBBig .IBPickTimeCell{padding-top:25px;padding-bottom:25px}
+.IBGiant .IBPickTimeCell{height:24px}
+.IBLow .IBPickTimeCell{padding-top:9px;padding-bottom:9px;padding-right:10px}
+.IBTiny .IBPickTimeCell{padding-top:4px;padding-bottom:5px}
+.IBPickTime{margin:0px;padding:0px;border:0px none;white-space:nowrap;text-align:right;outline:none;background:transparent}
+.IBPickFooter,.IBPick2Footer{padding:7px 0px 7px 0px;cursor:default;text-align:center;margin-top:-1px}
+.IBHigh .IBPickFooter,.IBHigh .IBPick2Footer{padding-top:10px;padding-bottom:10px}
+.IBBig .IBPickFooter,.IBBig .IBPick2Footer{padding-top:15px;padding-bottom:15px}
+.IBLow .IBPickFooter,.IBLow .IBPick2Footer{padding-top:5px;padding-bottom:5px}
+.IBTiny .IBPickFooter,.IBTiny .IBPick2Footer{padding-top:2px;padding-bottom:2px}
+.IBPickButton{padding:4px 5px 3px 5px;margin:1px 4px 1px 4px;width:70px;text-align:center;white-space:nowrap;overflow:hidden}
+.IBWide .IBPickButton{width:85px}
+.IBHigh .IBPickButton{padding-top:6px;padding-bottom:5px}
+.IBBig .IBPickButton{padding-top:8px;padding-bottom:8px}
+.IBLow .IBPickButton{padding-top:2px;padding-bottom:1px;width:55px;margin-left:3px;margin-right:3px}
+.IBTiny .IBPickButton{padding-top:1px;padding-bottom:0px}
+.IBEditParent{position:absolute;z-index:258;overflow:hidden}
+.IBEdit,.IBEditInline{padding:2px 4px 2px 4px;border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;background:white;white-space:nowrap;overflow:hidden}
+.IBEditInline{display:inline-block;vertical-align:bottom}
+.IBEditMulti{white-space:normal}
+.IBEnumControl,.IBEnumInline,.IBEnumHeader{cursor:pointer;background:white url(./imgs/MenuEnum.png) no-repeat;background-size:16px 16px}
+.IBEnumControl,.IBEnumInline{background-position:2px 5px;padding:2px 4px 2px 20px;border:1px solid #DDD;border-top:1px solid #666;border-left:1px solid #666;overflow:hidden}
+.IBEnumInline{display:inline-block;vertical-align:bottom}
+.IBEnumHeader{background-position:2px 6px;padding:3px 4px 2px 20px}
+.IBMouseOrig{background:yellow!important;opacity:0.5}
+.IBMouseDragObject{position:absolute;z-index:260;background:#888;opacity:0.5}
+.IBFocus{border:1px solid #AAF;border-top:1px solid #00F;border-left:1px solid #00F;background-color:#EEE}
+.IBHintMain{position:absolute;margin-left:-2px;margin-top:-2px;padding-left:1px;padding-top:1px;left:0px;top:0px;z-index:260;cursor:default}
+.IBMini .IBHintMain{padding-top:0px}
+.IBHintHeaderMain,.IBHintFilterMain{padding:0px;margin-left:0px;margin-top:0px;border:0px none}
+.IBHintSpaceMain{margin-left:-1px;margin-top:-1px;padding:0px;overflow:hidden}
+.IBHintSpaceEditMain,.IBHintSpaceSelectMain{border:0px none;background:none;margin-left:0px;margin-top:0px;padding:0px;overflow:hidden}
+.IBHintSpaceSelectMain{margin-top:-1px}
+.IBHintOuter{overflow:hidden;text-align:left;display:table-cell}
+.IBHintOuter *{text-align:left}
+.IBHintSpaceOuter{margin-left:-1px;margin-top:-1px}
+.IBHintSpaceSelectOuter{padding-left:6px}
+.IBLow .IBHintSpaceSelectOuter{padding-left:3px}
+.IBHintSpaceSelectOuter > div{border:0px none}
+.IBHintShadow{position:absolute;display:none}
+.IBTipMain{position:absolute;left:0px;top:0px;z-index:262;visibility:hidden}
+.IBTipOuter{padding:5px;overflow:hidden;cursor:default}
+.IBTipBody{white-space:nowrap;overflow:hidden}
+.IBTipShadow{position:absolute;display:none}
+.SheetDebugTag,.SheetDebugTagMax{overflow:auto;overflow-y:scroll;border:1px solid black;background:#DDD}
+.SheetDebugTag,.SheetDebugTagMax,.SheetDebugButtons,.SheetDebugButtonsMax{position:fixed;z-index:256;left:5px;right:5px;bottom:5px;height:200px;padding:4px}
+.SheetDebugTagMax,.SheetDebugButtonsMax{top:5px;height:auto}
+.SheetDebugButtons,.SheetDebugButtonsMax{text-align:right;margin-right:25px;width:130px;left:auto}
+.SheetDebugButton{font-size:10px;width:40px;padding:0px}
+.SheetDebugTitle{font-size:10px;color:#3d5575;font-style:normal;font-weight:normal}
+.SheetDebugMark{font-weight:bold}
+.SheetDebugStop{font-size:18px;font-weight:bold;color:red}
+.SheetDebugError{font-size:12px;color:red}
+.SheetDebugWarning{font-size:12px;color:#A60}
+.SheetDebugList{font-size:10px;color:#888}
+.SheetDebugInfo{font-size:12px}
+.IBAnimateOverflow{overflow:hidden}
+@keyframes IBExpandH{from{height:0px}
+ }
+@keyframes IBCollapseH{to{height:0px}
+ }
+.IBAnimateTransparent{opacity:0}
+@keyframes IBShow{from{opacity:0}
+ to{opacity:1}
+ }
+@keyframes IBHide{from{opacity:1}
+ to{opacity:0}
+ }
+.IBAnimateHidden{display:none}
+.IBAnimateVisible{display:inherit}
+.IBAnimateLeftTop{overflow:hidden;transform-origin:0% 0%}
+.IBAnimateCenterTop{overflow:hidden;transform-origin:50% 0%}
+.IBAnimateRightTop{overflow:hidden;transform-origin:100% 0%}
+.IBAnimateLeftBottom{overflow:hidden;transform-origin:0% 100%}
+.IBAnimateRightBottom{overflow:hidden;transform-origin:100% 100%}
+.IBAnimateCenterBottom{overflow:hidden;transform-origin:50% 100%}
+.IBAnimateLeftCenter{overflow:hidden;transform-origin:0% 50%}
+.IBAnimateRightCenter{overflow:hidden;transform-origin:100% 50%}
+.IBAnimateCenterCenter{overflow:hidden;transform-origin:50% 50%}
+@keyframes IBZoomInH{from{height:0px;transform:scale(1,0)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBZoomOutH{from{transform:scale(1,1)}
+ to{transform:scale(1,0);height:0px}
+ }
+@keyframes IBZoomInY{from{transform:scale(1,0)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBZoomOutY{from{transform:scale(1,1)}
+ to{transform:scale(1,0)}
+ }
+@keyframes IBZoomInX{from{transform:scale(0,1)}
+ to{transform:scale(1,1)}
+ }
+@keyframes IBZoomOutX{from{transform:scale(1,1)}
+ to{transform:scale(0,1)}
+ }
+@keyframes IBZoomIn{from{transform:scale(0)}
+ to{transform:scale(1)}
+ }
+@keyframes IBZoomOut{from{transform:scale(1)}
+ to{transform:scale(0)}
+ }
+@keyframes IBRotateX90{0%{transform:rotateX(0deg)}
+ 50%{transform:rotateX(90deg)}
+ 100%{transform:rotateX(0deg)}
+ }
+@keyframes IBRotateX90To{from{transform:rotateX(0deg)}
+ to{transform:rotateX(90deg)}
+ }
+@keyframes IBRotateX90From{from{transform:rotateX(90deg)}
+ to{transform:rotateX(0deg)}
+ }
+@keyframes IBRotateY90{0%{transform:rotateY(0deg)}
+ 50%{transform:rotateY(90deg)}
+ 100%{transform:rotateY(0deg)}
+ }
+@keyframes IBRotateY90To{from{transform:rotateY(0deg)}
+ to{transform:rotateY(90deg)}
+ }
+@keyframes IBRotateY90From{from{transform:rotateY(90deg)}
+ to{transform:rotateY(0deg)}
+ }
+@keyframes IBFocus{0%{color:inherit}
+ 50%{color:red}
+ 100%{color:inherit}
+ }
+@keyframes IBCopy{0%{transform:translateX(0px)}
+ 25%{transform:translateX(1px)}
+ 75%{transform:translateX(-1px)}
+ 100%{transform:translateX(0px)}
+ }
+@keyframes IBOpacityBlink{0%{opacity:1}
+ 50%{opacity:0.2}
+ 100%{opacity:1}
+ }
+@keyframes IBBackgroundBlink{0%{background-color:#FFF}
+ 50%{background-color:#888}
+ 100%{background-color:#FFF}
+ }
+.IBMark{background-color:#AAA!important}
+@keyframes IBMark{0%{background-color:#FFF}
+ 25%{background-color:#AAA}
+ 75%{background-color:#AAA}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBHighlight{0%{background-color:#FFF}
+ 25%{background-color:#AAA}
+ 50%{background-color:#FFF}
+ 75%{background-color:#AAA}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBHighlightDeselect{0%{background-color:#FFF}
+ 25%{background-color:#FF0}
+ 50%{background-color:#FFF}
+ 75%{background-color:#FF0}
+ 100%{background-color:#FFF}
+ }
+@keyframes IBHighlightSelect{0%{background-color:#FF0}
+ 25%{background-color:#FFF}
+ 50%{background-color:#FF0}
+ 75%{background-color:#FFF}
+ 100%{background-color:#FF0}
+ }
+@keyframes IBHighlightDelete{0%{background-color:#FAA}
+ 25%{background-color:#FFF}
+ 50%{background-color:#FAA}
+ 75%{background-color:#FFF}
+ 100%{background-color:#FAA}
+ }
+@keyframes IBHighlightMove{0%{background-color:#AEE}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AEE}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AEE}
+ }
+@keyframes IBHighlightAdd{0%{background-color:#AFA}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AFA}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AFA}
+ }
+@keyframes IBHighlightChange{0%{background-color:#AAF}
+ 25%{background-color:#FFF}
+ 50%{background-color:#AAF}
+ 75%{background-color:#FFF}
+ 100%{background-color:#AAF}
+ }
+.IBBodyPrint,.IBBodyPrintPDF{margin:0px!important;padding:0px!important;border:0px none!important;background:none!important;-webkit-print-color-adjust:exact}
+.IBPrintPage{page-break-inside:avoid;page-break-after:always}
+.IBPrintPage:last-child{page-break-after:auto}
+.IBResizeBorder{border:1px dashed black!important}
+.SheetNoMomentumScroll *{-webkit-overflow-scrolling:auto!important}
+.SheetTmpTag{position:absolute;left:5px;top:5px;visibility:hidden}
+.SheetCalcWidth table{width:auto!important}
+.SheetDisabled{position:absolute;z-index:256;background:white;opacity:0.5}
+.IBMain{z-index:255}
+.IBLoaded{border:1px solid black!important}
+BODY[class*=BodyPrint]>DIV[class*=PrintPage]{margin:0 auto;}
+BODY[class*=BodyPrint]>DIV[class*=PrintPage]>DIV{visibility:visible;position:static;}
+BODY[class*=BodyPrint]>DIV[class*=PrintPage]>DIV>DIV>DIV[class*=PaddingWrapper]{font-size:1rem;line-height:1rem;}
+.IBFindDlgTop{padding:10px 5px 4px 5px;width:100%}
+.IBFindDlgTop span{text-align:center;font-size:0.7em;margin:0px 3px 0px 3px;color:#888!important}
+.IBFindDlgTop div{float:left}
+.IBFindDlgTop input{padding-left:5px}
+.IBFindDlgTop div:first-child{border:1px solid #888;width:210px;padding:1px 2px 2px 1px}
+.IBFindDlgTop button{margin-left:5px;padding:4px 5px 4px 5px;font-size:13px;line-height:18px;text-decoration:none;cursor:pointer}
+.IBFindDlgBottom{padding:6px 5px 10px 5px;box-sizing:border-box;width:100%}
+.IBFindDlgBottom div:first-child{float:left;width:50%}
+.IBFindDlgBottom div:last-child{float:right;width:50%}
+.IBFindDlgBottom button{margin-left:5px;padding:4px 5px 4px 5px;font-size:13px;line-height:18px;text-decoration:none;cursor:pointer}
